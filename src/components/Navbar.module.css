@@ -1,3 +1,46 @@
-ul{
+.navbarContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  outline: 1px solid #f00;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.navbarContainer a{
+  text-decoration: none;
+}
+
+.logo{
+  font-weight: 600;  
+}
+
+.linksContainer{
+  display: flex;
   list-style-type: none;
+  font-weight: 600;
+}
+
+
+.linksContainer li{
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #E0E0E2;
+  border-radius: 20px;
+}
+
+.linksContainer li a{
+  color: #1F2131;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 7px 10px;
+}
+
+.linksContainer li a:active{
+  color: #1F2131;
 }
