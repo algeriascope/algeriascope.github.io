@@ -11,15 +11,16 @@ const Navbar = () => (
         <Link to="/">AlgeriaScope</Link>
       </div>
       <ul className={styles.linksContainer}>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
+        
         <li>
           <Link to="/exchange"> Exchange</Link>
         </li>
         <li>
-          <Link to="/Settings"><LuLanguages /></Link>
+          <Link to="/about">About</Link>
         </li>
+        <button>
+          <LuLanguages />
+        </button>
       </ul>
     </nav>
 );

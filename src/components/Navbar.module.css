@@ -44,7 +44,7 @@
 }
 
 .linksContainer li a:hover{
-  background-color: #e6e6e6;
+  background-color: #e6e6e6a7;
   transition: 0.15s ease-in-out all;
   
 }
