@@ -1,7 +1,12 @@
 .mapWrapper{
   width: 45vw;
   margin: 0 auto;
-  /* outline: 1px solid #f00; */
+  transition: width 0.2s ease, transform 0.2s ease;
+}
+
+
+.northViewWrapper{
+  width: 80vw;
 }
 
 .mapWrapper path {
@@ -27,23 +32,38 @@
 .mapWrapper path:nth-child(7n + 7) { fill: #398e74; } /* Dark Sea Green */
 
 .toggleContainer {
-  margin-bottom: 12px;
+  margin: 12px auto;
   display: flex;
   align-items: center;
+  justify-content: center;
+  /* background-color: #398e73; */
+  background-color: gray;
+  color: #fff;
+  border-radius: 999px;
+  width: fit-content;
+  padding: 5px 10px;
+
 }
 
 .switchLabel {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   cursor: pointer;
   user-select: none;
 }
 
+.switchLabelCheckbox{
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/* 
 .svgMap {
   width: 100%;
   height: auto;
   transition: viewBox 0.3s ease-in-out;
-}
+} */

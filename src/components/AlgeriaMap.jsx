@@ -48,13 +48,14 @@ const AlgeriaMap = () => {
     }
   };
   return (
-    <div className={styles.mapWrapper}>
+    <div className={`${styles.mapWrapper} ${isNorthOnly ? styles.northViewWrapper : ''}`}>
       <div className={styles.toggleContainer}>
         <label className={styles.switchLabel}>
           <input
             type="checkbox"
             checked={isNorthOnly}
             onChange={(e) => setIsNorthOnly(e.target.checked)}
+            className='switchLabelCheckbox'
           />
           Zoom Northern Wilayas
         </label>
