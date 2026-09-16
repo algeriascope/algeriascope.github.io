@@ -1,9 +1,12 @@
 .mapWrapper{
-  width: 40vw;
+  width: 45vw;
   margin: 0 auto;
+  /* outline: 1px solid #f00; */
 }
 
 .mapWrapper path {
+  fill: transparent;
+  pointer-events: all;
   stroke: #1b382b;
   stroke-width: 2;
   transition: opacity 0.2s ease, stroke-width 0.2s ease;
@@ -22,3 +25,25 @@
 .mapWrapper path:nth-child(7n + 3) { fill: #6cbfa4; } /* Soft Emerald */
 .mapWrapper path:nth-child(7n + 5) { fill: #81c7a5; } /* Muted Forest */
 .mapWrapper path:nth-child(7n + 7) { fill: #398e74; } /* Dark Sea Green */
+
+.toggleContainer {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.switchLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+.svgMap {
+  width: 100%;
+  height: auto;
+  transition: viewBox 0.3s ease-in-out;
+}

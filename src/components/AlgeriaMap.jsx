@@ -1,13 +1,73 @@
-import React from 'react';
-import styles from './AlgeriaMap.module.css'
+import React, { useState } from 'react';
+import styles from './AlgeriaMap.module.css';
+import Tooltip from './Tooltip';
 const AlgeriaMap = () => {
+  const [hoveredWilaya, setHoveredWilaya] = useState(null);
+  const [coords, setCoords] = useState({ x: 0, y: 0 });
+
+  const [isNorthOnly, setIsNorthOnly] = useState(null);
+  const fullView = '0 0 9968 9644.45';
+  const northView = '2800 0 6000 2790';
+
+  const calculatePosition = (clientX, clientY) => {
+    const width = 240;
+    const height = 120;
+
+    let x = clientX + 15;
+    let y = clientY + 15;
+
+    if (x + width > window.innerWidth) {
+      x = clientX - width - 15;
+    }
+    if (y + height > window.innerHeight) {
+      y = clientY - height - 15;
+    }
+
+    return { x, y };
+  };
+  const handleMouseOver = (e) => {
+    if (e.target.tagName.toLowerCase() === 'path' && e.target.id) {
+      setHoveredWilaya({
+        code: e.target.id,
+        nameLatin: e.target.getAttribute('data-name-latin'),
+        nameAr: e.target.getAttribute('data-name-ar'),
+      });
+      setCoords(calculatePosition(e.clientX, e.clientY));
+    }
+  };
+
+  const handleMouseMove = (e) => {
+    if (hoveredWilaya) {
+      setCoords(calculatePosition(e.clientX, e.clientY));
+    }
+  };
+
+  const handleMouseOut = (e) => {
+    if (e.target.tagName.toLowerCase() === 'path') {
+      setHoveredWilaya(null);
+    }
+  };
   return (
     <div className={styles.mapWrapper}>
+      <div className={styles.toggleContainer}>
+        <label className={styles.switchLabel}>
+          <input
+            type="checkbox"
+            checked={isNorthOnly}
+            onChange={(e) => setIsNorthOnly(e.target.checked)}
+          />
+          Zoom Northern Wilayas
+        </label>
+      </div>
       <svg
         id="algeria-map-69-wilaya"
         data-name="algeria-map-69-wilaya"
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 9968 9644.45"
+        viewBox={isNorthOnly ? northView : fullView}
+        // viewBox='2800 0 6000 2790'
+        onMouseOver={handleMouseOver}
+        onMouseMove={handleMouseMove}
+        onMouseOut={handleMouseOut}
       >
         <defs></defs>
         <g id="algeria-map-69-wilaya">
@@ -634,6 +694,7 @@ const AlgeriaMap = () => {
           />
         </g>
       </svg>
+      {hoveredWilaya && <Tooltip info={hoveredWilaya} position={coords} />}
     </div>
   );
 };
