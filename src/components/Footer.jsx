@@ -4,7 +4,7 @@ import styles from './Footer.module.css';
 const Footer = () => {
   return (
     <footer>
-      <ul>
+      <ul className={styles.footerUl}>
         <li>
           <Link to="/rates">Rates</Link>
         </li>
@@ -12,9 +12,10 @@ const Footer = () => {
           <Link to="/about">About</Link>
         </li>
         <li>
-
+          <Link to="/donate">Donate</Link>
         </li>
       </ul>
+      <p className={styles.copyright}>© <span>{new Date().getFullYear()}</span> </p>
     </footer>
   );
 };
