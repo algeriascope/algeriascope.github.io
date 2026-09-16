@@ -1,0 +1,21 @@
+.homeContainer{
+  display: flex;
+  flex-direction: column;
+  /* gap: 60px; */
+  align-items: center;
+}
+
+.title{
+  font-size: 3rem;
+  margin: 60px 0 10px;
+}
+
+.subtitle{
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+
+.titleItalic{
+  font-style: italic;
+  color: #48a98c;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
-
+import styles from './AlgeriaMap.module.css'
 const AlgeriaMap = () => {
   return (
-    <>
+    <div className={styles.mapWrapper}>
       <svg
         id="algeria-map-69-wilaya"
         data-name="algeria-map-69-wilaya"
@@ -634,7 +634,7 @@ const AlgeriaMap = () => {
           />
         </g>
       </svg>
-    </>
+    </div>
   );
 };
 

@@ -13,7 +13,7 @@ const Navbar = () => (
       <ul className={styles.linksContainer}>
         
         <li>
-          <Link to="/exchange"> Exchange</Link>
+          <Link to="/rates"> Rates</Link>
         </li>
         <li>
           <Link to="/about">About</Link>

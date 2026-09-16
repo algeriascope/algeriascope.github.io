@@ -1,0 +1,23 @@
+.mapWrapper{
+  width: 40vw;
+  margin: 0 auto;
+}
+.mapWrapper path {
+  stroke: #1b382b;
+  stroke-width: 2;
+  transition: opacity 0.2s ease, stroke-width 0.2s ease;
+}
+
+.mapWrapper path:hover {
+  opacity: 0.85;
+  stroke-width: 3.5;
+}
+
+/* Cycling pastel palette across wilayas */
+.mapWrapper path:nth-child(7n + 1) { fill: #c7e5d6; } /* Soft Mint */
+.mapWrapper path:nth-child(7n + 4) { fill: #48a98c; } /* Deep Mint */
+.mapWrapper path:nth-child(7n + 2) { fill: #97d4b5; } /* Medium Sage */
+.mapWrapper path:nth-child(7n + 6) { fill: #b8ded0; } /* Pale Eucalyptus */
+.mapWrapper path:nth-child(7n + 3) { fill: #6cbfa4; } /* Soft Emerald */
+.mapWrapper path:nth-child(7n + 5) { fill: #81c7a5; } /* Muted Forest */
+.mapWrapper path:nth-child(7n + 7) { fill: #398e74; } /* Dark Sea Green */
