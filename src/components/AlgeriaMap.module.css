@@ -1,11 +1,12 @@
-.mapWrapper{
+.mapWrapper {
   width: 45vw;
   margin: 0 auto;
-  transition: width 0.2s ease, transform 0.2s ease;
+  transition:
+    width 0.2s ease,
+    transform 0.2s ease;
 }
 
-
-.northViewWrapper{
+.northViewWrapper {
   width: 80vw;
 }
 
@@ -14,7 +15,9 @@
   pointer-events: all;
   stroke: #1b382b;
   stroke-width: 2;
-  transition: opacity 0.2s ease, stroke-width 0.2s ease;
+  transition:
+    opacity 0.2s ease,
+    stroke-width 0.2s ease;
 }
 
 .mapWrapper path:hover {
@@ -23,13 +26,27 @@
 }
 
 /* Cycling pastel palette across wilayas */
-.mapWrapper path:nth-child(7n + 1) { fill: #c7e5d6; } /* Soft Mint */
-.mapWrapper path:nth-child(7n + 4) { fill: #48a98c; } /* Deep Mint */
-.mapWrapper path:nth-child(7n + 2) { fill: #97d4b5; } /* Medium Sage */
-.mapWrapper path:nth-child(7n + 6) { fill: #b8ded0; } /* Pale Eucalyptus */
-.mapWrapper path:nth-child(7n + 3) { fill: #6cbfa4; } /* Soft Emerald */
-.mapWrapper path:nth-child(7n + 5) { fill: #81c7a5; } /* Muted Forest */
-.mapWrapper path:nth-child(7n + 7) { fill: #398e74; } /* Dark Sea Green */
+.mapWrapper path:nth-child(7n + 1) {
+  fill: #c7e5d6;
+}
+.mapWrapper path:nth-child(7n + 4) {
+  fill: #48a98c;
+}
+.mapWrapper path:nth-child(7n + 2) {
+  fill: #97d4b5;
+}
+.mapWrapper path:nth-child(7n + 6) {
+  fill: #b8ded0;
+}
+.mapWrapper path:nth-child(7n + 3) {
+  fill: #6cbfa4;
+}
+.mapWrapper path:nth-child(7n + 5) {
+  fill: #81c7a5;
+}
+.mapWrapper path:nth-child(7n + 7) {
+  fill: #398e74;
+}
 
 .toggleContainer {
   margin: 12px auto;
@@ -42,7 +59,6 @@
   border-radius: 999px;
   width: fit-content;
   padding: 5px 10px;
-
 }
 
 .switchLabel {
@@ -55,7 +71,7 @@
   user-select: none;
 }
 
-.switchLabelCheckbox{
+.switchLabelCheckbox {
   position: absolute;
   opacity: 0;
   width: 0;

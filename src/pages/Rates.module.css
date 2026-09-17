@@ -1,0 +1,46 @@
+.title{
+  text-align: center;
+  /* margin: 0 auto; */
+}
+
+.tablesContainer{
+  /* outline: 1px solid #f00; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px
+}
+
+.tableTitle{
+  text-align: center;
+}
+
+thead{
+  color: #fff;
+  background-color: #398e74;
+}
+
+table tr:nth-child(even){
+  background-color: #97d4b5;
+}
+
+
+table {
+  /* width: 100%; */
+  border-collapse: collapse; /* Merges adjacent borders into a single clean line */
+  /* text-align: center; */
+}
+
+th, td{
+  padding: 3px 5px;
+}
+
+th:first-child,
+td:first-child{
+  text-align: left;
+}
+
+th:not(:first-child),
+td:not(:first-child) {
+  text-align: center;
+}

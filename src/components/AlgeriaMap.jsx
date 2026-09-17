@@ -26,11 +26,11 @@ const AlgeriaMap = () => {
     return { x, y };
   };
   const handleMouseOver = (e) => {
-    if (e.target.tagName.toLowerCase() === 'path' && e.target.id) {
+    if (e.target.tagName.toLowerCase() === 'path' && e.target.id){
       setHoveredWilaya({
         code: e.target.id,
         nameLatin: e.target.getAttribute('data-name-latin'),
-        nameAr: e.target.getAttribute('data-name-ar'),
+        // nameAr: e.target.getAttribute('data-name-ar'),
       });
       setCoords(calculatePosition(e.clientX, e.clientY));
     }
@@ -172,7 +172,7 @@ const AlgeriaMap = () => {
             transform="translate(-862.86 -943.66)"
           />
           <path
-            id="60"
+            id="69"
             data-name="el-abiodh-sidi-cheikh-60"
             data-name-latin="El Abiodh Sidi Cheikh"
             data-name-ar="الأبيض سيدي الشيخ"
@@ -235,7 +235,7 @@ const AlgeriaMap = () => {
             transform="translate(-862.86 -943.66)"
           />
           <path
-            id="69"
+            id="66"
             data-name="msaad-69"
             data-name-latin="M'saâd"
             data-name-ar="مسعد"
@@ -253,7 +253,7 @@ const AlgeriaMap = () => {
             transform="translate(-862.86 -943.66)"
           />
           <path
-            id="64"
+            id="68"
             data-name="bou-saada-64"
             data-name-latin="Bou Saâda"
             data-name-ar="بوسعادة"
@@ -370,7 +370,7 @@ const AlgeriaMap = () => {
             transform="translate(-862.86 -943.66)"
           />
           <path
-            id="68"
+            id="65"
             data-name="ain-oussara-68"
             data-name-latin="Aïn Oussara"
             data-name-ar="عين وسارة"
@@ -424,7 +424,7 @@ const AlgeriaMap = () => {
             transform="translate(-862.86 -943.66)"
           />
           <path
-            id="66"
+            id="67"
             data-name="ksar-el-boukhari-66"
             data-name-latin="Ksar El Boukhari"
             data-name-ar="قصر البخاري"
@@ -442,7 +442,7 @@ const AlgeriaMap = () => {
             transform="translate(-862.86 -943.66)"
           />
           <path
-            id="61"
+            id="63"
             data-name="el-aricha-61"
             data-name-latin="El Aricha"
             data-name-ar="العريشة"
@@ -478,7 +478,7 @@ const AlgeriaMap = () => {
             transform="translate(-862.86 -943.66)"
           />
           <path
-            id="65"
+            id="62"
             data-name="bir-el-ater-65"
             data-name-latin="Bir El Ater"
             data-name-ar="بئر العاتر"
@@ -523,7 +523,7 @@ const AlgeriaMap = () => {
             transform="translate(-862.86 -943.66)"
           />
           <path
-            id="63"
+            id="60"
             data-name="barika-63"
             data-name-latin="Barika"
             data-name-ar="بريكة"
@@ -568,7 +568,7 @@ const AlgeriaMap = () => {
             transform="translate(-862.86 -943.66)"
           />
           <path
-            id="67"
+            id="64"
             data-name="ksar-chellala-67"
             data-name-latin="Ksar Chellala"
             data-name-ar="قصر الشلالة"
@@ -649,7 +649,7 @@ const AlgeriaMap = () => {
             transform="translate(-862.86 -943.66)"
           />
           <path
-            id="62"
+            id="61"
             data-name="el-kantara-62"
             data-name-latin="El Kantara"
             data-name-ar="القنطرة"
