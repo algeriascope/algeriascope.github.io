@@ -25,10 +25,8 @@ table tr:nth-child(even){
 }
 
 
-table {
-  /* width: 100%; */
+table{ 
   border-collapse: collapse; /* Merges adjacent borders into a single clean line */
-  /* text-align: center; */
 }
 
 th, td{
