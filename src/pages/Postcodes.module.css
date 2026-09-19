@@ -1,0 +1,53 @@
+.postcodesContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.postcodesContainer a{
+  text-decoration: none;
+}
+
+.wilayaCard{
+  background-color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #dbdbdd;
+  padding: 10px;
+  border-radius: 10px ;
+  transition: 0.2s ease-in-out;
+  width: 200px;
+}
+
+.codeAndName{
+  display: flex;
+  gap: 5px
+}
+
+.wilayaCard:active{
+  color: #000;
+}
+
+.wilayaCard img{
+  width: 30px;
+  fill: #f00;
+}
+.wilayaCard:hover{
+  background-color: #e6e6e6a7;
+  border-color: #cecccc;
+}
+
+.code{
+  background-color: #EDF7F4;
+  color: #48A98C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}

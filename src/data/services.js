@@ -6,18 +6,18 @@ export const services = [
     "path": "/wilayas",
     "icon": PiMapPin,
     "title": "69 Wilayas",
-    "subtitle": "Interactive visual guide to explore all Algerian wilayas, their locations, names, and administrative codes."
+    "subtitle": "Interactive visual map to explore all Algerian wilayas, their locations, names, and administrative codes."
   },
   {
     "path": "/rates",
     "icon": PiMoney,
-    "title": "Exchange Rates",
+    "title": "Exchange Rate",
     "subtitle": "Daily exchange rates for the Algerian Dinar, comparing informal and official bank market rates."
   },
   {
     "path": "/postcodes",
     "icon": PiEnvelope,
     "title": "Postcodes",
-    "subtitle": "Search postcodes and filter locations across all 1,541 communes in Algeria."
+    "subtitle": "Search 3940 official postcodes and filter locations across all 1,541 communes in Algeria."
   }
 ]

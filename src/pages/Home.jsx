@@ -9,7 +9,7 @@ const Home = () => (
       Your Practical Guide to
       <span className={styles.titleItalic}> Algeria</span>
     </h1>
-    <h3 className={styles.subtitle}>Choose what you want to learn</h3>
+    <h3 className={styles.subtitle}>Choose one of our free services</h3>
 
     <div className={styles.servicesContainer}>
       {services.map((service, index) => {
