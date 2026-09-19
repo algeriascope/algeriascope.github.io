@@ -11,7 +11,10 @@ const Navbar = () => (
     </div>
     <ul className={styles.linksContainer}>
       <li>
-        <Link to="/rates"> Rates</Link>
+        <Link to="/wilayas">Wilayas</Link>
+      </li>
+      <li>
+        <Link to="/rates">Rates</Link>
       </li>
       <li>
         <Link to="/about">About</Link>

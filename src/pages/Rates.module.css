@@ -20,7 +20,7 @@ thead{
   background-color: #398e74;
 }
 
-table tr:nth-child(even){
+.ratesTable tr:nth-child(even){
   background-color: #97d4b5;
 }
 
@@ -36,6 +36,10 @@ th, td{
 th:first-child,
 td:first-child{
   text-align: left;
+}
+
+.ratesTable td:last-child{
+  text-align: right ;
 }
 
 th:not(:first-child),
