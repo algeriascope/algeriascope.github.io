@@ -11,6 +11,7 @@
 
 .wilayaCard{
   background-color: #fff;
+  color: #1F2131;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -23,31 +24,59 @@
   width: 200px;
 }
 
+.name{
+  color: #568376
+}
 .codeAndName{
   display: flex;
-  gap: 5px
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
 }
 
-.wilayaCard:active{
-  color: #000;
-}
 
-.wilayaCard img{
-  width: 30px;
-  fill: #f00;
-}
 .wilayaCard:hover{
   background-color: #e6e6e6a7;
   border-color: #cecccc;
 }
 
+.wilayaCard .reactSvg svg path{
+  fill: #a8acab;
+  width: 25px;
+  height: 25px;
+}
+
+.wilayaCard .reactSvg svg{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
 .code{
   background-color: #EDF7F4;
-  color: #48A98C;
+  color: #568376;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 25px;
   height: 25px;
   border-radius: 5px;
+}
+
+.statsContainer{
+  font-size: 0.8rem;
+}
+
+.statsContainer span{
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  gap: 3px;
+  color: #64748B;
+}
+
+.statIcon{
+  color: #94A3B8;
+  font-size: 0.7rem;
 }
