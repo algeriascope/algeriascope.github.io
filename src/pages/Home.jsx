@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './Home.module.css';
 import { PiMoney } from 'react-icons/pi';
 import { services } from '../data/services';
+
 const Home = () => (
   <div className={styles.homeContainer}>
     <h1 className={styles.title}>

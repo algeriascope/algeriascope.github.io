@@ -6,6 +6,7 @@ import Rates from './pages/Rates';
 import Wilayas from './pages/Wilayas';
 import Postcodes from './pages/Postcodes'
 import Footer from './components/Footer'
+import WilayaPostcodes from './pages/WilayaPostcodes';
 const app = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const app = () => {
           <Route path="/rates" element={<Rates />}></Route>
           <Route path="/wilayas" element={<Wilayas />}></Route>
           <Route path="/postcodes" element={<Postcodes />}></Route>
+          <Route path="postcodes/:wilayaSlug" element={<WilayaPostcodes />}></Route>
       </Routes>
       <Footer />
 
