@@ -19,10 +19,12 @@ const Postcodes = () => {
           return (
             <Link
               key={wilaya.wilaya_name}
-              to={`/postcodes/${wilaya.wilaya_name.toLocaleLowerCase()}`}
+              to={`/postcodes/${wilaya.wilaya_name.toLocaleLowerCase().replaceAll(' ', '-')}`}
               className={styles.wilayaCard}
             >
-              <ReactSVG className={styles.reactSvg} src={mapSvg}/>
+              <div className={styles.svgWrapper}>
+                <ReactSVG className={styles.reactSvg} src={mapSvg}/>
+              </div>
               <div className={styles.codeAndName}>
                 <span className={styles.code}>{wilaya.wilaya_code} </span>
                 <span className={styles.name}>{wilaya.wilaya_name}</span>
