@@ -14,16 +14,21 @@ const WilayaPostcodes = () => {
   return (
     <div className={styles.wilayaPostcodesPage}>
       <div className={styles.postcodesContainer}>
-        {wilaya.postcodes.map((p) => {
+        {wilaya.postcodes.map((p, idx) => {
           return (
-            <div className={styles.postcodeCard}>
-              <span className={styles.postcode} key={p.post_code}>
-                {p.post_code ? p.post_code : 'xxxxx'} 
+            <div className={styles.postcodeCard} key={idx}>
+              <span className={styles.postcode}>
+                {p.post_code ? p.post_code : 'xxxxx'}
               </span>
-              <div className={styles.communeAndDaira}>{p.commune_name}, {p.daira_name}</div>
-              <div className={styles.postName}><FaBuildingColumns /> {p.post_name}</div>
+              <div className={styles.communeAndDaira}>
+                {p.commune_name}, {p.daira_name}
+              </div>
+              <div className={styles.postName}>
+                <FaBuildingColumns className={styles.postIcon} /> {p.post_name}
+              </div>
               <div className={styles.postAddress}>
-                <FaMapPin /> {p.post_address}
+                <FaMapPin className={styles.addressIcon} />{' '}
+                {p.post_address ? p.post_address : 'Address Not Found'}
               </div>
             </div>
           );

@@ -14,17 +14,16 @@ const Home = () => (
 
     <div className={styles.servicesContainer}>
       {services.map((service, index) => {
-        const IconComponent = service.icon
-        return(
-
-        <Link to={service.path} className={styles.serviceCard}>
-          <span className={styles.iconWrapper}>
-            <IconComponent className={`${styles.serviceIcon}`} />
-          </span>
-          <h3 className={styles.serviceTitle}>{service.title}</h3>
-          <p className={styles.serviceSubtitle}>{service.subtitle}</p>
-        </Link>
-        )
+        const IconComponent = service.icon;
+        return (
+          <Link to={service.path} className={styles.serviceCard} key={index}>
+            <span className={styles.iconWrapper}>
+              <IconComponent className={`${styles.serviceIcon}`} />
+            </span>
+            <h3 className={styles.serviceTitle}>{service.title}</h3>
+            <p className={styles.serviceSubtitle}>{service.subtitle}</p>
+          </Link>
+        );
       })}
     </div>
   </div>

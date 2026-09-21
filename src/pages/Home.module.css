@@ -1,7 +1,6 @@
 .homeContainer{
   display: flex;
   flex-direction: column;
-  /* gap: 60px; */
   align-items: center;
   margin-bottom: 50px;
 }
@@ -9,16 +8,18 @@
 .title{
   font-size: 3rem;
   margin: 60px 0 10px;
+  color: var(--text-primary);
 }
 
 .subtitle{
   margin-bottom: 50px;
   font-weight: 400;
+  color: var(--text-primary);
 }
 
 .titleItalic{
   font-style: italic;
-  color: #48a98c;
+  color: var(--accent-color);
 }
 
 .servicesContainer{
@@ -26,7 +27,6 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  /* outline: 1px solid #f00; */
 }
 
 .serviceCard{
@@ -36,9 +36,9 @@
   text-decoration: none;
   padding: 20px;
   width: 300px;
-  background-color: #fff;
+  background-color: var(--bg-card);
   border-radius: 15px;
-  border: 1px solid #dbdbdd;
+  border: 1px solid var(--card-border);
   overflow: hidden;
   transition: 0.1s ease-in-out ;
 }
@@ -46,23 +46,23 @@
 
 .serviceCard:hover{
   transform: scale(1.03);
-  background-color: #e6e6e6a7;
-  border-color: #cecccc;
+  background-color: var(--bg-card-hover);
+  border-color: var(--card-border-hover);
 }
 
 .serviceTitle{
-  color: #1F2131;
+  color: var(--text-primary);
 }
 
 .serviceSubtitle{
-  color: #5A6170;
+  color: var(--text-secondary);
 }
 
 .serviceIcon{
   font-size: 2rem;
   display: block;
   z-index: 2;
-  color: #48A98C;
+  color: var(--accent-color);
 }
 
 .iconWrapper{
@@ -81,8 +81,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #EDF7F4;
-  /* z-index: -1; */
+  background-color: var(--bg-icon);
   border-radius: 50%;
 }
 

@@ -1,10 +1,9 @@
 .title{
   text-align: center;
-  /* margin: 0 auto; */
+  color: var(--text-primary)
 }
 
 .tablesContainer{
-  /* outline: 1px solid #f00; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,6 +12,7 @@
 
 .tableTitle{
   text-align: center;
+  color: var(--text-primary)
 }
 
 thead{

@@ -1,14 +1,9 @@
-/* *{
-  outline: 1px solid #f00;
-} */
 .navbarContainer{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* outline: 1px solid #f00; */
   padding:20px 40px 20px 40px;
   background-color: transparent;
-  /* max-height: 40px; */
 }
 
 .navbarContainer a{
@@ -82,8 +77,4 @@
 
 .lModeIcon{
   display: none;
-}
-
-.themeicon{
-  /* font-size: 1.8rem; */
 }

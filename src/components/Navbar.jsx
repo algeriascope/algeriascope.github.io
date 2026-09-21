@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from './Navbar.module.css';
 import { Link } from 'react-router-dom';
-import { MdOutlineDarkMode, MdOutlineLightMode } from 'react-icons/md';
 import { LuLanguages } from 'react-icons/lu';
-
+import ThemeToggle from './ThemeToggle';
 const Navbar = () => (
   <nav className={styles.navbarContainer}>
     <div className={styles.logo}>
@@ -17,18 +16,14 @@ const Navbar = () => (
         <Link to="/about">About</Link>
       </li>
 
-      <button className={styles.utilityBtn}>
-        <MdOutlineDarkMode
-          className={`${styles.dModeIcon}, ${styles.themeIcon}`}
-        />
-        <MdOutlineLightMode
-          className={`${styles.lModeIcon}, ${styles.themeIcon}`}
-        />
-      </button>
-
-      <button className={styles.utilityBtn}>
-        <LuLanguages className={styles.languageIcon} />
-      </button>
+      <li>
+        <ThemeToggle />
+      </li>
+      <li>
+        <button className={styles.utilityBtn}>
+          <LuLanguages className={styles.languageIcon} />
+        </button>
+      </li>
     </ul>
   </nav>
 );

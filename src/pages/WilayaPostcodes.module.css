@@ -3,7 +3,6 @@
 }
 
 .postcodesContainer{
-  /* width: 80vw; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 10px;
@@ -14,24 +13,36 @@
 .postcodeCard{
   min-width: 100%;
   padding: 10px;
-  background-color: #fff;
-  border: 1px solid #dbdbdd;
+  background-color: var(--bg-card);
+  border: 1px solid var(--card-border);
   border-radius: 10px;
+  color: var(--text-primary);
 }
 
 .postcode{
   display: block;
-  color: #48A98C;
-  border: 1px dashed #48A98C;
+  color: var(--accent-color);
+  border: 2px dashed var(--accent-color);
   border-radius: 5px;
   text-align: center;
   font-size: 1.2rem;
 }
 
 .communeAndDaira{
-  /* text-align: center; */
   display: block;
   font-weight: 600;
   margin: 10px 0;
+}
 
+.postName,
+.postAddress{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #4f4e4ea7;
+}
+
+.postIcon,
+.addressIcon{
+  color: #797777a7;
 }
