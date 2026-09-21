@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ReactSVG } from 'react-svg';
 import styles from './Postcodes.module.css';
 import data from '../data/algeria_data.json';
@@ -10,19 +10,42 @@ const wilayaMaps = import.meta.glob('../assets/maps/*.svg', {
   import: 'default',
 });
 
-export const slugify = (str)=>{
+export const slugify = (str) => {
   return str
-  .toLowerCase()
-  .normalize('NFD')
-  .replace(/[\u0300-\u036f]/g, '')
-  .trim()
-  .replace(/[\s_]+/g, '-')
-  .replace(/[^\w-]+/g, '');
-}
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .trim()
+    .replace(/[\s_]+/g, '-')
+    .replace(/[^\w-]+/g, '');
+};
 
 const Postcodes = () => {
+  const [query, setQuery] = useState('');
+    const filteredData = data.filter((wilaya) => {
+      return (
+        wilaya.wilaya_name
+          .toLocaleLowerCase()
+          .includes(query.toLocaleLowerCase()) ||
+        wilaya.wilaya_code.includes(query)
+      );
+    });
+
   return (
     <div className={styles.postcodesPage}>
+      <input
+        type="text"
+        className={styles.searchInput}
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
+      {/* {filteredData.map((wilaya) =>
+  wilaya.postcodes.map((postcode) => (
+    <p key={postcode.postcode}>
+      {wilaya.wilaya_name} - {postcode.commune_name}: {postcode.postcode}
+    </p>
+  ))
+)} */}
       <div className={styles.postcodesContainer}>
         {data.map((wilaya) => {
           const mapSvg = wilayaMaps[`../assets/maps/${wilaya.wilaya_code}.svg`];

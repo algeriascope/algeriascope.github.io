@@ -3,6 +3,7 @@ import styles from './Navbar.module.css';
 import { Link } from 'react-router-dom';
 import { LuLanguages } from 'react-icons/lu';
 import ThemeToggle from './ThemeToggle';
+
 const Navbar = () => (
   <nav className={styles.navbarContainer}>
     <div className={styles.logo}>

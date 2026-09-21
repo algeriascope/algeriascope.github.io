@@ -4,6 +4,7 @@
 }
 
 .tablesContainer{
+  color: var(--text-primary);
   display: flex;
   align-items: center;
   justify-content: center;
