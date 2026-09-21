@@ -1,39 +1,53 @@
-.navbarContainer{
+.navbarContainer {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding:20px 40px 20px 40px;
+  padding: 0 40px 0 40px;
   background-color: transparent;
 }
 
-.navbarContainer a{
+.navbarContainer a {
   text-decoration: none;
 }
 
-.logo{
-  font-weight: 600;  
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
-.linksContainer{
+
+.logo a {
+  padding: 20px 0;
+  color: var(--text-primary);
+}
+
+.logo:hover a{
+  color: var(--accent-color)
+}
+
+.linksContainer {
   display: flex;
+  align-items: center;
   list-style-type: none;
   font-weight: 600;
   font-size: 0.9rem;
 }
 
-
-.linksContainer li{
+.linksContainer li {
   margin: 0 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
-  border: 1px solid #dbdbdd;
+  background-color: var(--bg-card);
+  border: 1px solid var(--card-border);
   border-radius: 20px;
+  color: var(--text-primary);
 }
 
-.linksContainer li a{
-  color: #1F2131;
+.linksContainer li a {
+  color: var(--text-primary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,39 +56,11 @@
   border-radius: 20px;
 }
 
-.linksContainer li a:hover{
-  background-color: #e6e6e6a7;
+.linksContainer li a:hover {
+  background-color: var(--bg-card-hover);
   transition: 0.15s ease-in-out all;
-  
 }
 
-.linksContainer li:hover{
-  border-color: #cecccc;
-}
-
-.linksContainer li a:active{
-  color: #1F2131;
-}
-
-.utilityBtn{
-  height: 40px;
-  width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  border: 1px solid #dbdbdd;
-  padding: 10px;
-  border-radius: 999px;
-  cursor: pointer;
-  font-size: 1.2rem;
-  
-}
-.utilityBtn:hover{
-  background-color: #e6e6e6a7;
-  border-color: #cecccc;
-}
-
-.lModeIcon{
-  display: none;
+.linksContainer li:hover {
+  border-color: var(--card-border-hover);
 }

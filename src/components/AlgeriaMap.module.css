@@ -13,41 +13,48 @@
 .mapWrapper path {
   fill: transparent;
   pointer-events: all;
-  stroke: #1b382b;
+  /* stroke: #1b382b; */
+  stroke: var(--map-stroke);
   stroke-width: 2;
   transition:
     opacity 0.2s ease,
     stroke-width 0.2s ease;
+  fill: var(--map-color-4);
 }
 
 .mapWrapper path:hover {
-  opacity: 0.85;
+  /* opacity: 0.85; */
   stroke-width: 3.5;
+  fill: rgb(128, 168, 126);
+  
 }
 
 /* Cycling pastel palette across wilayas */
-.mapWrapper path:nth-child(7n + 1) {
-  fill: #c7e5d6;
+/* .mapWrapper path:nth-child(7n + 1) {
+  fill: var(--map-color-1);
 }
 .mapWrapper path:nth-child(7n + 4) {
-  fill: #48a98c;
+  fill: var(--map-color-4);
 }
 .mapWrapper path:nth-child(7n + 2) {
-  fill: #97d4b5;
+  fill: var(--map-color-2);
 }
 .mapWrapper path:nth-child(7n + 6) {
-  fill: #b8ded0;
+  fill: var(--map-color-6);
 }
 .mapWrapper path:nth-child(7n + 3) {
-  fill: #6cbfa4;
+  fill: var(--map-color-3);
 }
 .mapWrapper path:nth-child(7n + 5) {
-  fill: #81c7a5;
+  fill: var(--map-color-5);
 }
 .mapWrapper path:nth-child(7n + 7) {
-  fill: #398e74;
-}
+  fill: var(--map-color-7);
+} */
 
+/* .mapWrapper path{
+  fill: var(--map-color-5)
+} */
 .toggleContainer {
   margin: 12px auto;
   display: flex;

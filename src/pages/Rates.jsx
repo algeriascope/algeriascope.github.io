@@ -27,7 +27,6 @@ const Rates = () => {
         });
 
         const results = await Promise.all(requests);
-        console.log(results);
 
         const rateMap = {};
         results.forEach((item) => {

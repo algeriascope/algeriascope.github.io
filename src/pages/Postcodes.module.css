@@ -20,15 +20,15 @@
   border: 1px solid var(--card-border);
   padding: 10px;
   border-radius: 10px ;
-  transition: 0.2s ease-in-out;
   min-width: 150px;
   max-width: fit-content;
 
+  /* transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out; */
 }
 
 .name{
-  color: #568376;
-  /* color: var(--text-primary) */
+  /* color: #568376; */
+  color: var(--text-primary)
 }
 
 .codeAndName{
@@ -43,6 +43,7 @@
 .wilayaCard:hover{
   background-color: var(--bg-card-hover);
   border-color: var(--card-border-hover);
+
 }
 
 .svgWrapper{
@@ -59,7 +60,7 @@
   width: 37px;
   height: 37px;
   border-radius: 50%;
-  background-color: #EDF7F4;
+  background-color: var(--bg-icon);
   z-index: 1;
 }
 
@@ -70,9 +71,7 @@
   top: 0;
   left: 0;
   z-index: 3;
-/* padding: 2px; */
-/* box-sizing: border-box; */
-overflow: visible;
+  overflow: visible;
 }
 .wilayaCard .reactSvg svg path{
   fill: none;
@@ -84,8 +83,8 @@ overflow: visible;
 }
 
 .code{
-  background-color: #EDF7F4;
-  color: #568376;
+  background-color: var(--bg-icon);
+  color: var(--accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
