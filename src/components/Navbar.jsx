@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './Navbar.module.css';
 import { Link } from 'react-router-dom';
-import { LuLanguages } from 'react-icons/lu';
 import ThemeToggle from './ThemeToggle';
+import TranslateBtn from './TranslateBtn'
 
 const Navbar = () => (
+
   <nav className={styles.navbarContainer}>
     <div className={styles.logo}>
       <Link to="/">AlgeriaScope</Link>
@@ -21,9 +22,7 @@ const Navbar = () => (
         <ThemeToggle />
       </li>
       <li>
-        <button className={styles.utilityBtn}>
-          <LuLanguages className={styles.languageIcon} />
-        </button>
+        <TranslateBtn />
       </li>
     </ul>
   </nav>
