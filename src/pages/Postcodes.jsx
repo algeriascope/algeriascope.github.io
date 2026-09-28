@@ -4,6 +4,7 @@ import styles from './Postcodes.module.css';
 import data from '../data/algeria_data.json';
 import { Link } from 'react-router-dom';
 import { FaCity, FaBuildingColumns } from 'react-icons/fa6';
+import PostcodesSearch from '../components/PostcodesSearch';
 
 const wilayaMaps = import.meta.glob('../assets/maps/*.svg', {
   eager: true,
@@ -22,34 +23,30 @@ export const slugify = (str) => {
 
 const Postcodes = () => {
   const [query, setQuery] = useState('');
-    const filteredData = data.filter((wilaya) => {
-      return (
-        wilaya.wilaya_name
-          .toLocaleLowerCase()
-          .includes(query.toLocaleLowerCase()) ||
-        wilaya.wilaya_code.includes(query)
-      );
-    });
+  const filteredData = data.filter((wilaya) => {
+    return (
+      wilaya.wilaya_name
+        .toLocaleLowerCase()
+        .includes(query.toLocaleLowerCase()) ||
+      wilaya.wilaya_code.includes(query)
+    );
+  });
 
   return (
     <div className={styles.postcodesPage}>
-      <input
-        type="text"
-        className={styles.searchInput}
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-      />
+      <PostcodesSearch />
       {/* {filteredData.map((wilaya) =>
-  wilaya.postcodes.map((postcode) => (
-    <p key={postcode.postcode}>
-      {wilaya.wilaya_name} - {postcode.commune_name}: {postcode.postcode}
-    </p>
-  ))
-)} */}
+        wilaya.postcodes.map((postcode) => (
+          <p key={postcode.postcode}>
+            {filteredData.wilaya.wilaya_name}
+          </p>
+        )),
+      )} */}
+        {/* <h2>Search your Wilaya</h2> */}
       <div className={styles.postcodesContainer}>
         {data.map((wilaya) => {
           const mapSvg = wilayaMaps[`../assets/maps/${wilaya.wilaya_code}.svg`];
-          const wilayaSlug = slugify(wilaya.wilaya_name)
+          const wilayaSlug = slugify(wilaya.wilaya_name);
           return (
             <Link
               key={wilaya.wilaya_name}
