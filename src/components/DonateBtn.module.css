@@ -1,0 +1,19 @@
+
+.container{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  font-size: 1.2rem;
+  background-color: var(--bg-card);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.container:hover{
+  background-color: var(--bg-card-hover);
+  border-color: var(--card-border-hover);
+}

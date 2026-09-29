@@ -1,6 +1,5 @@
 .container {
   position: relative;
-  outline: 1px solid #f00;
 }
 
 .searchInput {
@@ -26,12 +25,27 @@
   background-color: var(--bg-card);
   border-color: var(--accent-color);
 }
+
 .searchResults {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   color: var(--text-primary);
-  /* outline: 1px solid #f00; */
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
   width: 90vw;
+  
+}
+
+.searchResult{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postcode{
+  border: 1px solid var(--accent-color);
+  border-radius: 999px;
+  padding: 5px;
 }

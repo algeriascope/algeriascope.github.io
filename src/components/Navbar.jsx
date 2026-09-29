@@ -3,6 +3,7 @@ import styles from './Navbar.module.css';
 import { Link } from 'react-router-dom';
 import ThemeToggle from './ThemeToggle';
 import TranslateBtn from './TranslateBtn'
+import DonateBtn from './DonateBtn'
 
 const Navbar = () => (
 
@@ -12,12 +13,12 @@ const Navbar = () => (
     </div>
     <ul className={styles.linksContainer}>
       <li>
-        <Link to="/donate">Donate</Link>
-      </li>
-      <li>
         <Link to="/about">About</Link>
       </li>
 
+      <li>
+      <DonateBtn />
+      </li>
       <li>
         <ThemeToggle />
       </li>

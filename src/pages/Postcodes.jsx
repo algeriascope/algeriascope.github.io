@@ -22,27 +22,19 @@ export const slugify = (str) => {
 };
 
 const Postcodes = () => {
-  const [query, setQuery] = useState('');
-  const filteredData = data.filter((wilaya) => {
-    return (
-      wilaya.wilaya_name
-        .toLocaleLowerCase()
-        .includes(query.toLocaleLowerCase()) ||
-      wilaya.wilaya_code.includes(query)
-    );
-  });
+  // const [query, setQuery] = useState('');
+  // const filteredData = data.filter((wilaya) => {
+  //   return (
+  //     wilaya.wilaya_name
+  //       .toLocaleLowerCase()
+  //       .includes(query.toLocaleLowerCase()) ||
+  //     wilaya.wilaya_code.includes(query)
+  //   );
+  // });
 
   return (
     <div className={styles.postcodesPage}>
       <PostcodesSearch />
-      {/* {filteredData.map((wilaya) =>
-        wilaya.postcodes.map((postcode) => (
-          <p key={postcode.postcode}>
-            {filteredData.wilaya.wilaya_name}
-          </p>
-        )),
-      )} */}
-        {/* <h2>Search your Wilaya</h2> */}
       <div className={styles.postcodesContainer}>
         {data.map((wilaya) => {
           const mapSvg = wilayaMaps[`../assets/maps/${wilaya.wilaya_code}.svg`];
