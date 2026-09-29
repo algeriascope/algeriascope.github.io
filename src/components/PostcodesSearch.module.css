@@ -35,17 +35,31 @@
   left: 50%;
   transform: translateX(-50%);
   width: 90vw;
-  
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: var(--bg-card);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  margin-top: 2px;
 }
 
 .searchResult{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid var(--card-border);
 }
 
+.searchResult:last-child{
+  border-bottom: none;
+}
 .postcode{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid var(--accent-color);
+  min-width: 70px;
   border-radius: 999px;
   padding: 5px;
 }

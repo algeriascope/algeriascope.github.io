@@ -6,13 +6,27 @@ import data from '../data/algeria_data.json';
 const PostcodesSearch = () => {
   const [query, setQuery] = useState('');
   const formattedQuery = slugify(query);
-  const filteredData = !formattedQuery
-    ? []
-    : data.filter((wilaya) => {
-        return wilaya.postcodes.some((post) => {
-          return slugify(post.commune_name).includes(formattedQuery);
+  const filteredData =
+    !formattedQuery || formattedQuery.length < 2
+      ? []
+      : data.flatMap((wilaya) => {
+          return wilaya.postcodes
+            .filter((post) => {
+              const matchesCommune = slugify(post.commune_name || '').includes(
+                formattedQuery,
+              );
+              const matchesCode = (post.post_code || '').includes(
+                formattedQuery,
+              );
+              const matchesPostName = slugify(post.post_name || '').includes(
+                formattedQuery,
+              );
+
+              return matchesCode || matchesPostName;
+            })
+            .map((post) => ({ ...post, wilaya_name: wilaya.wilaya_name }));
         });
-      });
+
   return (
     <div className={styles.container}>
       <input
@@ -22,18 +36,24 @@ const PostcodesSearch = () => {
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search Wilaya, Commune, postcode"
       />
-      <div className={styles.searchResults}>
-        <div className={styles.searchResult}>
-          <div className={styles.postAndWilaya}>
-            <div className={styles.postName}>Hachmaoui Massoud</div>
-            <div className={styles.wilayaName}>Medea</div>
-          </div>
-          <div className={styles.postcode}>26001</div>
+      {filteredData.length > 0 && (
+        <div className={styles.searchResults}>
+          
+          {filteredData.map((item, index) => {
+            return (
+              <div className={styles.searchResult}>
+                <div className={styles.postAndWilaya}>
+                  <div className={styles.postName}>{item.post_name}</div>
+                  <div className={styles.wilayaName}>{item.wilaya_name}</div>
+                </div>
+                <div className={styles.postcode}>
+                  {item.post_code ? item.post_code : 'xxxxxx'}
+                </div>
+              </div>
+            );
+          })}
         </div>
-        {filteredData.map((wilaya) => {
-          return null;
-        })}
-      </div>
+      )}
     </div>
   );
 };
