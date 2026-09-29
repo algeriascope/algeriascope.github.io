@@ -1,58 +1,72 @@
-.postcodesContainer{
-  margin-top: 1000px;
+.title {
+  text-align: center;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+.cardsContainer {
+  /* min-width: fit-content; */
   display: flex;
+  align-items: center;
   justify-content: center;
+  gap: 5px;
   flex-wrap: wrap;
-  gap: 10px;
 }
 
-.postcodesContainer a{
+.cardsContainer a {
   text-decoration: none;
 }
 
-.wilayaCard{
+.wilayaCard {
   background-color: var(--bg-card);
   color: var(--text-primary);
   text-decoration: none;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
   border: 1px solid var(--card-border);
-  padding: 10px;
-  border-radius: 10px ;
-  min-width: 150px;
-  max-width: fit-content;
-
-  /* transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out; */
+  padding: 0 12px;
+  border-radius: 10px;
+  width: 150px;
+  height: 45px;
+  /* overflow: hidden; */
 }
 
-.name{
-  /* color: #568376; */
-  color: var(--text-primary)
-}
-
-.codeAndName{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  gap: 5px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-}
-
-.wilayaCard:hover{
+.wilayaCard:hover {
   background-color: var(--bg-card-hover);
   border-color: var(--card-border-hover);
-
 }
 
-.svgWrapper{
+.name {
+  color: var(--text-primary);
+  flex: 1;
+  text-align: center;
+  font-size: 0.95rem;
+  /* width: 70px; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* min-width: 1; */
+}
+
+.code {
+  background-color: var(--bg-icon);
+  color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+
+.svgWrapper {
   width: 23px;
   height: 23px;
   position: relative;
 }
-.svgWrapper::after{
+.svgWrapper::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -65,7 +79,7 @@
   z-index: 1;
 }
 
-.wilayaCard .reactSvg svg{
+.wilayaCard .reactSvg svg {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -74,7 +88,7 @@
   z-index: 3;
   overflow: visible;
 }
-.wilayaCard .reactSvg svg path{
+.wilayaCard .reactSvg svg path {
   fill: none;
   width: 25px;
   height: 25px;
@@ -83,30 +97,3 @@
   stroke: var(--accent-color);
 }
 
-.code{
-  background-color: var(--bg-icon);
-  color: var(--accent-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 25px;
-  height: 25px;
-  border-radius: 5px;
-}
-
-.statsContainer{
-  font-size: 0.9rem;
-}
-
-.statsContainer span{
-  display: flex;
-  align-items: center;
-  gap: 3px;
-  color: #64748B;
-  /* color: var(--text-secondary) */
-}
-
-.statIcon{
-  color: #94A3B8;
-  font-size: 0.8rem;
-}

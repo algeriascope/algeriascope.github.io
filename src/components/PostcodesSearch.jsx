@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './PostcodesSearch.module.css';
 import { slugify } from '../pages/Postcodes';
 import data from '../data/algeria_data.json';
+import { FaMapPin } from 'react-icons/fa6';
 
 const PostcodesSearch = () => {
   const [query, setQuery] = useState('');
@@ -24,7 +25,11 @@ const PostcodesSearch = () => {
 
               return matchesCode || matchesPostName;
             })
-            .map((post) => ({ ...post, wilaya_name: wilaya.wilaya_name }));
+            .map((post) => ({
+              ...post,
+              wilaya_name: wilaya.wilaya_name,
+              unique_key: crypto.randomUUID(),
+            }));
         });
 
   return (
@@ -36,22 +41,25 @@ const PostcodesSearch = () => {
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search Wilaya, Commune, postcode"
       />
-      {filteredData.length > 0 && (
+      {formattedQuery.length >= 2 && (
         <div className={styles.searchResults}>
-          
-          {filteredData.map((item, index) => {
-            return (
-              <div className={styles.searchResult}>
-                <div className={styles.postAndWilaya}>
-                  <div className={styles.postName}>{item.post_name}</div>
-                  <div className={styles.wilayaName}>{item.wilaya_name}</div>
+          {filteredData.length > 0 ? (
+            filteredData.map((item, index) => {
+              return (
+                <div key={item.unique_key} className={styles.searchResult}>
+                  <div className={styles.postAndWilaya}>
+                    <div className={styles.postName}>{item.post_name}</div>
+                    <div className={styles.wilayaName}><FaMapPin className={styles.locationIcon}/>{item.wilaya_name}</div>
+                  </div>
+                  <div className={styles.postcode}>
+                    {item.post_code ? item.post_code : 'xxxxxx'}
+                  </div>
                 </div>
-                <div className={styles.postcode}>
-                  {item.post_code ? item.post_code : 'xxxxxx'}
-                </div>
-              </div>
-            );
-          })}
+              );
+            })
+          ) : (
+            <div className={styles.noResults}>No search results found.</div>
+          )}
         </div>
       )}
     </div>

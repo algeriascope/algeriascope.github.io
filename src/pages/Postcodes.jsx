@@ -34,8 +34,10 @@ const Postcodes = () => {
 
   return (
     <div className={styles.postcodesPage}>
+      <h1 className={styles.title}>Find your Postcode</h1>
+
       <PostcodesSearch />
-      <div className={styles.postcodesContainer}>
+      <div className={styles.cardsContainer}>
         {data.map((wilaya) => {
           const mapSvg = wilayaMaps[`../assets/maps/${wilaya.wilaya_code}.svg`];
           const wilayaSlug = slugify(wilaya.wilaya_name);
@@ -45,14 +47,12 @@ const Postcodes = () => {
               to={`/postcodes/${wilayaSlug}`}
               className={styles.wilayaCard}
             >
-              <div className={styles.svgWrapper}>
+              {/* <div className={styles.svgWrapper}>
                 <ReactSVG className={styles.reactSvg} src={mapSvg} />
-              </div>
-              <div className={styles.codeAndName}>
+              </div> */}
                 <span className={styles.code}>{wilaya.wilaya_code} </span>
                 <span className={styles.name}>{wilaya.wilaya_name}</span>
-              </div>
-              <div className={styles.statsContainer}>
+              {/* <div className={styles.statsContainer}>
                 <span className={styles.communes}>
                   <FaCity className={styles.statIcon} />0 Communes
                 </span>
@@ -60,7 +60,7 @@ const Postcodes = () => {
                   <FaBuildingColumns className={styles.statIcon} />{' '}
                   {wilaya.postcodes.length} Post Offices
                 </span>
-              </div>
+              </div> */}
             </Link>
           );
         })}

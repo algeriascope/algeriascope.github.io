@@ -13,6 +13,7 @@ const WilayaPostcodes = () => {
   }
   return (
     <div className={styles.wilayaPostcodesPage}>
+
       <div className={styles.postcodesContainer}>
         {wilaya.postcodes.map((p, idx) => {
           return (

@@ -8,7 +8,7 @@
   margin: 0 auto;
   font-size: 1rem;
   border-radius: 999px;
-  padding: 18px 10px;
+  padding: 20px 15px;
   color: var(--text-primary);
   border: 1px solid;
   border-color: var(--card-border);
@@ -17,6 +17,7 @@
 }
 .searchInput:hover {
   background-color: var(--bg-card-hover);
+  border-color: var(--card-border-hover);
   transition:
     border-color 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
@@ -41,6 +42,7 @@
   border: 1px solid var(--card-border);
   border-radius: 10px;
   margin-top: 2px;
+  z-index: 4;
 }
 
 .searchResult{
@@ -54,6 +56,23 @@
 .searchResult:last-child{
   border-bottom: none;
 }
+
+.wilayaName{
+  font-size: 0.9rem;
+  /* outline: 1px solid #f00; */
+  max-width: fit-content;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px
+}
+
+.wilayaName .locationIcon{
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+}
+
 .postcode{
   display: flex;
   align-items: center;
@@ -62,4 +81,11 @@
   min-width: 70px;
   border-radius: 999px;
   padding: 5px;
+  color: var(--accent-color);
+}
+
+.noResults{
+  color: var(--text-secondary);
+  padding: 20px;
+  text-align: center;
 }
