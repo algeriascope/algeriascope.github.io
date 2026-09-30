@@ -37,11 +37,13 @@
 }
 
 .postcodesTable {
+  margin: 0 auto;
   color: var(--text-primary);
   display: flex;
   flex-direction: column;
   gap: 2px;
-  width: 100%;
+  /* width: 100%; */
+  width: 90vw;
 }
 .header {
   font-weight: bold;
@@ -50,41 +52,50 @@
 }
 .row {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 150px 1fr 1fr;
   /* grid-template-columns: repeat(4, 1fr);  */
   align-items: center;
   padding: 12px;
   background-color: var(--bg-card);
+  /* border: 1px solid var(--card-border); */
   border-radius: 8px;
 }
 
 
 .postcode {
-  /* display: block; */
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
-  border-radius: 5px;
+  border-radius: 999px;
   text-align: center;
-  width: 90px;
-  /* font-weight: bold; */
-  /* font-size: 1.2rem; */
+  width: 80px;
 }
-/* 
-.communeAndDaira {
-  display: block;
-  font-weight: 600;
-  margin: 10px 0;
-} */
 
-.postName,
-.postAddress {
+.actionBtns{
   display: flex;
   align-items: center;
-  gap: 4px;
-  color: #4f4e4ea7;
+  gap: 20px;
 }
 
-.postIcon,
-.addressIcon {
-  color: #797777a7;
+.copyBtn, .detailsBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 1rem;
+  width: fit-content;
+  color: var(--text-primary);
+  background-color: var(--bg-card);
+  font-family: inherit;
+  text-decoration: none;
+  border: none;
+  padding: 5px 7px;
+  border:1px solid var(--accent-color);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.copyBtn:hover, .detailsBtn:hover{
+  color: var(--accent-color);
+  transition: color 0.2s ease-in-out;
+  /* color: #f00; */
 }

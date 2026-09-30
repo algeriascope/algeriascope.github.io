@@ -1,9 +1,11 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import data from '../data/algeria_data.json';
 import { slugify } from './Postcodes';
 import styles from './WilayaPostcodes.module.css';
 import { FaBuildingColumns, FaMapPin } from 'react-icons/fa6';
+import { FiCopy, FiArrowRight } from "react-icons/fi";
+
 import { ReactSVG } from 'react-svg';
 const wilayaMaps = import.meta.glob('../assets/maps/*.svg', {
   eager: true,
@@ -37,8 +39,12 @@ const WilayaPostcodes = () => {
               <span className={styles.postcode}>
                 {p.post_code ? p.post_code : 'xxxxx'}
               </span>
-              <div className={styles.commune}>
+              <span className={styles.commune}>
                 {p.commune_name}, {p.daira_name}
+              </span>
+              <div className={styles.actionBtns}>
+                <button className={styles.copyBtn}><FiCopy /> Copy postcode</button>
+                <Link className={styles.detailsBtn} to='./postcode'><FiArrowRight /> Details</Link>
               </div>
             </div>
           );

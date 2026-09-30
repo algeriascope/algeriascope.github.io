@@ -4,6 +4,7 @@
 
 .searchInput {
   display: block;
+  font-family: inherit;
   width: 90vw;
   margin: 30px auto 100px;
   font-size: 1rem;
