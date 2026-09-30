@@ -5,7 +5,7 @@
 .searchInput {
   display: block;
   width: 90vw;
-  margin: 0 auto;
+  margin: 30px auto 100px;
   font-size: 1rem;
   border-radius: 999px;
   padding: 20px 15px;
