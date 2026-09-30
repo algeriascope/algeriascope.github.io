@@ -25,7 +25,7 @@ const WilayaPostcodes = () => {
         <div className={styles.svgWrapper}>
           <ReactSVG className={styles.reactSvg} src={mapSvg} />
         </div>
-        <h2 className={styles.title}>{`${wilaya.wilaya_name} Postcodes`}</h2>
+        <h2 className={styles.title}>{`${wilaya.wilaya_name}`}</h2>
       </div>
       <div className={styles.postcodesTable}>
         <div className={`${styles.row} ${styles.header}`}>
@@ -43,8 +43,8 @@ const WilayaPostcodes = () => {
                 {p.commune_name}, {p.daira_name}
               </span>
               <div className={styles.actionBtns}>
-                <button className={styles.copyBtn}><FiCopy /> Copy postcode</button>
-                <Link className={styles.detailsBtn} to='./postcode'><FiArrowRight /> Details</Link>
+                <button className={styles.copyBtn}><FiCopy /> Copy postcode </button>
+                <Link className={styles.detailsBtn} to='./postcode'> Details <FiArrowRight /></Link>
               </div>
             </div>
           );

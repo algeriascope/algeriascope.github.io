@@ -6,34 +6,45 @@ import { FaMapPin } from 'react-icons/fa6';
 
 const PostcodesSearch = () => {
   const [query, setQuery] = useState('');
+  const [selectedWilaya, setSelectedWilaya] = useState('All wilayas');
+
   const formattedQuery = slugify(query);
+
   const filteredData =
     !formattedQuery || formattedQuery.length < 2
       ? []
-      : data.flatMap((wilaya) => {
-          return wilaya.postcodes
-            .filter((post) => {
-              const matchesCommune = slugify(post.commune_name || '').includes(
-                formattedQuery,
-              );
-              const matchesCode = (post.post_code || '').includes(
-                formattedQuery,
-              );
-              const matchesPostName = slugify(post.post_name || '').includes(
-                formattedQuery,
-              );
+      : data
+          .filter(
+            (wilaya) =>
+              selectedWilaya === 'All wilayas' ||
+              wilaya.wilaya_name === selectedWilaya,
+          )
+          .flatMap((wilaya) => {
+            return wilaya.postcodes
+              .filter((post) => {
+                const matchesCommune = slugify(
+                  post.commune_name || '',
+                ).includes(formattedQuery);
+                const matchesCode = (post.post_code || '').includes(
+                  formattedQuery,
+                );
+                const matchesPostName = slugify(post.post_name || '').includes(
+                  formattedQuery,
+                );
 
-              return matchesCode || matchesPostName;
-            })
-            .map((post) => ({
-              ...post,
-              wilaya_name: wilaya.wilaya_name,
-              unique_key: crypto.randomUUID(),
-            }));
-        });
+                return matchesCode || matchesPostName;
+              })
+              .map((post) => ({
+                ...post,
+                wilaya_name: wilaya.wilaya_name,
+                unique_key: crypto.randomUUID(),
+              }));
+          });
 
   return (
     <div className={styles.container}>
+      <div className={styles.inputWrapper}>
+
       <input
         type="text"
         className={styles.searchInput}
@@ -49,7 +60,10 @@ const PostcodesSearch = () => {
                 <div key={item.unique_key} className={styles.searchResult}>
                   <div className={styles.postAndWilaya}>
                     <div className={styles.postName}>{item.post_name}</div>
-                    <div className={styles.wilayaName}><FaMapPin className={styles.locationIcon}/>{item.wilaya_name}</div>
+                    <div className={styles.wilayaName}>
+                      <FaMapPin className={styles.locationIcon} />
+                      {item.wilaya_name}
+                    </div>
                   </div>
                   <div className={styles.postcode}>
                     {item.post_code ? item.post_code : 'xxxxxx'}
@@ -62,6 +76,21 @@ const PostcodesSearch = () => {
           )}
         </div>
       )}
+
+      </div>
+      <select
+        value={selectedWilaya}
+        onChange={(e) => setSelectedWilaya(e.target.value)}
+        className={styles.wilayaSelect}
+      >
+        <option className={styles.wilayaOption} value="All wilayas">All wilayas</option>
+        {data.map((w) => (
+          <option key={w.wilaya_name} value={w.wilaya_name}>
+            {w.wilaya_name}
+          </option>
+        ))}
+      </select>
+
     </div>
   );
 };

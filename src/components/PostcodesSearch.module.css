@@ -1,12 +1,22 @@
 .container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  outline: 1px solid #f00;
+  gap: 5px;
+  margin-bottom: 100px;
+}
+
+.inputWrapper{
   position: relative;
+  width: 80vw;
+  outline: 1px solid #f00;
 }
 
 .searchInput {
   display: block;
   font-family: inherit;
-  width: 90vw;
-  margin: 30px auto 100px;
+  width: 100%;
   font-size: 1rem;
   border-radius: 999px;
   padding: 20px 15px;
@@ -16,6 +26,7 @@
   background-color: var(--bg-card);
   outline: none;
 }
+
 .searchInput:hover {
   background-color: var(--bg-card-hover);
   border-color: var(--card-border-hover);
@@ -28,6 +39,38 @@
   border-color: var(--accent-color);
 }
 
+.wilayaSelect {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  color: var(--text-primary);
+  background-color: var(--bg-card);
+  border: 1px solid var(--card-border);
+  height: 100%;
+  padding: 20px 15px;
+  border-radius: 999px;
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+}
+
+.wilayaSelect:focus{
+  outline: none;
+}
+
+.wilayaOption{
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  color: var(--text-primary);
+  background-color: var(--bg-card);
+  border: 1px solid var(--card-border);
+  font-family: inherit;
+  line-height: inherit;
+  font-size: inherit;
+}
 .searchResults {
   position: absolute;
   display: flex;
@@ -46,7 +89,7 @@
   z-index: 4;
 }
 
-.searchResult{
+.searchResult {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,11 +97,11 @@
   border-bottom: 1px solid var(--card-border);
 }
 
-.searchResult:last-child{
+.searchResult:last-child {
   border-bottom: none;
 }
 
-.wilayaName{
+.wilayaName {
   font-size: 0.9rem;
   /* outline: 1px solid #f00; */
   max-width: fit-content;
@@ -66,15 +109,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3px
+  gap: 3px;
 }
 
-.wilayaName .locationIcon{
+.wilayaName .locationIcon {
   color: var(--text-secondary);
   font-size: 0.75rem;
 }
 
-.postcode{
+.postcode {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,7 +128,7 @@
   color: var(--accent-color);
 }
 
-.noResults{
+.noResults {
   color: var(--text-secondary);
   padding: 20px;
   text-align: center;
