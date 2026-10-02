@@ -3,8 +3,7 @@ import styles from './PostcodesSearch.module.css';
 import { slugify } from '../pages/Postcodes';
 import data from '../data/algeria_data.json';
 import { FaLessThanEqual, FaMapPin } from 'react-icons/fa6';
-import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
-
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 const PostcodesSearch = () => {
   const [query, setQuery] = useState('');
   const [selectedWilaya, setSelectedWilaya] = useState('All wilayas');
@@ -50,7 +49,7 @@ const PostcodesSearch = () => {
           className={styles.searchInput}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search Commune or postcode"
+          placeholder={selectedWilaya === 'All wilayas' ? 'Search Commune, postcode' : `Search Commune, postcode in ${selectedWilaya}`}
         />
         {formattedQuery.length >= 2 && (
           <div className={styles.searchResults}>
@@ -80,7 +79,7 @@ const PostcodesSearch = () => {
       <div className={styles.selectWrapper}>
         <div className={styles.wilayaSelect} onClick={() => setIsOpen(!isOpen)}>
           <span className={styles.wilayaSpan}>{selectedWilaya}</span>
-          {isOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+          {isOpen ? <FaChevronUp /> : <FaChevronDown />}
         </div>
 
         {isOpen && (
