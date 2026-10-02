@@ -1,16 +1,17 @@
 .container {
   display: flex;
   align-items: center;
-  width: 100%;
-  outline: 1px solid #f00;
+  width: 96vw;
+  /* outline: 1px solid #f00; */
   gap: 5px;
   margin-bottom: 100px;
+  margin: 100px auto;
 }
 
-.inputWrapper{
+.inputWrapper {
   position: relative;
-  width: 80vw;
-  outline: 1px solid #f00;
+  width: 100%;
+  /* outline: 1px solid #f00; */
 }
 
 .searchInput {
@@ -39,38 +40,64 @@
   border-color: var(--accent-color);
 }
 
+.selectWrapper {
+  min-width: 230px;
+  position: relative;
+  user-select: none;
+}
+
 .wilayaSelect {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--text-primary);
   background-color: var(--bg-card);
   border: 1px solid var(--card-border);
-  height: 100%;
+  width: 100%;
   padding: 20px 15px;
   border-radius: 999px;
-  font-family: inherit;
-  line-height: inherit;
-  font-size: inherit;
+  cursor: pointer;
 }
 
-.wilayaSelect:focus{
-  outline: none;
+.wilayaSelect:hover {
+  background-color: var(--bg-card-hover);
+  border-color: var(--card-border-hover);
+  transition:
+    border-color 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
 }
 
-.wilayaOption{
-    -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  box-shadow: none;
-  color: var(--text-primary);
+.wilayaSpan{
+  width: 100%;
+  text-align: center;
+}
+
+.optionsMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
   background-color: var(--bg-card);
   border: 1px solid var(--card-border);
-  font-family: inherit;
-  line-height: inherit;
-  font-size: inherit;
+  height: 300px;
+  width: 100%;
+  overflow-y: auto;
+  border-radius: 10px;
 }
+
+.wilayaOption {
+  color: var(--text-primary);
+  background-color: var(--bg-card);
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.wilayaOption:hover {
+  background-color: var(--bg-card-hover);
+}
+
 .searchResults {
   position: absolute;
   display: flex;
@@ -79,7 +106,7 @@
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  width: 90vw;
+  width: 100%;
   max-height: 300px;
   overflow-y: auto;
   background-color: var(--bg-card);

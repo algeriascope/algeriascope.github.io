@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import styles from './PostcodesSearch.module.css';
 import { slugify } from '../pages/Postcodes';
 import data from '../data/algeria_data.json';
-import { FaMapPin } from 'react-icons/fa6';
+import { FaLessThanEqual, FaMapPin } from 'react-icons/fa6';
+import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
 
 const PostcodesSearch = () => {
   const [query, setQuery] = useState('');
   const [selectedWilaya, setSelectedWilaya] = useState('All wilayas');
-
+  const [isOpen, setIsOpen] = useState(false);
   const formattedQuery = slugify(query);
 
   const filteredData =
@@ -44,53 +45,70 @@ const PostcodesSearch = () => {
   return (
     <div className={styles.container}>
       <div className={styles.inputWrapper}>
-
-      <input
-        type="text"
-        className={styles.searchInput}
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search Wilaya, Commune, postcode"
-      />
-      {formattedQuery.length >= 2 && (
-        <div className={styles.searchResults}>
-          {filteredData.length > 0 ? (
-            filteredData.map((item, index) => {
-              return (
-                <div key={item.unique_key} className={styles.searchResult}>
-                  <div className={styles.postAndWilaya}>
-                    <div className={styles.postName}>{item.post_name}</div>
-                    <div className={styles.wilayaName}>
-                      <FaMapPin className={styles.locationIcon} />
-                      {item.wilaya_name}
+        <input
+          type="text"
+          className={styles.searchInput}
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search Commune or postcode"
+        />
+        {formattedQuery.length >= 2 && (
+          <div className={styles.searchResults}>
+            {filteredData.length > 0 ? (
+              filteredData.map((item, index) => {
+                return (
+                  <div key={item.unique_key} className={styles.searchResult}>
+                    <div className={styles.postAndWilaya}>
+                      <div className={styles.postName}>{item.post_name}</div>
+                      <div className={styles.wilayaName}>
+                        <FaMapPin className={styles.locationIcon} />
+                        {item.wilaya_name}
+                      </div>
+                    </div>
+                    <div className={styles.postcode}>
+                      {item.post_code ? item.post_code : 'xxxxxx'}
                     </div>
                   </div>
-                  <div className={styles.postcode}>
-                    {item.post_code ? item.post_code : 'xxxxxx'}
-                  </div>
-                </div>
-              );
-            })
-          ) : (
-            <div className={styles.noResults}>No search results found.</div>
-          )}
-        </div>
-      )}
-
+                );
+              })
+            ) : (
+              <div className={styles.noResults}>No search results found.</div>
+            )}
+          </div>
+        )}
       </div>
-      <select
-        value={selectedWilaya}
-        onChange={(e) => setSelectedWilaya(e.target.value)}
-        className={styles.wilayaSelect}
-      >
-        <option className={styles.wilayaOption} value="All wilayas">All wilayas</option>
-        {data.map((w) => (
-          <option key={w.wilaya_name} value={w.wilaya_name}>
-            {w.wilaya_name}
-          </option>
-        ))}
-      </select>
+      <div className={styles.selectWrapper}>
+        <div className={styles.wilayaSelect} onClick={() => setIsOpen(!isOpen)}>
+          <span className={styles.wilayaSpan}>{selectedWilaya}</span>
+          {isOpen ? <IoIosArrowUp /> : <IoIosArrowDown />}
+        </div>
 
+        {isOpen && (
+          <div className={styles.optionsMenu}>
+            <span
+              className={styles.wilayaOption}
+              onClick={() => {
+                setSelectedWilaya('All wilayas');
+                setIsOpen(false);
+              }}
+            >
+              All wilayas
+            </span>
+            {data.map((w) => (
+              <span
+                className={styles.wilayaOption}
+                key={w.wilaya_code}
+                onClick={() => {
+                  setSelectedWilaya(w.wilaya_name);
+                  setIsOpen(false);
+                }}
+              >
+                {`${w.wilaya_code} - ${w.wilaya_name}`}
+              </span>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 };
