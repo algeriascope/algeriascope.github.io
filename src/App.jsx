@@ -7,9 +7,12 @@ import Wilayas from './pages/Wilayas';
 import Postcodes from './pages/Postcodes'
 import Footer from './components/Footer'
 import WilayaPostcodes from './pages/WilayaPostcodes';
+import ScrollToTop from './ScrollToTop'
+
 const app = () => {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <Routes>
           <Route path="/" element={<Home />}></Route>

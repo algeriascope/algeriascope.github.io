@@ -2,7 +2,7 @@ import { PiMoney, PiMapPin, PiEnvelope } from 'react-icons/pi';
 import { BsPostage } from 'react-icons/bs';
 import  data  from './algeria_data.json';
 
-const totalPostcodes = data.reduce((acc, w) => acc + w.postcodes.length, 0).toLocaleString('en-US');;
+const totalPostcodes = data.reduce((acc, w) => acc + w.postcodes.length, 0).toLocaleString('en-US');
 
 export const services = [
   {
