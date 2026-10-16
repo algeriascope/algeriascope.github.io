@@ -1311,14 +1311,7 @@
         "commune_name": "Laghouat",
         "daira_name": "Laghouat"
       },
-      {
-        "post_code": "03001",
-        "post_name": "Aflou",
-        "post_address": "Aflou",
-        "commune_id": 64,
-        "commune_name": "Aflou",
-        "daira_name": "Aflou"
-      },
+
       {
         "post_code": "03002",
         "post_name": "Laghouat Maamourah",
@@ -1343,14 +1336,7 @@
         "commune_name": "Hassi R'mel",
         "daira_name": "Hassi R'mel"
       },
-      {
-        "post_code": "03005",
-        "post_name": "Brida",
-        "post_address": "Brida",
-        "commune_id": 69,
-        "commune_name": "Brida",
-        "daira_name": "Brida"
-      },
+
       {
         "post_code": "03006",
         "post_name": "Laghouat El Makam",
@@ -1407,14 +1393,7 @@
         "commune_name": "Ain Madhi",
         "daira_name": "Ain Madhi"
       },
-      {
-        "post_code": "03013",
-        "post_name": "Beidha",
-        "post_address": "Beidha",
-        "commune_id": 67,
-        "commune_name": "El Beidha",
-        "daira_name": "Gueltat Sidi Saad"
-      },
+
       {
         "post_code": "03014",
         "post_name": "El Assafia",
@@ -1463,22 +1442,7 @@
         "commune_name": "Sidi Makhlouf",
         "daira_name": "Sidi Makhlouf"
       },
-      {
-        "post_code": "03020",
-        "post_name": "Aflou Hay El Gaada",
-        "post_address": "Aflou Hay Elgaada",
-        "commune_id": 64,
-        "commune_name": "Aflou",
-        "daira_name": "Aflou"
-      },
-      {
-        "post_code": "03021",
-        "post_name": "Aflou Hai Med Boudiaf",
-        "post_address": "Aflou Med Boudiaf",
-        "commune_id": 64,
-        "commune_name": "Aflou",
-        "daira_name": "Aflou"
-      },
+
       {
         "post_code": "03022",
         "post_name": "Hassi Dalaa",
@@ -1487,70 +1451,7 @@
         "commune_name": "Hassi Delaa",
         "daira_name": "Hassi R'mel"
       },
-      {
-        "post_code": "03023",
-        "post_name": "El Ghicha",
-        "post_address": "El Ghicha",
-        "commune_id": 71,
-        "commune_name": "El Ghicha",
-        "daira_name": "El Ghicha"
-      },
-      {
-        "post_code": "03024",
-        "post_name": "Sidi Bouzid",
-        "post_address": "Sidi Bouzid",
-        "commune_id": 83,
-        "commune_name": "Sidi Bouzid",
-        "daira_name": "Aflou"
-      },
-      {
-        "post_code": "03025",
-        "post_name": "Gueltat Sidi Saad",
-        "post_address": "Gueltat Sidi Saad",
-        "commune_id": 73,
-        "commune_name": "Gueltat Sidi Saad",
-        "daira_name": "Gueltat Sidi Saad"
-      },
-      {
-        "post_code": "03026",
-        "post_name": "Taouiala",
-        "post_address": "Taouiala",
-        "commune_id": 87,
-        "commune_name": "Taouiala",
-        "daira_name": "Brida"
-      },
-      {
-        "post_code": "03027",
-        "post_name": "Oued Mourra",
-        "post_address": "Oued Mourra",
-        "commune_id": 80,
-        "commune_name": "Oued Morra",
-        "daira_name": "Oued Morra"
-      },
-      {
-        "post_code": "03028",
-        "post_name": "Ain Sidi Ali",
-        "post_address": "Ain Sidi Ali",
-        "commune_id": 66,
-        "commune_name": "Ain Sidi Ali",
-        "daira_name": "Gueltat Sidi Saad"
-      },
-      {
-        "post_code": "03030",
-        "post_name": "Ain Skhouna",
-        "post_address": "Ain Skhouna",
-        "commune_id": 83,
-        "commune_name": "Sidi Bouzid",
-        "daira_name": "Aflou"
-      },
-      {
-        "post_code": "03031",
-        "post_name": "Chekkala",
-        "post_address": "Chekkala",
-        "commune_id": 83,
-        "commune_name": "Sidi Bouzid",
-        "daira_name": "Aflou"
-      },
+
       {
         "post_code": "03032",
         "post_name": "Bordj Senouci",
@@ -1567,22 +1468,7 @@
         "commune_name": "Benacer Benchohra",
         "daira_name": "Ksar El Hirane"
       },
-      {
-        "post_code": "03034",
-        "post_name": "Sebgag",
-        "post_address": "Sebgag",
-        "commune_id": 82,
-        "commune_name": "Sebgag",
-        "daira_name": "Aflou"
-      },
-      {
-        "post_code": "03035",
-        "post_name": "Terghalel",
-        "post_address": "Terkellel",
-        "commune_id": 71,
-        "commune_name": "El Ghicha",
-        "daira_name": "El Ghicha"
-      },
+
       {
         "post_code": "03036",
         "post_name": "Laghouat Djamia",
@@ -1591,22 +1477,7 @@
         "commune_name": "Laghouat",
         "daira_name": "Laghouat"
       },
-      {
-        "post_code": "03037",
-        "post_name": "Anfous",
-        "post_address": "Anfous",
-        "commune_id": 71,
-        "commune_name": "El Ghicha",
-        "daira_name": "El Ghicha"
-      },
-      {
-        "post_code": "03038",
-        "post_name": "Hadj Mecheri",
-        "post_address": "Hadj Mecheri",
-        "commune_id": 74,
-        "commune_name": "Hadj Mechri",
-        "daira_name": "Brida"
-      },
+
       {
         "post_code": "03040",
         "post_name": "El Houita",
@@ -1615,14 +1486,7 @@
         "commune_name": "El Haouaita",
         "daira_name": "Ain Madhi"
       },
-      {
-        "post_code": "03041",
-        "post_name": "Oued M'Zi",
-        "post_address": "Oued M'Zi",
-        "commune_id": 81,
-        "commune_name": "Oued M'zi",
-        "daira_name": "Oued Morra"
-      },
+
       {
         "post_code": "03042",
         "post_name": "Lalmaya",
@@ -1631,22 +1495,7 @@
         "commune_name": "Tadjrouna",
         "daira_name": "Ain Madhi"
       },
-      {
-        "post_code": "03043",
-        "post_name": "Oued Touil",
-        "post_address": "Oued Touil",
-        "commune_id": 73,
-        "commune_name": "Gueltat Sidi Saad",
-        "daira_name": "Gueltat Sidi Saad"
-      },
-      {
-        "post_code": "03044",
-        "post_name": "Hassiane Dhib",
-        "post_address": "Hassiane Dhib",
-        "commune_id": 73,
-        "commune_name": "Gueltat Sidi Saad",
-        "daira_name": "Gueltat Sidi Saad"
-      },
+
       {
         "post_code": "03046",
         "post_name": "Bouzbaeir",
@@ -1655,14 +1504,7 @@
         "commune_name": "Hassi R'mel",
         "daira_name": "Hassi R'mel"
       },
-      {
-        "post_code": "03047",
-        "post_name": "Aflou Zaoui Said",
-        "post_address": "Aflou Zaoui Said",
-        "commune_id": 64,
-        "commune_name": "Aflou",
-        "daira_name": "Aflou"
-      },
+
       {
         "post_code": "03048",
         "post_name": "Laghouat D C A",
@@ -1679,14 +1521,7 @@
         "commune_name": "Laghouat",
         "daira_name": "Laghouat"
       },
-      {
-        "post_code": "03050",
-        "post_name": "Aflou Universite",
-        "post_address": "Aflou Universite",
-        "commune_id": 64,
-        "commune_name": "Aflou",
-        "daira_name": "Aflou"
-      },
+
       {
         "post_code": "03051",
         "post_name": "Laghouat Air",
@@ -1703,14 +1538,7 @@
         "commune_name": "Laghouat",
         "daira_name": "Laghouat"
       },
-      {
-        "post_code": "03053",
-        "post_name": "Aflou 01 Mai",
-        "post_address": "Aflou 01 Mai",
-        "commune_id": 64,
-        "commune_name": "Aflou",
-        "daira_name": "Aflou"
-      },
+
       {
         "post_code": "03054",
         "post_name": "Laghouat Pole Universitaire 2",
@@ -2347,14 +2175,7 @@
         "commune_name": "Batna",
         "daira_name": "Batna"
       },
-      {
-        "post_code": "05001",
-        "post_name": "Barika",
-        "post_address": "Centre Ville Barika",
-        "commune_id": 122,
-        "commune_name": "Barika",
-        "daira_name": "Barika"
-      },
+
       {
         "post_code": "05002",
         "post_name": "Ain Touta",
@@ -2515,14 +2336,7 @@
         "commune_name": "Batna",
         "daira_name": "Batna"
       },
-      {
-        "post_code": "05022",
-        "post_name": "Barika Liberte",
-        "post_address": "Cité Liberte",
-        "commune_id": 122,
-        "commune_name": "Barika",
-        "daira_name": "Barika"
-      },
+
       {
         "post_code": "05023",
         "post_name": "Timgad",
@@ -2555,22 +2369,7 @@
         "commune_name": "Ichemoul",
         "daira_name": "Ichemoul"
       },
-      {
-        "post_code": "05027",
-        "post_name": "Seggana",
-        "post_address": "Route De Barika",
-        "commune_id": 166,
-        "commune_name": "Seggana",
-        "daira_name": "Seggana"
-      },
-      {
-        "post_code": "05028",
-        "post_name": "Barika Ben Baatouche",
-        "post_address": "Cité 1000 Logts",
-        "commune_id": 122,
-        "commune_name": "Barika",
-        "daira_name": "Barika"
-      },
+
       {
         "post_code": "05029",
         "post_name": "N'Gaous Ras El Ain",
@@ -2635,14 +2434,7 @@
         "commune_name": "Oued Taga",
         "daira_name": "Theniet El Abed"
       },
-      {
-        "post_code": "05037",
-        "post_name": "M'Doukal",
-        "post_address": "M'Doukal Centre",
-        "commune_id": 149,
-        "commune_name": "M Doukal",
-        "daira_name": "Barika"
-      },
+
       {
         "post_code": "05038",
         "post_name": "Nouader",
@@ -2699,22 +2491,7 @@
         "commune_name": "Ouled Sellem",
         "daira_name": "Ras El Aioun"
       },
-      {
-        "post_code": "05045",
-        "post_name": "Bitam",
-        "post_address": "Route Biskra Bitam",
-        "commune_id": 125,
-        "commune_name": "Bitam",
-        "daira_name": "Barika"
-      },
-      {
-        "post_code": "05046",
-        "post_name": "Merabtine",
-        "post_address": "Merabtine El Djezzar",
-        "commune_id": 133,
-        "commune_name": "Djezzar",
-        "daira_name": "Djezzar"
-      },
+
       {
         "post_code": "05047",
         "post_name": "El Ksar",
@@ -3027,14 +2804,7 @@
         "commune_name": "Bouzina",
         "daira_name": "Bouzina"
       },
-      {
-        "post_code": "05087",
-        "post_name": "Ouled Derradji",
-        "post_address": "Ouled Derradji",
-        "commune_id": 121,
-        "commune_name": "Azil Abedelkader",
-        "daira_name": "Djezzar"
-      },
+
       {
         "post_code": "05088",
         "post_name": "Koudiat Messara",
@@ -3283,14 +3053,7 @@
         "commune_name": "Ouled Sellem",
         "daira_name": "Ras El Aioun"
       },
-      {
-        "post_code": "05119",
-        "post_name": "Ouled Aiche",
-        "post_address": "Ouled Aiche",
-        "commune_id": 125,
-        "commune_name": "Bitam",
-        "daira_name": "Barika"
-      },
+
       {
         "post_code": "05120",
         "post_name": "Taga",
@@ -3299,14 +3062,7 @@
         "commune_name": "Seriana",
         "daira_name": "Seriana"
       },
-      {
-        "post_code": "05121",
-        "post_name": "Ouled Ammar",
-        "post_address": "Ouled Ammar",
-        "commune_id": 157,
-        "commune_name": "Ouled Ammar",
-        "daira_name": "Djezzar"
-      },
+
       {
         "post_code": "05122",
         "post_name": "Chihat",
@@ -3331,14 +3087,7 @@
         "commune_name": "Ain Touta",
         "daira_name": "Ain Touta"
       },
-      {
-        "post_code": "05125",
-        "post_name": "Tazeght",
-        "post_address": "Tazeght",
-        "commune_id": 166,
-        "commune_name": "Seggana",
-        "daira_name": "Seggana"
-      },
+
       {
         "post_code": "05126",
         "post_name": "Moulia",
@@ -3347,14 +3096,7 @@
         "commune_name": "Ain Touta",
         "daira_name": "Ain Touta"
       },
-      {
-        "post_code": "05127",
-        "post_name": "Legridet",
-        "post_address": "Legridet",
-        "commune_id": 175,
-        "commune_name": "Tilatou",
-        "daira_name": "Seggana"
-      },
+
       {
         "post_code": "05128",
         "post_name": "Fenarou",
@@ -3371,14 +3113,7 @@
         "commune_name": "Guigba",
         "daira_name": "Ras El Aioun"
       },
-      {
-        "post_code": "05130",
-        "post_name": "M'Tkaouak",
-        "post_address": "M'Tkaouak",
-        "commune_id": 121,
-        "commune_name": "Azil Abedelkader",
-        "daira_name": "Djezzar"
-      },
+
       {
         "post_code": "05131",
         "post_name": "Tamachit",
@@ -3419,14 +3154,7 @@
         "commune_name": "Batna",
         "daira_name": "Batna"
       },
-      {
-        "post_code": "05136",
-        "post_name": "Berika 1ere Division Blindee",
-        "post_address": "Berika Division Blindee",
-        "commune_id": 122,
-        "commune_name": "Barika",
-        "daira_name": "Barika"
-      },
+
       {
         "post_code": "05137",
         "post_name": "Batna Universite",
@@ -3443,14 +3171,7 @@
         "commune_name": "Seriana",
         "daira_name": "Seriana"
       },
-      {
-        "post_code": "05139",
-        "post_name": "Barika Gare Routiere",
-        "post_address": "Gare Routiere Barika",
-        "commune_id": 122,
-        "commune_name": "Barika",
-        "daira_name": "Barika"
-      },
+
       {
         "post_code": "05140",
         "post_name": "Ain Touta Chaffet",
@@ -4847,14 +4568,7 @@
         "commune_name": "Biskra",
         "daira_name": "Biskra"
       },
-      {
-        "post_code": "07008",
-        "post_name": "El Kantara",
-        "post_address": "Rue 5 Juillet El Kantara",
-        "commune_id": 245,
-        "commune_name": "El Kantara",
-        "daira_name": "El Kantara"
-      },
+
       {
         "post_code": "07009",
         "post_name": "Lichana",
@@ -4887,14 +4601,7 @@
         "commune_name": "Zeribet El Oued",
         "daira_name": "Zeribet El Oued"
       },
-      {
-        "post_code": "07013",
-        "post_name": "Ain Zaatout",
-        "post_address": "Rue 10 Juillet 57 Ain Zaatout",
-        "commune_id": 231,
-        "commune_name": "Ain Zaatout",
-        "daira_name": "El Kantara"
-      },
+
       {
         "post_code": "07014",
         "post_name": "Biskra Beni Morah",
@@ -4967,14 +4674,7 @@
         "commune_name": "Bouchakroun",
         "daira_name": "Tolga"
       },
-      {
-        "post_code": "07023",
-        "post_name": "Branis",
-        "post_address": "Rue 19 Juin Branis",
-        "commune_id": 236,
-        "commune_name": "Branis",
-        "daira_name": "Djemorah"
-      },
+
       {
         "post_code": "07024",
         "post_name": "Chetma",
@@ -4983,14 +4683,7 @@
         "commune_name": "Chetma",
         "daira_name": "Sidi Okba"
       },
-      {
-        "post_code": "07025",
-        "post_name": "Djemourah",
-        "post_address": "Rue 1er Nov Djemmorah",
-        "commune_id": 239,
-        "commune_name": "Djemorah",
-        "daira_name": "Djemorah"
-      },
+
       {
         "post_code": "07026",
         "post_name": "El Feidh",
@@ -5015,22 +4708,7 @@
         "commune_name": "El Haouch",
         "daira_name": "Sidi Okba"
       },
-      {
-        "post_code": "07029",
-        "post_name": "El Kantara Les Gorges",
-        "post_address": "Route De Batna El Kantara",
-        "commune_id": 245,
-        "commune_name": "El Kantara",
-        "daira_name": "El Kantara"
-      },
-      {
-        "post_code": "07030",
-        "post_name": "El Outaya",
-        "post_address": "Rue Boudjemaa Mihoub El Outaya",
-        "commune_id": 246,
-        "commune_name": "El Outaya",
-        "daira_name": "El Outaya"
-      },
+
       {
         "post_code": "07031",
         "post_name": "Foughala",
@@ -5079,14 +4757,7 @@
         "commune_name": "El Hadjab",
         "daira_name": "Biskra"
       },
-      {
-        "post_code": "07038",
-        "post_name": "Ain Ghezal",
-        "post_address": "Ain Ghezal",
-        "commune_id": 246,
-        "commune_name": "El Outaya",
-        "daira_name": "El Outaya"
-      },
+
       {
         "post_code": "07039",
         "post_name": "Ain Naga",
@@ -5127,14 +4798,7 @@
         "commune_name": "Bouchakroun",
         "daira_name": "Tolga"
       },
-      {
-        "post_code": "07049",
-        "post_name": "Driss Amor",
-        "post_address": "Route National Nâ°03",
-        "commune_id": 246,
-        "commune_name": "El Outaya",
-        "daira_name": "El Outaya"
-      },
+
       {
         "post_code": "07050",
         "post_name": "Droh",
@@ -5159,14 +4823,7 @@
         "commune_name": "Ain Naga",
         "daira_name": "Sidi Okba"
       },
-      {
-        "post_code": "07053",
-        "post_name": "El Kantara 1er Nov,",
-        "post_address": "Cité 200 Logement El Kantara",
-        "commune_id": 245,
-        "commune_name": "El Kantara",
-        "daira_name": "El Kantara"
-      },
+
       {
         "post_code": "07054",
         "post_name": "El Oualadja",
@@ -5199,14 +4856,7 @@
         "commune_name": "Biskra",
         "daira_name": "Biskra"
       },
-      {
-        "post_code": "07059",
-        "post_name": "Guedila",
-        "post_address": "Route Djemourah Guedila",
-        "commune_id": 239,
-        "commune_name": "Djemorah",
-        "daira_name": "Djemorah"
-      },
+
       {
         "post_code": "07060",
         "post_name": "Guettouchi Lakhdar",
@@ -5311,14 +4961,7 @@
         "commune_name": "Mekhadma",
         "daira_name": "Ourlal"
       },
-      {
-        "post_code": "07081",
-        "post_name": "Tizi",
-        "post_address": "Rue Dada Amar Ain Zaatout",
-        "commune_id": 231,
-        "commune_name": "Ain Zaatout",
-        "daira_name": "El Kantara"
-      },
+
       {
         "post_code": "07082",
         "post_name": "Tolga Emir Aek",
@@ -5399,22 +5042,7 @@
         "commune_name": "Biskra",
         "daira_name": "Biskra"
       },
-      {
-        "post_code": "07093",
-        "post_name": "Ouled Seid",
-        "post_address": "Ouled Seid",
-        "commune_id": 236,
-        "commune_name": "Branis",
-        "daira_name": "Djemorah"
-      },
-      {
-        "post_code": "07094",
-        "post_name": "Beni Souik",
-        "post_address": "Beni Souik",
-        "commune_id": 239,
-        "commune_name": "Djemorah",
-        "daira_name": "Djemorah"
-      },
+
       {
         "post_code": "07095",
         "post_name": "Mobar Mohamed",
@@ -5431,14 +5059,7 @@
         "commune_name": "Sidi Okba",
         "daira_name": "Sidi Okba"
       },
-      {
-        "post_code": "29018",
-        "post_name": "Tizi",
-        "post_address": "Rue Nasreddine Tizi",
-        "commune_id": 231,
-        "commune_name": "Ain Zaatout",
-        "daira_name": "El Kantara"
-      },
+
       {
         "post_code": "30059",
         "post_name": "Mekhadma",
@@ -7581,14 +7202,7 @@
         "commune_name": "Tebessa",
         "daira_name": "Tebessa"
       },
-      {
-        "post_code": "12001",
-        "post_name": "Bir El Ater",
-        "post_address": "Centre Ville Bir El Ater",
-        "commune_id": 369,
-        "commune_name": "Bir-El-Ater",
-        "daira_name": "Bir El Ater"
-      },
+
       {
         "post_code": "12002",
         "post_name": "Cheria",
@@ -7645,14 +7259,7 @@
         "commune_name": "Ain Zerga",
         "daira_name": "Ouenza"
       },
-      {
-        "post_code": "12009",
-        "post_name": "Bir El Ater 19 Juin",
-        "post_address": "Cité El Djabel 19 Juin Bea",
-        "commune_id": 369,
-        "commune_name": "Bir-El-Ater",
-        "daira_name": "Bir El Ater"
-      },
+
       {
         "post_code": "12011",
         "post_name": "Bir Mokadem",
@@ -7725,14 +7332,7 @@
         "commune_name": "Bekkaria",
         "daira_name": "El Kouif"
       },
-      {
-        "post_code": "12020",
-        "post_name": "Bir El Ater El Imrane",
-        "post_address": "Cité El Imrane Bir El Ater",
-        "commune_id": 369,
-        "commune_name": "Bir-El-Ater",
-        "daira_name": "Bir El Ater"
-      },
+
       {
         "post_code": "12021",
         "post_name": "Cheria 9 Octobre",
@@ -7757,14 +7357,7 @@
         "commune_name": "El Meridj",
         "daira_name": "Ouenza"
       },
-      {
-        "post_code": "12024",
-        "post_name": "Negrine",
-        "post_address": "Centre Ville Negrine",
-        "commune_id": 385,
-        "commune_name": "Negrine",
-        "daira_name": "Negrine"
-      },
+
       {
         "post_code": "12025",
         "post_name": "Ouenza 1er Novembre",
@@ -7909,30 +7502,7 @@
         "commune_name": "El Mezeraa",
         "daira_name": "El Ogla"
       },
-      {
-        "post_code": "12043",
-        "post_name": "El Ogla El Malha",
-        "post_address": "Village El Ogla El Malah",
-        "commune_id": 378,
-        "commune_name": "El Ogla El Malha",
-        "daira_name": "Bir El Ater"
-      },
-      {
-        "post_code": "12044",
-        "post_name": "Ferkane",
-        "post_address": "Village Ferkane",
-        "commune_id": 381,
-        "commune_name": "Ferkane",
-        "daira_name": "Negrine"
-      },
-      {
-        "post_code": "12045",
-        "post_name": "Foum El Matleg",
-        "post_address": "Village Foum El Matleg",
-        "commune_id": 378,
-        "commune_name": "El Ogla El Malha",
-        "daira_name": "Bir El Ater"
-      },
+
       {
         "post_code": "12046",
         "post_name": "Gourigueur",
@@ -8387,22 +7957,7 @@
         "commune_name": "Djebala",
         "daira_name": "Nedroma"
       },
-      {
-        "post_code": "13030",
-        "post_name": "El Abed",
-        "post_address": "Rue De La Poste",
-        "commune_id": 410,
-        "commune_name": "Bouihi",
-        "daira_name": "Sidi Djillali"
-      },
-      {
-        "post_code": "13031",
-        "post_name": "El Aricha",
-        "post_address": "Hai Chouhada",
-        "commune_id": 414,
-        "commune_name": "El Aricha",
-        "daira_name": "Sebdou"
-      },
+
       {
         "post_code": "13032",
         "post_name": "El Bor",
@@ -8419,14 +7974,7 @@
         "commune_name": "El Fehoul",
         "daira_name": "Remchi"
       },
-      {
-        "post_code": "13034",
-        "post_name": "El Gor",
-        "post_address": "Rue L'Independance Slimani Med",
-        "commune_id": 417,
-        "commune_name": "El Gor",
-        "daira_name": "Sebdou"
-      },
+
       {
         "post_code": "13035",
         "post_name": "Fillaoucene",
@@ -8491,14 +8039,7 @@
         "commune_name": "Sebbaa Chioukh",
         "daira_name": "Remchi"
       },
-      {
-        "post_code": "13043",
-        "post_name": "Sidi Djillali",
-        "post_address": "Cité 11 Decembre",
-        "commune_id": 436,
-        "commune_name": "Sidi Djillali",
-        "daira_name": "Sidi Djillali"
-      },
+
       {
         "post_code": "13044",
         "post_name": "Sidi Medjahed",
@@ -8619,14 +8160,7 @@
         "commune_name": "Amieur",
         "daira_name": "Chetouane"
       },
-      {
-        "post_code": "13059",
-        "post_name": "Belhadji Boucif",
-        "post_address": "Rue De La Poste",
-        "commune_id": 414,
-        "commune_name": "El Aricha",
-        "daira_name": "Sebdou"
-      },
+
       {
         "post_code": "13060",
         "post_name": "Beni Bahdel",
@@ -8675,14 +8209,7 @@
         "commune_name": "Amieur",
         "daira_name": "Chetouane"
       },
-      {
-        "post_code": "13066",
-        "post_name": "El Bouihi",
-        "post_address": "Rue De La Poste",
-        "commune_id": 410,
-        "commune_name": "Bouihi",
-        "daira_name": "Sidi Djillali"
-      },
+
       {
         "post_code": "13067",
         "post_name": "Ghazaouet Sidi Amar",
@@ -9107,14 +8634,7 @@
         "commune_name": "Souani",
         "daira_name": "Bab El Assa"
       },
-      {
-        "post_code": "22030",
-        "post_name": "Sidi Djillali",
-        "post_address": "Bvd Yebka Ahmed Cité 456 Logts",
-        "commune_id": 436,
-        "commune_name": "Sidi Djillali",
-        "daira_name": "Sidi Djillali"
-      },
+
       {
         "post_code": "31051",
         "post_name": "Khemisti",
@@ -9161,14 +8681,7 @@
         "commune_name": "Frenda",
         "daira_name": "Frenda"
       },
-      {
-        "post_code": "14002",
-        "post_name": "Ksar Chellala",
-        "post_address": "Cité Belle Vue Chellala",
-        "commune_id": 459,
-        "commune_name": "Ksar Chellala",
-        "daira_name": "Ksar Chellala"
-      },
+
       {
         "post_code": "14003",
         "post_name": "Sougueur",
@@ -9233,14 +8746,7 @@
         "commune_name": "Dahmouni",
         "daira_name": "Dahmouni"
       },
-      {
-        "post_code": "14011",
-        "post_name": "Ksar Chellala El Wiam",
-        "post_address": "Route De Tiaret",
-        "commune_id": 459,
-        "commune_name": "Ksar Chellala",
-        "daira_name": "Ksar Chellala"
-      },
+
       {
         "post_code": "14012",
         "post_name": "Mechraa Sfa",
@@ -9289,14 +8795,7 @@
         "commune_name": "Ain Dzarit",
         "daira_name": "Mahdia"
       },
-      {
-        "post_code": "14018",
-        "post_name": "Colonel Bougara",
-        "post_address": "Cité La Revolution",
-        "commune_id": 450,
-        "commune_name": "Bougara",
-        "daira_name": "Hamadia"
-      },
+
       {
         "post_code": "14019",
         "post_name": "Guertoufa",
@@ -9305,14 +8804,7 @@
         "commune_name": "Guertoufa",
         "daira_name": "Rahouia"
       },
-      {
-        "post_code": "14020",
-        "post_name": "Hamadia",
-        "post_address": "Route De Tissemesilt",
-        "commune_id": 458,
-        "commune_name": "Hamadia",
-        "daira_name": "Hamadia"
-      },
+
       {
         "post_code": "14021",
         "post_name": "Kerman",
@@ -9345,14 +8837,7 @@
         "commune_name": "Mellakou",
         "daira_name": "Medroussa"
       },
-      {
-        "post_code": "14026",
-        "post_name": "Rechaiga",
-        "post_address": "Rue Des Marches",
-        "commune_id": 471,
-        "commune_name": "Rechaiga",
-        "daira_name": "Hamadia"
-      },
+
       {
         "post_code": "14027",
         "post_name": "Si Abdelghani",
@@ -9433,14 +8918,7 @@
         "commune_name": "Tousnina",
         "daira_name": "Sougueur"
       },
-      {
-        "post_code": "14038",
-        "post_name": "Z'Malet El Emir Aek",
-        "post_address": "Rue Du 1er Novembre",
-        "commune_id": 486,
-        "commune_name": "Zmalet El Emir Abdelkade",
-        "daira_name": "Ksar Chellala"
-      },
+
       {
         "post_code": "14040",
         "post_name": "Ain Bouchekif",
@@ -9457,14 +8935,7 @@
         "commune_name": "Ain Bouchekif",
         "daira_name": "Dahmouni"
       },
-      {
-        "post_code": "14042",
-        "post_name": "Ain Radjah",
-        "post_address": "Ain Radjah",
-        "commune_id": 459,
-        "commune_name": "Ksar Chellala",
-        "daira_name": "Ksar Chellala"
-      },
+
       {
         "post_code": "14043",
         "post_name": "Ain Sebain",
@@ -9529,14 +9000,7 @@
         "commune_name": "Frenda",
         "daira_name": "Frenda"
       },
-      {
-        "post_code": "14051",
-        "post_name": "Fritissa",
-        "post_address": "Route De Serguine",
-        "commune_id": 474,
-        "commune_name": "Serghine",
-        "daira_name": "Ksar Chellala"
-      },
+
       {
         "post_code": "14052",
         "post_name": "Kerroum Amar",
@@ -9617,14 +9081,7 @@
         "commune_name": "Djebilet Rosfa",
         "daira_name": "Ain Kermes"
       },
-      {
-        "post_code": "14063",
-        "post_name": "Serguine",
-        "post_address": "Commune De Serguine",
-        "commune_id": 474,
-        "commune_name": "Serghine",
-        "daira_name": "Ksar Chellala"
-      },
+
       {
         "post_code": "14064",
         "post_name": "Sidi Ali Mellal",
@@ -9705,14 +9162,7 @@
         "commune_name": "Tiaret",
         "daira_name": "Tiaret"
       },
-      {
-        "post_code": "14074",
-        "post_name": "Hamadia El Hidhab",
-        "post_address": "Rue Bounaama Djillali",
-        "commune_id": 458,
-        "commune_name": "Hamadia",
-        "daira_name": "Hamadia"
-      },
+
       {
         "post_code": "14075",
         "post_name": "Tiaret Sidi Khaled",
@@ -13227,14 +12677,7 @@
         "commune_name": "Djelfa",
         "daira_name": "Djelfa"
       },
-      {
-        "post_code": "17001",
-        "post_name": "Ain Oussera",
-        "post_address": "Route National",
-        "commune_id": 615,
-        "commune_name": "Ain Oussera",
-        "daira_name": "Ain Oussera"
-      },
+
       {
         "post_code": "17002",
         "post_name": "Hassi Bahbah",
@@ -13243,30 +12686,7 @@
         "commune_name": "Hassi Bahbah",
         "daira_name": "Hassi Bahbah"
       },
-      {
-        "post_code": "17003",
-        "post_name": "Messaad",
-        "post_address": "Cité 1er Novembre Messaad",
-        "commune_id": 636,
-        "commune_name": "Messaad",
-        "daira_name": "Messaad"
-      },
-      {
-        "post_code": "17004",
-        "post_name": "Ain Oussera Slimani Slimane",
-        "post_address": "Cité Slimani Slimane Ain Oussera",
-        "commune_id": 615,
-        "commune_name": "Ain Oussera",
-        "daira_name": "Ain Oussera"
-      },
-      {
-        "post_code": "17005",
-        "post_name": "Ain Oussera Zighout Youcef",
-        "post_address": "Cité Ali Ammar A/O",
-        "commune_id": 615,
-        "commune_name": "Ain Oussera",
-        "daira_name": "Ain Oussera"
-      },
+
       {
         "post_code": "17006",
         "post_name": "Dar Chioukh",
@@ -13315,30 +12735,7 @@
         "commune_name": "Ain El Ibel",
         "daira_name": "Ain El Ibel"
       },
-      {
-        "post_code": "17012",
-        "post_name": "Ain Oussera Abane Ramdane",
-        "post_address": "Cité Abanne Ramdhane Ain Oussera",
-        "commune_id": 615,
-        "commune_name": "Ain Oussera",
-        "daira_name": "Ain Oussera"
-      },
-      {
-        "post_code": "17013",
-        "post_name": "Ain Oussera Guerada Belkacem",
-        "post_address": "Cit Gueerada Belkacem Ain Oussera",
-        "commune_id": 615,
-        "commune_name": "Ain Oussera",
-        "daira_name": "Ain Oussera"
-      },
-      {
-        "post_code": "17014",
-        "post_name": "Birine",
-        "post_address": "Route Ain Oussera Birine",
-        "commune_id": 619,
-        "commune_name": "Birine",
-        "daira_name": "Birine"
-      },
+
       {
         "post_code": "17015",
         "post_name": "Charef",
@@ -13387,22 +12784,7 @@
         "commune_name": "El Idrissia",
         "daira_name": "El Idrissia"
       },
-      {
-        "post_code": "17021",
-        "post_name": "Feid El Botma",
-        "post_address": "1 Er Novembre Feid El Botma",
-        "commune_id": 629,
-        "commune_name": "Faidh El Botma",
-        "daira_name": "Faidh El Botma"
-      },
-      {
-        "post_code": "17022",
-        "post_name": "Had Sahary",
-        "post_address": "Rue Ali Boumendjel Had Sahary",
-        "commune_id": 632,
-        "commune_name": "Had Sahary",
-        "daira_name": "Had Sahary"
-      },
+
       {
         "post_code": "17023",
         "post_name": "Hassi Bahbah Chettouh Kheiredine",
@@ -13411,14 +12793,7 @@
         "commune_name": "Hassi Bahbah",
         "daira_name": "Hassi Bahbah"
       },
-      {
-        "post_code": "17024",
-        "post_name": "Sidi Ladjel",
-        "post_address": "Centre Ville Sidi Laadjel",
-        "commune_id": 643,
-        "commune_name": "Sidi Laadjel",
-        "daira_name": "Sidi Laadjel"
-      },
+
       {
         "post_code": "17025",
         "post_name": "Ain Maabed",
@@ -13435,14 +12810,7 @@
         "commune_name": "Benyagoub",
         "daira_name": "Charef"
       },
-      {
-        "post_code": "17027",
-        "post_name": "Birine Kadi Tahar",
-        "post_address": "Cité Kadi Tahar Birine",
-        "commune_id": 619,
-        "commune_name": "Birine",
-        "daira_name": "Birine"
-      },
+
       {
         "post_code": "17028",
         "post_name": "Djelfa Ain Chih",
@@ -13483,30 +12851,7 @@
         "commune_name": "Hassi El Euch",
         "daira_name": "Hassi Bahbah"
       },
-      {
-        "post_code": "17033",
-        "post_name": "Messaad Cité El Quods",
-        "post_address": "Cité El Quods",
-        "commune_id": 636,
-        "commune_name": "Messaad",
-        "daira_name": "Messaad"
-      },
-      {
-        "post_code": "17034",
-        "post_name": "Messaad Demed",
-        "post_address": "Place Emir A E K Messaad",
-        "commune_id": 636,
-        "commune_name": "Messaad",
-        "daira_name": "Messaad"
-      },
-      {
-        "post_code": "17035",
-        "post_name": "Messad Emir Abdelkader",
-        "post_address": "Demed Messaad",
-        "commune_id": 636,
-        "commune_name": "Messaad",
-        "daira_name": "Messaad"
-      },
+
       {
         "post_code": "17036",
         "post_name": "Mouilah",
@@ -13539,14 +12884,7 @@
         "commune_name": "Ain Chouhada",
         "daira_name": "El Idrissia"
       },
-      {
-        "post_code": "17040",
-        "post_name": "Ain Fekka",
-        "post_address": "Ain Fekka",
-        "commune_id": 613,
-        "commune_name": "Ain Fekka",
-        "daira_name": "Had Sahary"
-      },
+
       {
         "post_code": "17041",
         "post_name": "Amera",
@@ -13555,30 +12893,7 @@
         "commune_name": "Ain El Ibel",
         "daira_name": "Ain El Ibel"
       },
-      {
-        "post_code": "17042",
-        "post_name": "Amourah",
-        "post_address": "Centre Ville Amourah",
-        "commune_id": 616,
-        "commune_name": "Amourah",
-        "daira_name": "Faidh El Botma"
-      },
-      {
-        "post_code": "17043",
-        "post_name": "Benhar",
-        "post_address": "Centre Ville Benhar",
-        "commune_id": 617,
-        "commune_name": "Benhar",
-        "daira_name": "Birine"
-      },
-      {
-        "post_code": "17044",
-        "post_name": "Bouira Lahdab",
-        "post_address": "Bouirat Lahdab",
-        "commune_id": 620,
-        "commune_name": "Bouira Lahdab",
-        "daira_name": "Had Sahary"
-      },
+
       {
         "post_code": "17045",
         "post_name": "Dait El Bkhour",
@@ -13587,14 +12902,7 @@
         "commune_name": "Hassi Bahbah",
         "daira_name": "Hassi Bahbah"
       },
-      {
-        "post_code": "17046",
-        "post_name": "Deldoul",
-        "post_address": "Centre Ville Deldoul",
-        "commune_id": 623,
-        "commune_name": "Deldoul",
-        "daira_name": "Messaad"
-      },
+
       {
         "post_code": "17047",
         "post_name": "Draa Souary",
@@ -13603,14 +12911,7 @@
         "commune_name": "Benhar",
         "daira_name": "Birine"
       },
-      {
-        "post_code": "17048",
-        "post_name": "El Gahra",
-        "post_address": "Centre Ville El Gahra",
-        "commune_id": 623,
-        "commune_name": "Deldoul",
-        "daira_name": "Messaad"
-      },
+
       {
         "post_code": "17049",
         "post_name": "El Hammam",
@@ -13627,14 +12928,7 @@
         "commune_name": "Taadmit",
         "daira_name": "Ain El Ibel"
       },
-      {
-        "post_code": "17051",
-        "post_name": "El Khemis",
-        "post_address": "Centre Ville El Khemis",
-        "commune_id": 628,
-        "commune_name": "El Khemis",
-        "daira_name": "Sidi Laadjel"
-      },
+
       {
         "post_code": "17052",
         "post_name": "El Oguila",
@@ -13643,30 +12937,7 @@
         "commune_name": "Sidi Baizid",
         "daira_name": "Dar Chioukh"
       },
-      {
-        "post_code": "17054",
-        "post_name": "Guernini",
-        "post_address": "1 Er Novembre Guernini",
-        "commune_id": 630,
-        "commune_name": "Guernini",
-        "daira_name": "Ain Oussera"
-      },
-      {
-        "post_code": "17055",
-        "post_name": "Guettara",
-        "post_address": "Centre Ville Guettera",
-        "commune_id": 631,
-        "commune_name": "Guettara",
-        "daira_name": "Messaad"
-      },
-      {
-        "post_code": "17056",
-        "post_name": "Hassi Fedoul",
-        "post_address": "Rue 1er Novebre Centre Ville Hassi Fdoul",
-        "commune_id": 635,
-        "commune_name": "Hassi Fedoul",
-        "daira_name": "Sidi Laadjel"
-      },
+
       {
         "post_code": "17057",
         "post_name": "M'Liliha",
@@ -13699,30 +12970,7 @@
         "commune_name": "El Idrissia",
         "daira_name": "El Idrissia"
       },
-      {
-        "post_code": "17061",
-        "post_name": "Oum El Adham",
-        "post_address": "Oum Laadam",
-        "commune_id": 639,
-        "commune_name": "Oum Laadham",
-        "daira_name": "Faidh El Botma"
-      },
-      {
-        "post_code": "17062",
-        "post_name": "Sed Rahal",
-        "post_address": "Centre Ville Sed Rahal",
-        "commune_id": 640,
-        "commune_name": "Sed Rahal",
-        "daira_name": "Messaad"
-      },
-      {
-        "post_code": "17063",
-        "post_name": "Selmana",
-        "post_address": "Centre Ville Selmana",
-        "commune_id": 641,
-        "commune_name": "Selmana",
-        "daira_name": "Messaad"
-      },
+
       {
         "post_code": "17064",
         "post_name": "Sidi Baizid",
@@ -13739,22 +12987,7 @@
         "commune_name": "Zaccar",
         "daira_name": "Ain El Ibel"
       },
-      {
-        "post_code": "17066",
-        "post_name": "Tahiri Mohamed",
-        "post_address": "Centre Ville Tahiri Mohamd",
-        "commune_id": 631,
-        "commune_name": "Guettara",
-        "daira_name": "Messaad"
-      },
-      {
-        "post_code": "17067",
-        "post_name": "Haniet Ouled Salm",
-        "post_address": "Haniet Ouled Salm",
-        "commune_id": 636,
-        "commune_name": "Messaad",
-        "daira_name": "Messaad"
-      },
+
       {
         "post_code": "17068",
         "post_name": "Sed Oum Drou",
@@ -13763,30 +12996,7 @@
         "commune_name": "Sidi Baizid",
         "daira_name": "Dar Chioukh"
       },
-      {
-        "post_code": "17069",
-        "post_name": "Abdelmadjid",
-        "post_address": "Abdelmadjid",
-        "commune_id": 629,
-        "commune_name": "Faidh El Botma",
-        "daira_name": "Faidh El Botma"
-      },
-      {
-        "post_code": "17070",
-        "post_name": "Meguied",
-        "post_address": "El M'Gueid",
-        "commune_id": 623,
-        "commune_name": "Deldoul",
-        "daira_name": "Messaad"
-      },
-      {
-        "post_code": "17071",
-        "post_name": "Had Sahary Ait Messaoudene",
-        "post_address": "Centre Ville Had Sahary",
-        "commune_id": 632,
-        "commune_name": "Had Sahary",
-        "daira_name": "Had Sahary"
-      },
+
       {
         "post_code": "17072",
         "post_name": "Djelfa Achour Ziane",
@@ -13803,22 +13013,7 @@
         "commune_name": "Djelfa",
         "daira_name": "Djelfa"
       },
-      {
-        "post_code": "17074",
-        "post_name": "Ain Oussera Gare Routiere",
-        "post_address": "Gare Routiere Ain Oussera",
-        "commune_id": 615,
-        "commune_name": "Ain Oussera",
-        "daira_name": "Ain Oussera"
-      },
-      {
-        "post_code": "17075",
-        "post_name": "Messaad Gare Routiere",
-        "post_address": "Gare Routiere Messaad",
-        "commune_id": 636,
-        "commune_name": "Messaad",
-        "daira_name": "Messaad"
-      },
+
       {
         "post_code": "17076",
         "post_name": "Djelfa Ouled Obaid Allah",
@@ -13875,22 +13070,7 @@
         "commune_name": "Taadmit",
         "daira_name": "Ain El Ibel"
       },
-      {
-        "post_code": "17083",
-        "post_name": "Messaad Moussaoui Messaoud",
-        "post_address": "Cité Saifi Commune De Messaad",
-        "commune_id": 636,
-        "commune_name": "Messaad",
-        "daira_name": "Messaad"
-      },
-      {
-        "post_code": "17084",
-        "post_name": "Ain Oussera Terre",
-        "post_address": "Base Airienne Ain Oussera",
-        "commune_id": 615,
-        "commune_name": "Ain Oussera",
-        "daira_name": "Ain Oussera"
-      },
+
       {
         "post_code": "17085",
         "post_name": "Hassi Bahbah Terre",
@@ -13938,14 +13118,6 @@
         "commune_id": 621,
         "commune_name": "Charef",
         "daira_name": "Charef"
-      },
-      {
-        "post_code": "44036",
-        "post_name": "Amourah",
-        "post_address": "Amourah Centre",
-        "commune_id": 616,
-        "commune_name": "Amourah",
-        "daira_name": "Faidh El Botma"
       }
     ]
   },
@@ -19057,14 +18229,7 @@
         "commune_name": "Berrouaghia",
         "daira_name": "Berrouaghia"
       },
-      {
-        "post_code": "26003",
-        "post_name": "Ksar El Boukhari",
-        "post_address": "Boulvard Mohamed Khemisti K E B",
-        "commune_id": 929,
-        "commune_name": "Ksar El Boukhari",
-        "daira_name": "Ksar El Boukhari"
-      },
+
       {
         "post_code": "26004",
         "post_name": "Tablat",
@@ -19073,14 +18238,7 @@
         "commune_name": "Tablat",
         "daira_name": "Tablat"
       },
-      {
-        "post_code": "26005",
-        "post_name": "Ain Boucif",
-        "post_address": "Rue Cherfi Halima Ain Boucif",
-        "commune_id": 899,
-        "commune_name": "Ain Boucif",
-        "daira_name": "Ain Boucif"
-      },
+      
       {
         "post_code": "26006",
         "post_name": "Berrouaghia Batem",
@@ -19089,14 +18247,7 @@
         "commune_name": "Berrouaghia",
         "daira_name": "Berrouaghia"
       },
-      {
-        "post_code": "26007",
-        "post_name": "Chellalet El Adhaoura",
-        "post_address": "Rue 1 Nov Chellalat El Adhaoura",
-        "commune_id": 915,
-        "commune_name": "Chelalet El Adhaoura",
-        "daira_name": "Chellalat El Adhaoura"
-      },
+      
       {
         "post_code": "26008",
         "post_name": "El Omaria",
@@ -19113,14 +18264,7 @@
         "commune_name": "Medea",
         "daira_name": "Medea"
       },
-      {
-        "post_code": "26010",
-        "post_name": "Ain Boucif 5 Juillet",
-        "post_address": "Ain Boucif 5 Juillet",
-        "commune_id": 899,
-        "commune_name": "Ain Boucif",
-        "daira_name": "Ain Boucif"
-      },
+      
       {
         "post_code": "26011",
         "post_name": "Ain D'Hab",
@@ -19137,14 +18281,7 @@
         "commune_name": "Ben Chicao",
         "daira_name": "Ouzera"
       },
-      {
-        "post_code": "26013",
-        "post_name": "Boghar",
-        "post_address": "Boghar Centre",
-        "commune_id": 908,
-        "commune_name": "Boghar",
-        "daira_name": "Ouled Antar"
-      },
+     
       {
         "post_code": "26014",
         "post_name": "Bouchrahil",
@@ -19153,14 +18290,7 @@
         "commune_name": "Bouchrahil",
         "daira_name": "Sidi Naamane"
       },
-      {
-        "post_code": "26015",
-        "post_name": "Derrag",
-        "post_address": "Derrag Centre",
-        "commune_id": 917,
-        "commune_name": "Derrag",
-        "daira_name": "Aziz"
-      },
+      
       {
         "post_code": "26016",
         "post_name": "Djouab",
@@ -19217,14 +18347,7 @@
         "commune_name": "Aissaouia",
         "daira_name": "Tablat"
       },
-      {
-        "post_code": "26023",
-        "post_name": "Boughzoul",
-        "post_address": "Boughzoul Centre",
-        "commune_id": 912,
-        "commune_name": "Boughzoul",
-        "daira_name": "Chahbounia"
-      },
+      
       {
         "post_code": "26024",
         "post_name": "Bourrouaghia 1er Novembre",
@@ -19241,14 +18364,7 @@
         "commune_name": "Bouskene",
         "daira_name": "Beni Slimane"
       },
-      {
-        "post_code": "26026",
-        "post_name": "Chahbounia",
-        "post_address": "Chahbounia Centre",
-        "commune_id": 914,
-        "commune_name": "Chabounia",
-        "daira_name": "Chahbounia"
-      },
+      
       {
         "post_code": "26027",
         "post_name": "Hannacha",
@@ -19257,22 +18373,7 @@
         "commune_name": "Hannacha",
         "daira_name": "Ouamri"
       },
-      {
-        "post_code": "26028",
-        "post_name": "Ksar El Boukhari Belkheiret Mohamed",
-        "post_address": "Quartier Belkheiret Mansour K E B",
-        "commune_id": 929,
-        "commune_name": "Ksar El Boukhari",
-        "daira_name": "Ksar El Boukhari"
-      },
-      {
-        "post_code": "26029",
-        "post_name": "Ksar El Boukhari Chaoui Nadir",
-        "post_address": "Quartier Romanat K E B",
-        "commune_id": 929,
-        "commune_name": "Ksar El Boukhari",
-        "daira_name": "Ksar El Boukhari"
-      },
+      
       {
         "post_code": "26030",
         "post_name": "Maarik El Malah",
@@ -19313,14 +18414,7 @@
         "commune_name": "Ouamri",
         "daira_name": "Ouamri"
       },
-      {
-        "post_code": "26035",
-        "post_name": "Ouled Antar",
-        "post_address": "Ouled Antar Centre",
-        "commune_id": 938,
-        "commune_name": "Ouled Antar",
-        "daira_name": "Ouled Antar"
-      },
+      
       {
         "post_code": "26036",
         "post_name": "Ouled Brahim",
@@ -19329,22 +18423,7 @@
         "commune_name": "Ouled Brahim",
         "daira_name": "El Omaria"
       },
-      {
-        "post_code": "26037",
-        "post_name": "Ouled Hellal",
-        "post_address": "Ouled Hellal Centre",
-        "commune_id": 943,
-        "commune_name": "Ouled Hellal",
-        "daira_name": "Ouled Antar"
-      },
-      {
-        "post_code": "26038",
-        "post_name": "Ouled Maareuf",
-        "post_address": "Ouled Maareuf Centre",
-        "commune_id": 942,
-        "commune_name": "Ouled Emaaraf",
-        "daira_name": "Ain Boucif"
-      },
+      
       {
         "post_code": "26039",
         "post_name": "Rebaia",
@@ -19369,14 +18448,7 @@
         "commune_name": "Seghouane",
         "daira_name": "Seghouane"
       },
-      {
-        "post_code": "26042",
-        "post_name": "Seriat",
-        "post_address": "Mezghana Centre",
-        "commune_id": 944,
-        "commune_name": "Oum El Djellil",
-        "daira_name": "Aziz"
-      },
+      
       {
         "post_code": "26044",
         "post_name": "Allali Messaoud",
@@ -19401,30 +18473,8 @@
         "commune_name": "Tletat Ed Douair",
         "daira_name": "Seghouane"
       },
-      {
-        "post_code": "26047",
-        "post_name": "Vieux Ksar",
-        "post_address": "Vieux Ksar",
-        "commune_id": 929,
-        "commune_name": "Ksar El Boukhari",
-        "daira_name": "Ksar El Boukhari"
-      },
-      {
-        "post_code": "26048",
-        "post_name": "Ain Ouksir",
-        "post_address": "Ain Ouksir Centre",
-        "commune_id": 900,
-        "commune_name": "Ain Ouksir",
-        "daira_name": "Chellalat El Adhaoura"
-      },
-      {
-        "post_code": "26049",
-        "post_name": "Ain Tletat",
-        "post_address": "El M'Fatha Centre",
-        "commune_id": 934,
-        "commune_name": "M'fatha",
-        "daira_name": "Ksar El Boukhari"
-      },
+      
+      
       {
         "post_code": "26050",
         "post_name": "Baata",
@@ -19433,14 +18483,7 @@
         "commune_name": "Baata",
         "daira_name": "El Omaria"
       },
-      {
-        "post_code": "26051",
-        "post_name": "Benia",
-        "post_address": "Benia Centre",
-        "commune_id": 927,
-        "commune_name": "Kef Lakhdar",
-        "daira_name": "Ain Boucif"
-      },
+      
       {
         "post_code": "26052",
         "post_name": "Berrouaghia Oued Gholat",
@@ -19529,14 +18572,7 @@
         "commune_name": "Ouled Bouachra",
         "daira_name": "Si Mahdjoub"
       },
-      {
-        "post_code": "26065",
-        "post_name": "Oum El Djellil",
-        "post_address": "Oum El Djellil Centre",
-        "commune_id": 944,
-        "commune_name": "Oum El Djellil",
-        "daira_name": "Aziz"
-      },
+      
       {
         "post_code": "26066",
         "post_name": "Rezarza",
@@ -19545,14 +18581,7 @@
         "commune_name": "Medea",
         "daira_name": "Medea"
       },
-      {
-        "post_code": "26067",
-        "post_name": "Saneg",
-        "post_address": "Saneg Centre",
-        "commune_id": 947,
-        "commune_name": "Saneg",
-        "daira_name": "Ksar El Boukhari"
-      },
+      
       {
         "post_code": "26068",
         "post_name": "Sedraia",
@@ -19561,14 +18590,7 @@
         "commune_name": "Sedraya",
         "daira_name": "Guelb El Kebir"
       },
-      {
-        "post_code": "26069",
-        "post_name": "Sidi Damed",
-        "post_address": "Sidi Damed Centre",
-        "commune_id": 951,
-        "commune_name": "Sidi Demed",
-        "daira_name": "Ain Boucif"
-      },
+      
       {
         "post_code": "26070",
         "post_name": "Sidi Errabie",
@@ -19593,14 +18615,7 @@
         "commune_name": "Sidi Zahar",
         "daira_name": "Souaghi"
       },
-      {
-        "post_code": "26074",
-        "post_name": "Tafraout",
-        "post_address": "Tafraout Centre",
-        "commune_id": 958,
-        "commune_name": "Tafraout",
-        "daira_name": "Chellalat El Adhaoura"
-      },
+      
       {
         "post_code": "26075",
         "post_name": "Tamesguida",
@@ -19617,14 +18632,7 @@
         "commune_name": "Tizi Mahdi",
         "daira_name": "Ouzera"
       },
-      {
-        "post_code": "26077",
-        "post_name": "Ksar El Boukhari Mekkaoui Othmane",
-        "post_address": "Cité Zobra Ksar El Boukhari",
-        "commune_id": 929,
-        "commune_name": "Ksar El Boukhari",
-        "daira_name": "Ksar El Boukhari"
-      },
+      
       {
         "post_code": "26078",
         "post_name": "Medea Takbou",
@@ -19633,14 +18641,7 @@
         "commune_name": "Medea",
         "daira_name": "Medea"
       },
-      {
-        "post_code": "26079",
-        "post_name": "Kermet Chiha",
-        "post_address": "Ouled Hellal Centre",
-        "commune_id": 943,
-        "commune_name": "Ouled Hellal",
-        "daira_name": "Ouled Antar"
-      },
+      
       {
         "post_code": "26080",
         "post_name": "El Gouea",
@@ -23221,14 +22222,7 @@
         "commune_name": "Brezina",
         "daira_name": "Brezina"
       },
-      {
-        "post_code": "32003",
-        "post_name": "El Abiodh Sidi Cheikh",
-        "post_address": "Rue Emir Abdelkader",
-        "commune_id": 1145,
-        "commune_name": "Labiodh Sidi Cheikh",
-        "daira_name": "Labiodh Sidi Cheikh"
-      },
+
       {
         "post_code": "32004",
         "post_name": "El Bayadh Toumi Mohamed",
@@ -23237,14 +22231,7 @@
         "commune_name": "El Bayadh",
         "daira_name": "El Bayadh"
       },
-      {
-        "post_code": "32005",
-        "post_name": "Arbaouat",
-        "post_address": "Rue Des Martyrs",
-        "commune_id": 1137,
-        "commune_name": "Arbaouat",
-        "daira_name": "Labiodh Sidi Cheikh"
-      },
+
       {
         "post_code": "32006",
         "post_name": "Boualem",
@@ -23253,14 +22240,7 @@
         "commune_name": "Boualem",
         "daira_name": "Boualem"
       },
-      {
-        "post_code": "32007",
-        "post_name": "El Abiodh Sidi Cheikh Belmabrouk",
-        "post_address": "Rue Didouche Mourad",
-        "commune_id": 1145,
-        "commune_name": "Labiodh Sidi Cheikh",
-        "daira_name": "Labiodh Sidi Cheikh"
-      },
+
       {
         "post_code": "32008",
         "post_name": "El Bayadh Ait Amiri",
@@ -23309,22 +22289,7 @@
         "commune_name": "Kef El Ahmar",
         "daira_name": "Rogassa"
       },
-      {
-        "post_code": "32014",
-        "post_name": "Boussemghoun",
-        "post_address": "Rue 1er Novembre 1954",
-        "commune_id": 1140,
-        "commune_name": "Boussemghoun",
-        "daira_name": "Boussemghoun"
-      },
-      {
-        "post_code": "32015",
-        "post_name": "Chellala Dahrania",
-        "post_address": "Rue Belia Lehbib",
-        "commune_id": 1143,
-        "commune_name": "Chellala",
-        "daira_name": "Chellala"
-      },
+
       {
         "post_code": "32016",
         "post_name": "El Bayadh Kadichou Mohamed",
@@ -23349,22 +22314,7 @@
         "commune_name": "Rogassa",
         "daira_name": "Rogassa"
       },
-      {
-        "post_code": "32019",
-        "post_name": "Ain El Orak",
-        "post_address": "Ain El Orak",
-        "commune_id": 1136,
-        "commune_name": "Ain El Orak",
-        "daira_name": "Labiodh Sidi Cheikh"
-      },
-      {
-        "post_code": "32020",
-        "post_name": "Arba Fougani",
-        "post_address": "Arbat Fougani",
-        "commune_id": 1137,
-        "commune_name": "Arbaouat",
-        "daira_name": "Labiodh Sidi Cheikh"
-      },
+
       {
         "post_code": "32021",
         "post_name": "Bordj El May",
@@ -23381,38 +22331,7 @@
         "commune_name": "Cheguig",
         "daira_name": "Rogassa"
       },
-      {
-        "post_code": "32023",
-        "post_name": "Chellala El Gueblia",
-        "post_address": "Chellala Gueblia",
-        "commune_id": 1143,
-        "commune_name": "Chellala",
-        "daira_name": "Chellala"
-      },
-      {
-        "post_code": "32024",
-        "post_name": "Deghima",
-        "post_address": "Deghima",
-        "commune_id": 1148,
-        "commune_name": "El Mehara",
-        "daira_name": "Chellala"
-      },
-      {
-        "post_code": "32025",
-        "post_name": "El Bnoud",
-        "post_address": "Bnoud",
-        "commune_id": 1146,
-        "commune_name": "El Bnoud",
-        "daira_name": "Labiodh Sidi Cheikh"
-      },
-      {
-        "post_code": "32026",
-        "post_name": "El Mehara",
-        "post_address": "El M'Harra",
-        "commune_id": 1148,
-        "commune_name": "El Mehara",
-        "daira_name": "Chellala"
-      },
+
       {
         "post_code": "32027",
         "post_name": "Krakda",
@@ -23485,14 +22404,7 @@
         "commune_name": "El Bayadh",
         "daira_name": "El Bayadh"
       },
-      {
-        "post_code": "32038",
-        "post_name": "El Abiodh Sidi Cheikh Gare Routiere",
-        "post_address": "Gare Routiere El Abiodh Sidi Cheikh",
-        "commune_id": 1145,
-        "commune_name": "Labiodh Sidi Cheikh",
-        "daira_name": "Labiodh Sidi Cheikh"
-      },
+
       {
         "post_code": "32039",
         "post_name": "Bougtob Hai Nasr",
@@ -23501,14 +22413,7 @@
         "commune_name": "Bougtoub",
         "daira_name": "Bougtoub"
       },
-      {
-        "post_code": "32040",
-        "post_name": "El Abiodh Sidi Cheikh Djoudi Bahous",
-        "post_address": "",
-        "commune_id": 1145,
-        "commune_name": "Labiodh Sidi Cheikh",
-        "daira_name": "Labiodh Sidi Cheikh"
-      },
+
       {
         "post_code": "32041",
         "post_name": "Bougtob Abdelli Cheikh",
@@ -23517,14 +22422,7 @@
         "commune_name": "Bougtoub",
         "daira_name": "Bougtoub"
       },
-      {
-        "post_code": "32042",
-        "post_name": "El Abiodh Sidi Cheikh Ben Aissa Talia",
-        "post_address": "",
-        "commune_id": 1145,
-        "commune_name": "Labiodh Sidi Cheikh",
-        "daira_name": "Labiodh Sidi Cheikh"
-      },
+
       {
         "post_code": "43060",
         "post_name": "Sidi Khelifa",
@@ -31870,47 +30768,1132 @@
   {
     "wilaya_code": "59",
     "wilaya_name": "Aflou",
-    "postcodes": []
+    "postcodes": [
+      {
+        "post_code": "03001",
+        "post_name": "Aflou",
+        "post_address": "Aflou",
+        "commune_id": 64,
+        "commune_name": "Aflou",
+        "daira_name": "Aflou"
+      },
+      {
+        "post_code": "03005",
+        "post_name": "Brida",
+        "post_address": "Brida",
+        "commune_id": 69,
+        "commune_name": "Brida",
+        "daira_name": "Brida"
+      },
+      {
+        "post_code": "03013",
+        "post_name": "Beidha",
+        "post_address": "Beidha",
+        "commune_id": 67,
+        "commune_name": "El Beidha",
+        "daira_name": "Gueltat Sidi Saad"
+      },
+      {
+        "post_code": "03020",
+        "post_name": "Aflou Hay El Gaada",
+        "post_address": "Aflou Hay Elgaada",
+        "commune_id": 64,
+        "commune_name": "Aflou",
+        "daira_name": "Aflou"
+      },
+      {
+        "post_code": "03021",
+        "post_name": "Aflou Hai Med Boudiaf",
+        "post_address": "Aflou Med Boudiaf",
+        "commune_id": 64,
+        "commune_name": "Aflou",
+        "daira_name": "Aflou"
+      },
+      {
+        "post_code": "03023",
+        "post_name": "El Ghicha",
+        "post_address": "El Ghicha",
+        "commune_id": 71,
+        "commune_name": "El Ghicha",
+        "daira_name": "El Ghicha"
+      },
+      {
+        "post_code": "03024",
+        "post_name": "Sidi Bouzid",
+        "post_address": "Sidi Bouzid",
+        "commune_id": 83,
+        "commune_name": "Sidi Bouzid",
+        "daira_name": "Aflou"
+      },
+      {
+        "post_code": "03025",
+        "post_name": "Gueltat Sidi Saad",
+        "post_address": "Gueltat Sidi Saad",
+        "commune_id": 73,
+        "commune_name": "Gueltat Sidi Saad",
+        "daira_name": "Gueltat Sidi Saad"
+      },
+      {
+        "post_code": "03026",
+        "post_name": "Taouiala",
+        "post_address": "Taouiala",
+        "commune_id": 87,
+        "commune_name": "Taouiala",
+        "daira_name": "Brida"
+      },
+      {
+        "post_code": "03027",
+        "post_name": "Oued Mourra",
+        "post_address": "Oued Mourra",
+        "commune_id": 80,
+        "commune_name": "Oued Morra",
+        "daira_name": "Oued Morra"
+      },
+      {
+        "post_code": "03028",
+        "post_name": "Ain Sidi Ali",
+        "post_address": "Ain Sidi Ali",
+        "commune_id": 66,
+        "commune_name": "Ain Sidi Ali",
+        "daira_name": "Gueltat Sidi Saad"
+      },
+      {
+        "post_code": "03030",
+        "post_name": "Ain Skhouna",
+        "post_address": "Ain Skhouna",
+        "commune_id": 83,
+        "commune_name": "Sidi Bouzid",
+        "daira_name": "Aflou"
+      },
+      {
+        "post_code": "03031",
+        "post_name": "Chekkala",
+        "post_address": "Chekkala",
+        "commune_id": 83,
+        "commune_name": "Sidi Bouzid",
+        "daira_name": "Aflou"
+      },
+      {
+        "post_code": "03034",
+        "post_name": "Sebgag",
+        "post_address": "Sebgag",
+        "commune_id": 82,
+        "commune_name": "Sebgag",
+        "daira_name": "Aflou"
+      },
+      {
+        "post_code": "03035",
+        "post_name": "Terghalel",
+        "post_address": "Terkellel",
+        "commune_id": 71,
+        "commune_name": "El Ghicha",
+        "daira_name": "El Ghicha"
+      },
+      {
+        "post_code": "03037",
+        "post_name": "Anfous",
+        "post_address": "Anfous",
+        "commune_id": 71,
+        "commune_name": "El Ghicha",
+        "daira_name": "El Ghicha"
+      },
+      {
+        "post_code": "03038",
+        "post_name": "Hadj Mecheri",
+        "post_address": "Hadj Mecheri",
+        "commune_id": 74,
+        "commune_name": "Hadj Mechri",
+        "daira_name": "Brida"
+      },
+      {
+        "post_code": "03041",
+        "post_name": "Oued M'Zi",
+        "post_address": "Oued M'Zi",
+        "commune_id": 81,
+        "commune_name": "Oued M'zi",
+        "daira_name": "Oued Morra"
+      },
+      {
+        "post_code": "03043",
+        "post_name": "Oued Touil",
+        "post_address": "Oued Touil",
+        "commune_id": 73,
+        "commune_name": "Gueltat Sidi Saad",
+        "daira_name": "Gueltat Sidi Saad"
+      },
+      {
+        "post_code": "03044",
+        "post_name": "Hassiane Dhib",
+        "post_address": "Hassiane Dhib",
+        "commune_id": 73,
+        "commune_name": "Gueltat Sidi Saad",
+        "daira_name": "Gueltat Sidi Saad"
+      },
+      {
+        "post_code": "03047",
+        "post_name": "Aflou Zaoui Said",
+        "post_address": "Aflou Zaoui Said",
+        "commune_id": 64,
+        "commune_name": "Aflou",
+        "daira_name": "Aflou"
+      },
+      {
+        "post_code": "03050",
+        "post_name": "Aflou Universite",
+        "post_address": "Aflou Universite",
+        "commune_id": 64,
+        "commune_name": "Aflou",
+        "daira_name": "Aflou"
+      },
+      {
+        "post_code": "03053",
+        "post_name": "Aflou 01 Mai",
+        "post_address": "Aflou 01 Mai",
+        "commune_id": 64,
+        "commune_name": "Aflou",
+        "daira_name": "Aflou"
+      }
+    ]
   },
   {
     "wilaya_code": "60",
     "wilaya_name": "Barika",
-    "postcodes": []
+    "postcodes": [
+      {
+        "post_code": "05001",
+        "post_name": "Barika",
+        "post_address": "Centre Ville Barika",
+        "commune_id": 122,
+        "commune_name": "Barika",
+        "daira_name": "Barika"
+      },
+      {
+        "post_code": "05022",
+        "post_name": "Barika Liberte",
+        "post_address": "Cité Liberte",
+        "commune_id": 122,
+        "commune_name": "Barika",
+        "daira_name": "Barika"
+      },
+      {
+        "post_code": "05027",
+        "post_name": "Seggana",
+        "post_address": "Route De Barika",
+        "commune_id": 166,
+        "commune_name": "Seggana",
+        "daira_name": "Seggana"
+      },
+      {
+        "post_code": "05028",
+        "post_name": "Barika Ben Baatouche",
+        "post_address": "Cité 1000 Logts",
+        "commune_id": 122,
+        "commune_name": "Barika",
+        "daira_name": "Barika"
+      },
+      {
+        "post_code": "05037",
+        "post_name": "M'Doukal",
+        "post_address": "M'Doukal Centre",
+        "commune_id": 149,
+        "commune_name": "M Doukal",
+        "daira_name": "Barika"
+      },
+      {
+        "post_code": "05045",
+        "post_name": "Bitam",
+        "post_address": "Route Biskra Bitam",
+        "commune_id": 125,
+        "commune_name": "Bitam",
+        "daira_name": "Barika"
+      },
+      {
+        "post_code": "05046",
+        "post_name": "Merabtine",
+        "post_address": "Merabtine El Djezzar",
+        "commune_id": 133,
+        "commune_name": "Djezzar",
+        "daira_name": "Djezzar"
+      },
+      {
+        "post_code": "05087",
+        "post_name": "Ouled Derradji",
+        "post_address": "Ouled Derradji",
+        "commune_id": 121,
+        "commune_name": "Azil Abedelkader",
+        "daira_name": "Djezzar"
+      },
+      {
+        "post_code": "05119",
+        "post_name": "Ouled Aiche",
+        "post_address": "Ouled Aiche",
+        "commune_id": 125,
+        "commune_name": "Bitam",
+        "daira_name": "Barika"
+      },
+      {
+        "post_code": "05121",
+        "post_name": "Ouled Ammar",
+        "post_address": "Ouled Ammar",
+        "commune_id": 157,
+        "commune_name": "Ouled Ammar",
+        "daira_name": "Djezzar"
+      },
+      {
+        "post_code": "05125",
+        "post_name": "Tazeght",
+        "post_address": "Tazeght",
+        "commune_id": 166,
+        "commune_name": "Seggana",
+        "daira_name": "Seggana"
+      },
+      {
+        "post_code": "05127",
+        "post_name": "Legridet",
+        "post_address": "Legridet",
+        "commune_id": 175,
+        "commune_name": "Tilatou",
+        "daira_name": "Seggana"
+      },
+      {
+        "post_code": "05130",
+        "post_name": "M'Tkaouak",
+        "post_address": "M'Tkaouak",
+        "commune_id": 121,
+        "commune_name": "Azil Abedelkader",
+        "daira_name": "Djezzar"
+      },
+      {
+        "post_code": "05136",
+        "post_name": "Berika 1ere Division Blindee",
+        "post_address": "Berika Division Blindee",
+        "commune_id": 122,
+        "commune_name": "Barika",
+        "daira_name": "Barika"
+      },
+      {
+        "post_code": "05139",
+        "post_name": "Barika Gare Routiere",
+        "post_address": "Gare Routiere Barika",
+        "commune_id": 122,
+        "commune_name": "Barika",
+        "daira_name": "Barika"
+      }
+    ]
   },
   {
     "wilaya_code": "61",
     "wilaya_name": "El Kantara",
-    "postcodes": []
+    "postcodes": [
+      {
+        "post_code": "07008",
+        "post_name": "El Kantara",
+        "post_address": "Rue 5 Juillet El Kantara",
+        "commune_id": 245,
+        "commune_name": "El Kantara",
+        "daira_name": "El Kantara"
+      },
+      {
+        "post_code": "07013",
+        "post_name": "Ain Zaatout",
+        "post_address": "Rue 10 Juillet 57 Ain Zaatout",
+        "commune_id": 231,
+        "commune_name": "Ain Zaatout",
+        "daira_name": "El Kantara"
+      },
+      {
+        "post_code": "07023",
+        "post_name": "Branis",
+        "post_address": "Rue 19 Juin Branis",
+        "commune_id": 236,
+        "commune_name": "Branis",
+        "daira_name": "Djemorah"
+      },
+      {
+        "post_code": "07025",
+        "post_name": "Djemourah",
+        "post_address": "Rue 1er Nov Djemmorah",
+        "commune_id": 239,
+        "commune_name": "Djemorah",
+        "daira_name": "Djemorah"
+      },
+      {
+        "post_code": "07029",
+        "post_name": "El Kantara Les Gorges",
+        "post_address": "Route De Batna El Kantara",
+        "commune_id": 245,
+        "commune_name": "El Kantara",
+        "daira_name": "El Kantara"
+      },
+      {
+        "post_code": "07030",
+        "post_name": "El Outaya",
+        "post_address": "Rue Boudjemaa Mihoub El Outaya",
+        "commune_id": 246,
+        "commune_name": "El Outaya",
+        "daira_name": "El Outaya"
+      },
+      {
+        "post_code": "07038",
+        "post_name": "Ain Ghezal",
+        "post_address": "Ain Ghezal",
+        "commune_id": 246,
+        "commune_name": "El Outaya",
+        "daira_name": "El Outaya"
+      },
+      {
+        "post_code": "07049",
+        "post_name": "Driss Amor",
+        "post_address": "Route National Nâ°03",
+        "commune_id": 246,
+        "commune_name": "El Outaya",
+        "daira_name": "El Outaya"
+      },
+      {
+        "post_code": "07053",
+        "post_name": "El Kantara 1er Nov,",
+        "post_address": "Cité 200 Logement El Kantara",
+        "commune_id": 245,
+        "commune_name": "El Kantara",
+        "daira_name": "El Kantara"
+      },
+      {
+        "post_code": "07059",
+        "post_name": "Guedila",
+        "post_address": "Route Djemourah Guedila",
+        "commune_id": 239,
+        "commune_name": "Djemorah",
+        "daira_name": "Djemorah"
+      },
+      {
+        "post_code": "07081",
+        "post_name": "Tizi",
+        "post_address": "Rue Dada Amar Ain Zaatout",
+        "commune_id": 231,
+        "commune_name": "Ain Zaatout",
+        "daira_name": "El Kantara"
+      },
+      {
+        "post_code": "07093",
+        "post_name": "Ouled Seid",
+        "post_address": "Ouled Seid",
+        "commune_id": 236,
+        "commune_name": "Branis",
+        "daira_name": "Djemorah"
+      },
+      {
+        "post_code": "07094",
+        "post_name": "Beni Souik",
+        "post_address": "Beni Souik",
+        "commune_id": 239,
+        "commune_name": "Djemorah",
+        "daira_name": "Djemorah"
+      },
+      {
+        "post_code": "29018",
+        "post_name": "Tizi",
+        "post_address": "Rue Nasreddine Tizi",
+        "commune_id": 231,
+        "commune_name": "Ain Zaatout",
+        "daira_name": "El Kantara"
+      }
+    ]
   },
   {
     "wilaya_code": "62",
     "wilaya_name": "Bir El Ater",
-    "postcodes": []
+    "postcodes": [
+      {
+        "post_code": "12001",
+        "post_name": "Bir El Ater",
+        "post_address": "Centre Ville Bir El Ater",
+        "commune_id": 369,
+        "commune_name": "Bir-El-Ater",
+        "daira_name": "Bir El Ater"
+      },
+      {
+        "post_code": "12009",
+        "post_name": "Bir El Ater 19 Juin",
+        "post_address": "Cité El Djabel 19 Juin Bea",
+        "commune_id": 369,
+        "commune_name": "Bir-El-Ater",
+        "daira_name": "Bir El Ater"
+      },
+      {
+        "post_code": "12020",
+        "post_name": "Bir El Ater El Imrane",
+        "post_address": "Cité El Imrane Bir El Ater",
+        "commune_id": 369,
+        "commune_name": "Bir-El-Ater",
+        "daira_name": "Bir El Ater"
+      },
+      {
+        "post_code": "12024",
+        "post_name": "Negrine",
+        "post_address": "Centre Ville Negrine",
+        "commune_id": 385,
+        "commune_name": "Negrine",
+        "daira_name": "Negrine"
+      },
+      {
+        "post_code": "12043",
+        "post_name": "El Ogla El Malha",
+        "post_address": "Village El Ogla El Malah",
+        "commune_id": 378,
+        "commune_name": "El Ogla El Malha",
+        "daira_name": "Bir El Ater"
+      },
+      {
+        "post_code": "12044",
+        "post_name": "Ferkane",
+        "post_address": "Village Ferkane",
+        "commune_id": 381,
+        "commune_name": "Ferkane",
+        "daira_name": "Negrine"
+      },
+      {
+        "post_code": "12045",
+        "post_name": "Foum El Matleg",
+        "post_address": "Village Foum El Matleg",
+        "commune_id": 378,
+        "commune_name": "El Ogla El Malha",
+        "daira_name": "Bir El Ater"
+      }
+    ]
   },
   {
     "wilaya_code": "63",
     "wilaya_name": "El Aricha",
-    "postcodes": []
+    "postcodes": [
+      {
+        "post_code": "13030",
+        "post_name": "El Abed",
+        "post_address": "Rue De La Poste",
+        "commune_id": 410,
+        "commune_name": "Bouihi",
+        "daira_name": "Sidi Djillali"
+      },
+      {
+        "post_code": "13031",
+        "post_name": "El Aricha",
+        "post_address": "Hai Chouhada",
+        "commune_id": 414,
+        "commune_name": "El Aricha",
+        "daira_name": "Sebdou"
+      },
+      {
+        "post_code": "13034",
+        "post_name": "El Gor",
+        "post_address": "Rue L'Independance Slimani Med",
+        "commune_id": 417,
+        "commune_name": "El Gor",
+        "daira_name": "Sebdou"
+      },
+      {
+        "post_code": "13043",
+        "post_name": "Sidi Djillali",
+        "post_address": "Cité 11 Decembre",
+        "commune_id": 436,
+        "commune_name": "Sidi Djillali",
+        "daira_name": "Sidi Djillali"
+      },
+      {
+        "post_code": "13059",
+        "post_name": "Belhadji Boucif",
+        "post_address": "Rue De La Poste",
+        "commune_id": 414,
+        "commune_name": "El Aricha",
+        "daira_name": "Sebdou"
+      },
+      {
+        "post_code": "13066",
+        "post_name": "El Bouihi",
+        "post_address": "Rue De La Poste",
+        "commune_id": 410,
+        "commune_name": "Bouihi",
+        "daira_name": "Sidi Djillali"
+      },
+      {
+        "post_code": "22030",
+        "post_name": "Sidi Djillali",
+        "post_address": "Bvd Yebka Ahmed Cité 456 Logts",
+        "commune_id": 436,
+        "commune_name": "Sidi Djillali",
+        "daira_name": "Sidi Djillali"
+      }
+    ]
   },
   {
     "wilaya_code": "64",
     "wilaya_name": "Ksar Chellala",
-    "postcodes": []
+    "postcodes": [
+      {
+        "post_code": "14002",
+        "post_name": "Ksar Chellala",
+        "post_address": "Cité Belle Vue Chellala",
+        "commune_id": 459,
+        "commune_name": "Ksar Chellala",
+        "daira_name": "Ksar Chellala"
+      },
+      {
+        "post_code": "14011",
+        "post_name": "Ksar Chellala El Wiam",
+        "post_address": "Route De Tiaret",
+        "commune_id": 459,
+        "commune_name": "Ksar Chellala",
+        "daira_name": "Ksar Chellala"
+      },
+      {
+        "post_code": "14018",
+        "post_name": "Colonel Bougara",
+        "post_address": "Cité La Revolution",
+        "commune_id": 450,
+        "commune_name": "Bougara",
+        "daira_name": "Hamadia"
+      },
+      {
+        "post_code": "14020",
+        "post_name": "Hamadia",
+        "post_address": "Route De Tissemesilt",
+        "commune_id": 458,
+        "commune_name": "Hamadia",
+        "daira_name": "Hamadia"
+      },
+      {
+        "post_code": "14026",
+        "post_name": "Rechaiga",
+        "post_address": "Rue Des Marches",
+        "commune_id": 471,
+        "commune_name": "Rechaiga",
+        "daira_name": "Hamadia"
+      },
+      {
+        "post_code": "14038",
+        "post_name": "Z'Malet El Emir Aek",
+        "post_address": "Rue Du 1er Novembre",
+        "commune_id": 486,
+        "commune_name": "Zmalet El Emir Abdelkade",
+        "daira_name": "Ksar Chellala"
+      },
+      {
+        "post_code": "14042",
+        "post_name": "Ain Radjah",
+        "post_address": "Ain Radjah",
+        "commune_id": 459,
+        "commune_name": "Ksar Chellala",
+        "daira_name": "Ksar Chellala"
+      },
+      {
+        "post_code": "14051",
+        "post_name": "Fritissa",
+        "post_address": "Route De Serguine",
+        "commune_id": 474,
+        "commune_name": "Serghine",
+        "daira_name": "Ksar Chellala"
+      },
+      {
+        "post_code": "14063",
+        "post_name": "Serguine",
+        "post_address": "Commune De Serguine",
+        "commune_id": 474,
+        "commune_name": "Serghine",
+        "daira_name": "Ksar Chellala"
+      },
+      {
+        "post_code": "14074",
+        "post_name": "Hamadia El Hidhab",
+        "post_address": "Rue Bounaama Djillali",
+        "commune_id": 458,
+        "commune_name": "Hamadia",
+        "daira_name": "Hamadia"
+      }
+    ]
   },
   {
     "wilaya_code": "65",
     "wilaya_name": "Aïn Oussera",
-    "postcodes": []
+    "postcodes": [
+      {
+        "post_code": "17001",
+        "post_name": "Ain Oussera",
+        "post_address": "Route National",
+        "commune_id": 615,
+        "commune_name": "Ain Oussera",
+        "daira_name": "Ain Oussera"
+      },
+      {
+        "post_code": "17004",
+        "post_name": "Ain Oussera Slimani Slimane",
+        "post_address": "Cité Slimani Slimane Ain Oussera",
+        "commune_id": 615,
+        "commune_name": "Ain Oussera",
+        "daira_name": "Ain Oussera"
+      },
+      {
+        "post_code": "17005",
+        "post_name": "Ain Oussera Zighout Youcef",
+        "post_address": "Cité Ali Ammar A/O",
+        "commune_id": 615,
+        "commune_name": "Ain Oussera",
+        "daira_name": "Ain Oussera"
+      },
+      {
+        "post_code": "17012",
+        "post_name": "Ain Oussera Abane Ramdane",
+        "post_address": "Cité Abanne Ramdhane Ain Oussera",
+        "commune_id": 615,
+        "commune_name": "Ain Oussera",
+        "daira_name": "Ain Oussera"
+      },
+      {
+        "post_code": "17013",
+        "post_name": "Ain Oussera Guerada Belkacem",
+        "post_address": "Cit Gueerada Belkacem Ain Oussera",
+        "commune_id": 615,
+        "commune_name": "Ain Oussera",
+        "daira_name": "Ain Oussera"
+      },
+      {
+        "post_code": "17014",
+        "post_name": "Birine",
+        "post_address": "Route Ain Oussera Birine",
+        "commune_id": 619,
+        "commune_name": "Birine",
+        "daira_name": "Birine"
+      },
+      {
+        "post_code": "17022",
+        "post_name": "Had Sahary",
+        "post_address": "Rue Ali Boumendjel Had Sahary",
+        "commune_id": 632,
+        "commune_name": "Had Sahary",
+        "daira_name": "Had Sahary"
+      },
+      {
+        "post_code": "17024",
+        "post_name": "Sidi Ladjel",
+        "post_address": "Centre Ville Sidi Laadjel",
+        "commune_id": 643,
+        "commune_name": "Sidi Laadjel",
+        "daira_name": "Sidi Laadjel"
+      },
+      {
+        "post_code": "17027",
+        "post_name": "Birine Kadi Tahar",
+        "post_address": "Cité Kadi Tahar Birine",
+        "commune_id": 619,
+        "commune_name": "Birine",
+        "daira_name": "Birine"
+      },
+      {
+        "post_code": "17040",
+        "post_name": "Ain Fekka",
+        "post_address": "Ain Fekka",
+        "commune_id": 613,
+        "commune_name": "Ain Fekka",
+        "daira_name": "Had Sahary"
+      },
+      {
+        "post_code": "17043",
+        "post_name": "Benhar",
+        "post_address": "Centre Ville Benhar",
+        "commune_id": 617,
+        "commune_name": "Benhar",
+        "daira_name": "Birine"
+      },
+      {
+        "post_code": "17044",
+        "post_name": "Bouira Lahdab",
+        "post_address": "Bouirat Lahdab",
+        "commune_id": 620,
+        "commune_name": "Bouira Lahdab",
+        "daira_name": "Had Sahary"
+      },
+      {
+        "post_code": "17051",
+        "post_name": "El Khemis",
+        "post_address": "Centre Ville El Khemis",
+        "commune_id": 628,
+        "commune_name": "El Khemis",
+        "daira_name": "Sidi Laadjel"
+      },
+      {
+        "post_code": "17054",
+        "post_name": "Guernini",
+        "post_address": "1 Er Novembre Guernini",
+        "commune_id": 630,
+        "commune_name": "Guernini",
+        "daira_name": "Ain Oussera"
+      },
+      {
+        "post_code": "17056",
+        "post_name": "Hassi Fedoul",
+        "post_address": "Rue 1er Novebre Centre Ville Hassi Fdoul",
+        "commune_id": 635,
+        "commune_name": "Hassi Fedoul",
+        "daira_name": "Sidi Laadjel"
+      },
+      {
+        "post_code": "17071",
+        "post_name": "Had Sahary Ait Messaoudene",
+        "post_address": "Centre Ville Had Sahary",
+        "commune_id": 632,
+        "commune_name": "Had Sahary",
+        "daira_name": "Had Sahary"
+      },
+      {
+        "post_code": "17074",
+        "post_name": "Ain Oussera Gare Routiere",
+        "post_address": "Gare Routiere Ain Oussera",
+        "commune_id": 615,
+        "commune_name": "Ain Oussera",
+        "daira_name": "Ain Oussera"
+      },
+      {
+        "post_code": "17084",
+        "post_name": "Ain Oussera Terre",
+        "post_address": "Base Airienne Ain Oussera",
+        "commune_id": 615,
+        "commune_name": "Ain Oussera",
+        "daira_name": "Ain Oussera"
+      }
+    ]
   },
   {
     "wilaya_code": "66",
     "wilaya_name": "Messaad",
-    "postcodes": []
+    "postcodes": [
+      {
+        "post_code": "17003",
+        "post_name": "Messaad",
+        "post_address": "Cité 1er Novembre Messaad",
+        "commune_id": 636,
+        "commune_name": "Messaad",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17021",
+        "post_name": "Feid El Botma",
+        "post_address": "1 Er Novembre Feid El Botma",
+        "commune_id": 629,
+        "commune_name": "Faidh El Botma",
+        "daira_name": "Faidh El Botma"
+      },
+      {
+        "post_code": "17033",
+        "post_name": "Messaad Cité El Quods",
+        "post_address": "Cité El Quods",
+        "commune_id": 636,
+        "commune_name": "Messaad",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17034",
+        "post_name": "Messaad Demed",
+        "post_address": "Place Emir A E K Messaad",
+        "commune_id": 636,
+        "commune_name": "Messaad",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17035",
+        "post_name": "Messad Emir Abdelkader",
+        "post_address": "Demed Messaad",
+        "commune_id": 636,
+        "commune_name": "Messaad",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17042",
+        "post_name": "Amourah",
+        "post_address": "Centre Ville Amourah",
+        "commune_id": 616,
+        "commune_name": "Amourah",
+        "daira_name": "Faidh El Botma"
+      },
+      {
+        "post_code": "17046",
+        "post_name": "Deldoul",
+        "post_address": "Centre Ville Deldoul",
+        "commune_id": 623,
+        "commune_name": "Deldoul",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17048",
+        "post_name": "El Gahra",
+        "post_address": "Centre Ville El Gahra",
+        "commune_id": 623,
+        "commune_name": "Deldoul",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17055",
+        "post_name": "Guettara",
+        "post_address": "Centre Ville Guettera",
+        "commune_id": 631,
+        "commune_name": "Guettara",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17061",
+        "post_name": "Oum El Adham",
+        "post_address": "Oum Laadam",
+        "commune_id": 639,
+        "commune_name": "Oum Laadham",
+        "daira_name": "Faidh El Botma"
+      },
+      {
+        "post_code": "17062",
+        "post_name": "Sed Rahal",
+        "post_address": "Centre Ville Sed Rahal",
+        "commune_id": 640,
+        "commune_name": "Sed Rahal",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17063",
+        "post_name": "Selmana",
+        "post_address": "Centre Ville Selmana",
+        "commune_id": 641,
+        "commune_name": "Selmana",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17066",
+        "post_name": "Tahiri Mohamed",
+        "post_address": "Centre Ville Tahiri Mohamd",
+        "commune_id": 631,
+        "commune_name": "Guettara",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17067",
+        "post_name": "Haniet Ouled Salm",
+        "post_address": "Haniet Ouled Salm",
+        "commune_id": 636,
+        "commune_name": "Messaad",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17069",
+        "post_name": "Abdelmadjid",
+        "post_address": "Abdelmadjid",
+        "commune_id": 629,
+        "commune_name": "Faidh El Botma",
+        "daira_name": "Faidh El Botma"
+      },
+      {
+        "post_code": "17070",
+        "post_name": "Meguied",
+        "post_address": "El M'Gueid",
+        "commune_id": 623,
+        "commune_name": "Deldoul",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17075",
+        "post_name": "Messaad Gare Routiere",
+        "post_address": "Gare Routiere Messaad",
+        "commune_id": 636,
+        "commune_name": "Messaad",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "17083",
+        "post_name": "Messaad Moussaoui Messaoud",
+        "post_address": "Cité Saifi Commune De Messaad",
+        "commune_id": 636,
+        "commune_name": "Messaad",
+        "daira_name": "Messaad"
+      },
+      {
+        "post_code": "44036",
+        "post_name": "Amourah",
+        "post_address": "Amourah Centre",
+        "commune_id": 616,
+        "commune_name": "Amourah",
+        "daira_name": "Faidh El Botma"
+      }
+    ]
   },
   {
     "wilaya_code": "67",
     "wilaya_name": "Ksar El Boukhari",
-    "postcodes": []
+    "postcodes": [
+      {
+        "post_code": "26003",
+        "post_name": "Ksar El Boukhari",
+        "post_address": "Boulvard Mohamed Khemisti K E B",
+        "commune_id": 929,
+        "commune_name": "Ksar El Boukhari",
+        "daira_name": "Ksar El Boukhari"
+      },{
+        "post_code": "26005",
+        "post_name": "Ain Boucif",
+        "post_address": "Rue Cherfi Halima Ain Boucif",
+        "commune_id": 899,
+        "commune_name": "Ain Boucif",
+        "daira_name": "Ain Boucif"
+      },{
+        "post_code": "26007",
+        "post_name": "Chellalet El Adhaoura",
+        "post_address": "Rue 1 Nov Chellalat El Adhaoura",
+        "commune_id": 915,
+        "commune_name": "Chelalet El Adhaoura",
+        "daira_name": "Chellalat El Adhaoura"
+      },{
+        "post_code": "26010",
+        "post_name": "Ain Boucif 5 Juillet",
+        "post_address": "Ain Boucif 5 Juillet",
+        "commune_id": 899,
+        "commune_name": "Ain Boucif",
+        "daira_name": "Ain Boucif"
+      }, {
+        "post_code": "26013",
+        "post_name": "Boghar",
+        "post_address": "Boghar Centre",
+        "commune_id": 908,
+        "commune_name": "Boghar",
+        "daira_name": "Ouled Antar"
+      },{
+        "post_code": "26015",
+        "post_name": "Derrag",
+        "post_address": "Derrag Centre",
+        "commune_id": 917,
+        "commune_name": "Derrag",
+        "daira_name": "Aziz"
+      },{
+        "post_code": "26023",
+        "post_name": "Boughzoul",
+        "post_address": "Boughzoul Centre",
+        "commune_id": 912,
+        "commune_name": "Boughzoul",
+        "daira_name": "Chahbounia"
+      },{
+        "post_code": "26026",
+        "post_name": "Chahbounia",
+        "post_address": "Chahbounia Centre",
+        "commune_id": 914,
+        "commune_name": "Chabounia",
+        "daira_name": "Chahbounia"
+      },{
+        "post_code": "26028",
+        "post_name": "Ksar El Boukhari Belkheiret Mohamed",
+        "post_address": "Quartier Belkheiret Mansour K E B",
+        "commune_id": 929,
+        "commune_name": "Ksar El Boukhari",
+        "daira_name": "Ksar El Boukhari"
+      },
+      {
+        "post_code": "26029",
+        "post_name": "Ksar El Boukhari Chaoui Nadir",
+        "post_address": "Quartier Romanat K E B",
+        "commune_id": 929,
+        "commune_name": "Ksar El Boukhari",
+        "daira_name": "Ksar El Boukhari"
+      },{
+        "post_code": "26035",
+        "post_name": "Ouled Antar",
+        "post_address": "Ouled Antar Centre",
+        "commune_id": 938,
+        "commune_name": "Ouled Antar",
+        "daira_name": "Ouled Antar"
+      },{
+        "post_code": "26037",
+        "post_name": "Ouled Hellal",
+        "post_address": "Ouled Hellal Centre",
+        "commune_id": 943,
+        "commune_name": "Ouled Hellal",
+        "daira_name": "Ouled Antar"
+      },
+      {
+        "post_code": "26038",
+        "post_name": "Ouled Maareuf",
+        "post_address": "Ouled Maareuf Centre",
+        "commune_id": 942,
+        "commune_name": "Ouled Emaaraf",
+        "daira_name": "Ain Boucif"
+      },{
+        "post_code": "26042",
+        "post_name": "Seriat",
+        "post_address": "Mezghana Centre",
+        "commune_id": 944,
+        "commune_name": "Oum El Djellil",
+        "daira_name": "Aziz"
+      },{
+        "post_code": "26047",
+        "post_name": "Vieux Ksar",
+        "post_address": "Vieux Ksar",
+        "commune_id": 929,
+        "commune_name": "Ksar El Boukhari",
+        "daira_name": "Ksar El Boukhari"
+      },{
+        "post_code": "26048",
+        "post_name": "Ain Ouksir",
+        "post_address": "Ain Ouksir Centre",
+        "commune_id": 900,
+        "commune_name": "Ain Ouksir",
+        "daira_name": "Chellalat El Adhaoura"
+      },
+      {
+        "post_code": "26049",
+        "post_name": "Ain Tletat",
+        "post_address": "El M'Fatha Centre",
+        "commune_id": 934,
+        "commune_name": "M'fatha",
+        "daira_name": "Ksar El Boukhari"
+      },{
+        "post_code": "26051",
+        "post_name": "Benia",
+        "post_address": "Benia Centre",
+        "commune_id": 927,
+        "commune_name": "Kef Lakhdar",
+        "daira_name": "Ain Boucif"
+      },{
+        "post_code": "26065",
+        "post_name": "Oum El Djellil",
+        "post_address": "Oum El Djellil Centre",
+        "commune_id": 944,
+        "commune_name": "Oum El Djellil",
+        "daira_name": "Aziz"
+      },{
+        "post_code": "26067",
+        "post_name": "Saneg",
+        "post_address": "Saneg Centre",
+        "commune_id": 947,
+        "commune_name": "Saneg",
+        "daira_name": "Ksar El Boukhari"
+      },{
+        "post_code": "26069",
+        "post_name": "Sidi Damed",
+        "post_address": "Sidi Damed Centre",
+        "commune_id": 951,
+        "commune_name": "Sidi Demed",
+        "daira_name": "Ain Boucif"
+      },{
+        "post_code": "26074",
+        "post_name": "Tafraout",
+        "post_address": "Tafraout Centre",
+        "commune_id": 958,
+        "commune_name": "Tafraout",
+        "daira_name": "Chellalat El Adhaoura"
+      },{
+        "post_code": "26077",
+        "post_name": "Ksar El Boukhari Mekkaoui Othmane",
+        "post_address": "Cité Zobra Ksar El Boukhari",
+        "commune_id": 929,
+        "commune_name": "Ksar El Boukhari",
+        "daira_name": "Ksar El Boukhari"
+      },{
+        "post_code": "26079",
+        "post_name": "Kermet Chiha",
+        "post_address": "Ouled Hellal Centre",
+        "commune_id": 943,
+        "commune_name": "Ouled Hellal",
+        "daira_name": "Ouled Antar"
+      }
+    ]
   },
   {
     "wilaya_code": "68",
@@ -31920,6 +31903,119 @@
   {
     "wilaya_code": "69",
     "wilaya_name": "El Abiodh Sidi Cheikh",
-    "postcodes": []
+    "postcodes": [
+      {
+        "post_code": "32003",
+        "post_name": "El Abiodh Sidi Cheikh",
+        "post_address": "Rue Emir Abdelkader",
+        "commune_id": 1145,
+        "commune_name": "Labiodh Sidi Cheikh",
+        "daira_name": "Labiodh Sidi Cheikh"
+      },
+      {
+        "post_code": "32005",
+        "post_name": "Arbaouat",
+        "post_address": "Rue Des Martyrs",
+        "commune_id": 1137,
+        "commune_name": "Arbaouat",
+        "daira_name": "Labiodh Sidi Cheikh"
+      },
+      {
+        "post_code": "32007",
+        "post_name": "El Abiodh Sidi Cheikh Belmabrouk",
+        "post_address": "Rue Didouche Mourad",
+        "commune_id": 1145,
+        "commune_name": "Labiodh Sidi Cheikh",
+        "daira_name": "Labiodh Sidi Cheikh"
+      },
+      {
+        "post_code": "32014",
+        "post_name": "Boussemghoun",
+        "post_address": "Rue 1er Novembre 1954",
+        "commune_id": 1140,
+        "commune_name": "Boussemghoun",
+        "daira_name": "Boussemghoun"
+      },
+      {
+        "post_code": "32015",
+        "post_name": "Chellala Dahrania",
+        "post_address": "Rue Belia Lehbib",
+        "commune_id": 1143,
+        "commune_name": "Chellala",
+        "daira_name": "Chellala"
+      },
+      {
+        "post_code": "32019",
+        "post_name": "Ain El Orak",
+        "post_address": "Ain El Orak",
+        "commune_id": 1136,
+        "commune_name": "Ain El Orak",
+        "daira_name": "Labiodh Sidi Cheikh"
+      },
+      {
+        "post_code": "32020",
+        "post_name": "Arba Fougani",
+        "post_address": "Arbat Fougani",
+        "commune_id": 1137,
+        "commune_name": "Arbaouat",
+        "daira_name": "Labiodh Sidi Cheikh"
+      },
+      {
+        "post_code": "32023",
+        "post_name": "Chellala El Gueblia",
+        "post_address": "Chellala Gueblia",
+        "commune_id": 1143,
+        "commune_name": "Chellala",
+        "daira_name": "Chellala"
+      },
+      {
+        "post_code": "32024",
+        "post_name": "Deghima",
+        "post_address": "Deghima",
+        "commune_id": 1148,
+        "commune_name": "El Mehara",
+        "daira_name": "Chellala"
+      },
+      {
+        "post_code": "32025",
+        "post_name": "El Bnoud",
+        "post_address": "Bnoud",
+        "commune_id": 1146,
+        "commune_name": "El Bnoud",
+        "daira_name": "Labiodh Sidi Cheikh"
+      },
+      {
+        "post_code": "32026",
+        "post_name": "El Mehara",
+        "post_address": "El M'Harra",
+        "commune_id": 1148,
+        "commune_name": "El Mehara",
+        "daira_name": "Chellala"
+      },
+      {
+        "post_code": "32038",
+        "post_name": "El Abiodh Sidi Cheikh Gare Routiere",
+        "post_address": "Gare Routiere El Abiodh Sidi Cheikh",
+        "commune_id": 1145,
+        "commune_name": "Labiodh Sidi Cheikh",
+        "daira_name": "Labiodh Sidi Cheikh"
+      },
+      {
+        "post_code": "32040",
+        "post_name": "El Abiodh Sidi Cheikh Djoudi Bahous",
+        "post_address": "",
+        "commune_id": 1145,
+        "commune_name": "Labiodh Sidi Cheikh",
+        "daira_name": "Labiodh Sidi Cheikh"
+      },
+      {
+        "post_code": "32042",
+        "post_name": "El Abiodh Sidi Cheikh Ben Aissa Talia",
+        "post_address": "",
+        "commune_id": 1145,
+        "commune_name": "Labiodh Sidi Cheikh",
+        "daira_name": "Labiodh Sidi Cheikh"
+      }
+    ]
   }
 ]

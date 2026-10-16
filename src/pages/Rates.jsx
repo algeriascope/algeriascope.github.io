@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Rates.module.css';
-
+import RatesTable from '../components/RatesTable';
 const currencies = [
   { code: 'EUR', name: 'Euro' },
   { code: 'USD', name: 'US Dollar' },
@@ -45,7 +45,8 @@ const Rates = () => {
     <div className={styles.ratesPage}>
       <h1 className={styles.title}>Algerian Dinar Exchange Rates</h1>
       <div className={styles.tablesContainer}>
-        <div className={styles.parallelTableContainer}>
+        <RatesTable />  
+        {/* <div className={styles.parallelTableContainer}>
           <h2 className={styles.tableTitle}>Parallel Market</h2>
           <table className={`${styles.parallelTable}, ${styles.ratesTable}`}>
             <thead>
@@ -134,7 +135,7 @@ const Rates = () => {
               ))}
             </tbody>
           </table>
-        </div>
+        </div> */}
       </div>
       <p className={styles.updateNotice}>Rates are updated on a daily basis</p>
     </div>

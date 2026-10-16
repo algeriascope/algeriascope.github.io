@@ -30,7 +30,7 @@ const WilayaPostcodes = () => {
       <div className={styles.postcodesTable}>
         <div className={`${styles.row} ${styles.header}`}>
           <span>Postcode</span>
-          <span>Zone Name</span>
+          <span>Post</span>
           <span>Action</span>
         </div>
         {wilaya.postcodes.map((p, idx) => {
@@ -40,7 +40,7 @@ const WilayaPostcodes = () => {
                 {p.post_code ? p.post_code : 'xxxxx'}
               </span>
               <span className={styles.commune}>
-                {p.commune_name}, {p.daira_name}
+                {p.commune_name}, {p.post_name}
               </span>
               <div className={styles.actionBtns}>
                 <button className={styles.copyBtn}><FiCopy /> Copy postcode </button>

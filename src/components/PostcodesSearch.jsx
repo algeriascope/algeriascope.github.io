@@ -32,7 +32,7 @@ const PostcodesSearch = () => {
                   formattedQuery,
                 );
 
-                return matchesCode || matchesPostName;
+                return matchesCode || matchesPostName || matchesCommune;
               })
               .map((post) => ({
                 ...post,
