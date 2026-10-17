@@ -4,16 +4,17 @@ import { Link } from 'react-router-dom';
 import ThemeToggle from './ThemeToggle';
 import TranslateBtn from './TranslateBtn'
 import DonateBtn from './DonateBtn'
-
-const Navbar = () => (
-
+import { useTranslation } from 'react-i18next';
+const Navbar = () => {
+  const { t } = useTranslation()
+  return(
   <nav className={styles.navbarContainer}>
     <div className={styles.logo}>
       <Link to="/">AlgeriaScope</Link>
     </div>
     <ul className={styles.linksContainer}>
       <li>
-        <Link to="/about">About</Link>
+        <Link to="/about">{t('nav.about')}</Link>
       </li>
 
       <li>
@@ -27,6 +28,11 @@ const Navbar = () => (
       </li>
     </ul>
   </nav>
-);
+  )
+
+}
+  
+
+;
 
 export default Navbar;

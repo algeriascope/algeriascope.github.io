@@ -22,6 +22,11 @@
   color: var(--accent-color);
 }
 
+:lang(ar) .titleItalic{
+display: inline-block;
+  transform: skewX(-12deg);
+}
+
 .servicesContainer{
   display: flex;
   flex-wrap: wrap;

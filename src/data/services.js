@@ -6,23 +6,26 @@ const totalPostcodes = data.reduce((acc, w) => acc + w.postcodes.length, 0).toLo
 
 export const services = [
   {
+    id: 'wilayas',
     path: '/wilayas',
     icon: PiMapPin,
-    title: '69 Wilayas',
-    subtitle:
-      'Interactive visual map to explore all Algerian wilayas, their locations, names, and administrative codes.',
+    // title: '69 Wilayas',
+    // subtitle:
+    //   'Interactive visual map to explore all Algerian wilayas, their locations, names, and administrative codes.',
   },
   {
+    id: 'rates',
     path: '/rates',
     icon: PiMoney,
-    title: 'Exchange Rate',
-    subtitle:
-      'Daily exchange rates for the Algerian Dinar, comparing informal and official bank market rates.',
+    // title: 'Exchange Rate',
+    // subtitle:
+    //   'Daily exchange rates for the Algerian Dinar, comparing informal and official bank market rates.',
   },
   {
+    id: 'postcodes',
     path: '/postcodes',
     icon: PiEnvelope,
-    title: 'Postcodes',
-    subtitle: `Search ${totalPostcodes} official postcodes and filter locations across all 1,541 communes in Algeria.`,
+    // title: 'Postcodes',
+    // subtitle: `Search ${totalPostcodes} official postcodes and filter locations across all 1,541 communes in Algeria.`,
   },
 ];

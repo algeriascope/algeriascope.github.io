@@ -42,7 +42,7 @@ const PostcodesSearch = () => {
           });
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} dir='ltr'>
       <div className={styles.inputWrapper}>
         <input
           type="text"

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-
 import data from '../data/algeria_data.json';
 import styles from './Postcodes.module.css';
 import { Link } from 'react-router-dom';
 import { FaCity, FaBuildingColumns } from 'react-icons/fa6';
 import PostcodesSearch from '../components/PostcodesSearch';
+import { useTranslation } from 'react-i18next';
 
 export const slugify = (str) => {
   return str
@@ -17,6 +17,7 @@ export const slugify = (str) => {
 };
 
 const Postcodes = () => {
+  const { t } = useTranslation()
   const [stats, setStats] = useState({ wilayas: 0, communes: 0, postcodes: 0 });
   useEffect(() => {
     const targets = {
@@ -52,8 +53,8 @@ const Postcodes = () => {
 
   return (
     <div className={styles.postcodesPage}>
-      <h1 className={styles.title}>Find your Postcode</h1>
-        <h3 className={styles.subtitle}>Verified and sourced directly from Algérie Poste</h3>
+      <h1 className={styles.title}>{t('postcodesPage.title')}</h1>
+        <h3 className={styles.subtitle}>{t('postcodesPage.subtitle')}</h3>
       <PostcodesSearch />
 
       <div className={styles.stats}>
@@ -62,19 +63,19 @@ const Postcodes = () => {
           <span className={styles.statNum}>
             {stats.wilayas.toLocaleString('en-US')}
           </span>{' '}
-          Wilayas
+          {t('postcodesPage.stats.wilayas')}
         </span>
         <span className={styles.stat}>
           <span className={styles.statNum}>
             {stats.communes.toLocaleString('en-US')}
           </span>{' '}
-          Communes
+          {t('postcodesPage.stats.communes')}
         </span>
         <span className={styles.stat}>
           <span className={styles.statNum}>
             {stats.postcodes.toLocaleString('en-US')}
           </span>{' '}
-          Postcodes
+          {t('postcodesPage.stats.postcodes')}
         </span>
       </div>
 
