@@ -17,7 +17,12 @@ export const slugify = (str) => {
 };
 
 const Postcodes = () => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+
+  const currentLanguage = i18n.language || 'en'
+  const isArabic = currentLanguage.startsWith('ar')
+  const isTamazight = currentLanguage.startsWith('zgh')
+
   const [stats, setStats] = useState({ wilayas: 0, communes: 0, postcodes: 0 });
   useEffect(() => {
     const targets = {
@@ -50,6 +55,12 @@ const Postcodes = () => {
 
     return () => clearInterval(timer);
   }, []);
+
+  const getWilayaName = (wilaya)=>{
+    if (isArabic) return wilaya.wilaya_name_ar || wilaya.wilaya_name
+    if (isTamazight) return wilaya.wilaya_name_zgh || wilaya.wilaya_name
+    return wilaya.wilaya_name
+  }
 
   return (
     <div className={styles.postcodesPage}>
@@ -90,7 +101,7 @@ const Postcodes = () => {
               className={styles.wilayaCard}
             >
               <span className={styles.code}>{wilaya.wilaya_code} </span>
-              <span className={styles.name}>{wilaya.wilaya_name}</span>
+              <span className={styles.name}>{getWilayaName(wilaya)}</span>
             </Link>
           );
         })}

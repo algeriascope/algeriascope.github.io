@@ -4,7 +4,11 @@ import { slugify } from '../pages/Postcodes';
 import data from '../data/algeria_data.json';
 import { FaLessThanEqual, FaMapPin } from 'react-icons/fa6';
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
+
 const PostcodesSearch = () => {
+
+  const { t } = useTranslation()
   const [query, setQuery] = useState('');
   const [selectedWilaya, setSelectedWilaya] = useState('All wilayas');
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +20,7 @@ const PostcodesSearch = () => {
       : data
           .filter(
             (wilaya) =>
-              selectedWilaya === 'All wilayas' ||
+              selectedWilaya === t('All wilayas') ||
               wilaya.wilaya_name === selectedWilaya,
           )
           .flatMap((wilaya) => {
@@ -42,7 +46,7 @@ const PostcodesSearch = () => {
           });
 
   return (
-    <div className={styles.container} dir='ltr'>
+    <div className={styles.container}>
       <div className={styles.inputWrapper}>
         <input
           type="text"
@@ -91,7 +95,7 @@ const PostcodesSearch = () => {
                 setIsOpen(false);
               }}
             >
-              All wilayas
+              {t('postcodesSearch.allWilayas')}
             </span>
             {data.map((w) => (
               <span

@@ -24,7 +24,7 @@ i18n
             },
             rates: {
               title: 'Exchange Rate',
-              desc: 'Daily exchange rates for the Algerian Dinar, comparing informal and official bank market rates.',
+              desc: 'Daily exchange rates for the Algerian Dinar, comparing parallel and official bank market rates.',
             },
             postcodes: {
               title: 'Postcodes',
@@ -39,6 +39,9 @@ i18n
               communes: 'Municipalities',
               postcodes: 'Postcodes',
             },
+          },
+          postcodesSearch:{
+            allWilayas: 'All Provinces',
           },
           footer: {
             rates: 'Rates',
@@ -79,6 +82,9 @@ i18n
               postcodes: 'Codes postaux',
             },
           },
+          postcodesSearch:{
+            allWilayas: 'Toutes les Wilayas',
+          },
           footer: {
             rates: 'Taux',
             about: 'À propos',
@@ -118,6 +124,9 @@ i18n
               postcodes: 'رمز بريدي',
             },
           },
+          postcodesSearch:{
+            allWilayas: 'كل الولايات',
+          },
           footer: {
             rates: 'سعر الصرف',
             about: 'حول',
@@ -156,6 +165,9 @@ i18n
               communes: 'Tigemmiyin',
               postcodes: 'Ingilen n tnesa',
             },
+          },           
+          postcodesSearch: {
+            allWilayas: 'Akk tiwilayin'
           },
           footer: {
             rates: 'Amsizwer',

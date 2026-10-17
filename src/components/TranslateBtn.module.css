@@ -18,6 +18,10 @@
   font-size: 1.2rem;
 }
 
+.container:hover{
+  background-color: var(--bg-card-hover);
+}
+
 .dropdown {
   position: absolute;
   top: 100%;
