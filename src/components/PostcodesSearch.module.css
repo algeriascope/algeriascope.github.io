@@ -159,3 +159,34 @@
   padding: 20px;
   text-align: center;
 }
+
+/* Container scrollbar styling */
+.searchResults,
+.optionsMenu {
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--bg-card); /* thumb background */
+}
+
+/* Chrome, Edge, Safari */
+.searchResults::-webkit-scrollbar,
+.optionsMenu::-webkit-scrollbar {
+  width: 8px;
+}
+
+.searchResults::-webkit-scrollbar-track,
+.optionsMenu::-webkit-scrollbar-track {
+  background: var(--bg-card); /* Dark background */
+  border-radius: 4px;
+}
+
+.searchResults::-webkit-scrollbar-thumb,
+.optionsMenu::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb); /* Muted dark gray thumb */
+  border-radius: 4px;
+}
+
+.searchResults::-webkit-scrollbar-thumb:hover,
+.optionsMenu::-webkit-scrollbar-thumb:hover {
+  background: #6b7280; /* Brighter gray on hover */
+}

@@ -127,6 +127,9 @@ i18n
           postcodesSearch:{
             allWilayas: 'كل الولايات',
           },
+          wilayaPostcodes:{
+            
+          },
           footer: {
             rates: 'سعر الصرف',
             about: 'حول',

@@ -8,6 +8,7 @@
   --card-border-hover: #cecccc;
   --bg-icon: #edf7f4;
   --map-stroke: #000;
+  --scrollbar-thumb: #c1c1c1;
   /* map colors */
   --accent-color: #48a98c;
   --map-color-1: #c7e5d6;
@@ -19,7 +20,7 @@
   --map-color-7: #398e74;
 }
 body.dark {
---bg-primary: linear-gradient(180deg, #18221d 0%, #0f1613 100%);
+  --bg-primary: linear-gradient(180deg, #18221d 0%, #0f1613 100%);
   --text-primary: #ffffff;
   --text-secondary: #a3b8cc;
   --bg-card: #1f2b25;
@@ -28,7 +29,8 @@ body.dark {
   --card-border-hover: #3d5248;
   --bg-icon: rgba(110, 231, 183, 0.15);
   --map-stroke: #52b788;
-  --map-stroke: #6ee7b7;  /* map colors */
+  --scrollbar-thumb: #4b5563;
+  --map-stroke: #6ee7b7; /* map colors */
   --map-color-1: #1b382b;
   --map-color-2: #234d3b;
   --map-color-3: #2b624b;
@@ -55,6 +57,5 @@ body {
 :lang(ar) textarea,
 :lang(ar) select {
   font-family: 'Rubik', sans-serif;
- font-size: 18px;
+  font-size: 18px;
 }
-
