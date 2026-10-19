@@ -1,6 +1,7 @@
-import { PiMoney, PiMapPin, PiEnvelope } from 'react-icons/pi';
+import { PiMoney, PiMapPin, PiEnvelope, PiScroll} from 'react-icons/pi';
 import { BsPostage } from 'react-icons/bs';
 import  data  from './algeria_data.json';
+import { LuScroll } from "react-icons/lu";
 
 const totalPostcodes = data.reduce((acc, w) => acc + w.postcodes.length, 0).toLocaleString('en-US');
 
@@ -9,23 +10,19 @@ export const services = [
     id: 'wilayas',
     path: '/wilayas',
     icon: PiMapPin,
-    // title: '69 Wilayas',
-    // subtitle:
-    //   'Interactive visual map to explore all Algerian wilayas, their locations, names, and administrative codes.',
   },
   {
     id: 'rates',
     path: '/rates',
     icon: PiMoney,
-    // title: 'Exchange Rate',
-    // subtitle:
-    //   'Daily exchange rates for the Algerian Dinar, comparing informal and official bank market rates.',
   },
   {
     id: 'postcodes',
     path: '/postcodes',
     icon: PiEnvelope,
-    // title: 'Postcodes',
-    // subtitle: `Search ${totalPostcodes} official postcodes and filter locations across all 1,541 communes in Algeria.`,
-  },
+  },{
+    id: 'history',
+    path: '/history',
+    icon: PiScroll,
+  }
 ];

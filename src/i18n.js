@@ -28,8 +28,12 @@ i18n
             },
             postcodes: {
               title: 'Postcodes',
-              desc: 'Search {{count}} official postcodes and filter locations across all 1,541 communes in Algeria. Rates',
+              desc: 'Search {{count}} official postcodes and filter locations across all 1,541 communes in Algeria.',
             },
+            history:{
+                title: 'History of Algeria',
+                desc: 'Explore Algeria\'s timeline from 202 BC to 2026, and discover the defining events that forged the nation.',
+              }
           },
           postcodesPage: {
             title: 'Find your Postcode',
@@ -72,6 +76,11 @@ i18n
               title: 'Codes postaux',
               desc: "Recherchez {{count}} codes postaux officiels et filtrez les localités à travers les 1 541 communes d'Algérie.",
             },
+              history:{
+                title: 'Histoire d\'Algérie',
+                desc: 'Explorez la chronologie de l\'Algérie de 202 av. J.-C. tà 2026, et découvrez les événements marquants qui ont forgé la nation.',
+              }
+            
           },
           postcodesPage: {
             title: 'Trouvez votre code postal',
@@ -114,6 +123,10 @@ i18n
               title: 'الرموز البريدية',
               desc: 'ابحث في {{count}} رمزًا بريديًا رسميًا وقم بتصفية المواقع عبر جميع البلديات الـ 1,541 في الجزائر.',
             },
+            history:{
+                title: 'تاريخ الجزائر',
+                desc: 'استكشف التسلسل الزمني للجزائر من 202 ق.م إلى عام 2026، واكتشف أبرز المحطات التاريخية التي صاغت الأمة.'
+              }
           },
           postcodesPage: {
             title: 'ابحث عن رمزك البريدي',
@@ -159,6 +172,10 @@ i18n
               title: 'Ingilen n tnesa',
               desc: 'Nadi {{count}} n yingilen n tnesa unsiyen deg 1,541 n tgemmiyin n Dzayer.',
             },
+            history:{
+                title: 'Amezruy n Dzayer',
+                desc: 'Nadi ɣef umezruy n Dzayer seg Numidya taqdimt ar 2026, tfeḥṣeḍ isaggen imeqqranen i isbedden taɣerma-a.',
+              }
           },
           postcodesPage: {
             title: 'Nadi ingilen-nnek n tnesa',
