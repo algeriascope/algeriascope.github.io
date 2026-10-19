@@ -30,10 +30,10 @@ i18n
               title: 'Postcodes',
               desc: 'Search {{count}} official postcodes and filter locations across all 1,541 communes in Algeria.',
             },
-            history:{
-                title: 'History of Algeria',
-                desc: 'Explore Algeria\'s timeline from 202 BC to 2026, and discover the defining events that forged the nation.',
-              }
+            history: {
+              title: 'History of Algeria',
+              desc: "Explore Algeria's timeline from 202 BC to 2026, and discover the defining events that forged the nation.",
+            },
           },
           postcodesPage: {
             title: 'Find your Postcode',
@@ -44,8 +44,12 @@ i18n
               postcodes: 'Postcodes',
             },
           },
-          postcodesSearch:{
+          postcodesSearch: {
             allWilayas: 'All Provinces',
+            searchPlaceholderAll: 'Search Municipality, postcode',
+            searchPlaceholderWilaya: 'Search Municipality, postcode in {{wilaya}}',
+            noResults: 'No search results found.',
+            unspecified: 'xxxxx',
           },
           footer: {
             rates: 'Rates',
@@ -76,11 +80,11 @@ i18n
               title: 'Codes postaux',
               desc: "Recherchez {{count}} codes postaux officiels et filtrez les localités à travers les 1 541 communes d'Algérie.",
             },
-              history:{
-                title: 'Histoire d\'Algérie',
-                desc: 'Explorez la chronologie de l\'Algérie de 202 av. J.-C. tà 2026, et découvrez les événements marquants qui ont forgé la nation.',
-              }
-            
+
+            history: {
+              title: "Histoire d'Algérie",
+              desc: "Explorez la chronologie de l'Algérie de 202 av. J.-C. à 2026, et découvrez les événements marquants qui ont forgé la nation.",
+            },
           },
           postcodesPage: {
             title: 'Trouvez votre code postal',
@@ -91,8 +95,13 @@ i18n
               postcodes: 'Codes postaux',
             },
           },
-          postcodesSearch:{
-            allWilayas: 'Toutes les Wilayas',
+          postcodesSearch: {
+            allWilayas: 'Toutes les wilayas',
+            searchPlaceholderAll: 'Rechercher une commune, un code postal',
+            searchPlaceholderWilaya:
+              'Rechercher une commune, un code postal à {{wilaya}}',
+            noResults: 'Aucun résultat trouvé.',
+            unspecified: 'xxxxx',
           },
           footer: {
             rates: 'Taux',
@@ -123,10 +132,10 @@ i18n
               title: 'الرموز البريدية',
               desc: 'ابحث في {{count}} رمزًا بريديًا رسميًا وقم بتصفية المواقع عبر جميع البلديات الـ 1,541 في الجزائر.',
             },
-            history:{
-                title: 'تاريخ الجزائر',
-                desc: 'استكشف التسلسل الزمني للجزائر من 202 ق.م إلى عام 2026، واكتشف أبرز المحطات التاريخية التي صاغت الأمة.'
-              }
+            history: {
+              title: 'تاريخ الجزائر',
+              desc: 'استكشف التسلسل الزمني للجزائر من 202 ق.م إلى عام 2026، واكتشف أبرز المحطات التاريخية التي صاغت الأمة.',
+            },
           },
           postcodesPage: {
             title: 'ابحث عن رمزك البريدي',
@@ -137,12 +146,15 @@ i18n
               postcodes: 'رمز بريدي',
             },
           },
-          postcodesSearch:{
+          postcodesSearch: {
             allWilayas: 'كل الولايات',
+            searchPlaceholderAll: 'ابحث عن البلدية أو الرمز البريدي',
+            searchPlaceholderWilaya:
+              'ابحث عن البلدية أو الرمز البريدي في {{wilaya}}',
+            noResults: 'لم يتم العثور على نتائج.',
+            unspecified: 'xxxxx',
           },
-          wilayaPostcodes:{
-            
-          },
+          wilayaPostcodes: {},
           footer: {
             rates: 'سعر الصرف',
             about: 'حول',
@@ -172,10 +184,10 @@ i18n
               title: 'Ingilen n tnesa',
               desc: 'Nadi {{count}} n yingilen n tnesa unsiyen deg 1,541 n tgemmiyin n Dzayer.',
             },
-            history:{
-                title: 'Amezruy n Dzayer',
-                desc: 'Nadi ɣef umezruy n Dzayer seg Numidya taqdimt ar 2026, tfeḥṣeḍ isaggen imeqqranen i isbedden taɣerma-a.',
-              }
+            history: {
+              title: 'Amezruy n Dzayer',
+              desc: 'Nadi ɣef umezruy n Dzayer seg 202 send Ɛisa ar 2026, tfeḥṣeḍ isaggen imeqqranen i isbedden taɣerma-a.',
+            },
           },
           postcodesPage: {
             title: 'Nadi ingilen-nnek n tnesa',
@@ -185,9 +197,13 @@ i18n
               communes: 'Tigemmiyin',
               postcodes: 'Ingilen n tnesa',
             },
-          },           
+          },
           postcodesSearch: {
-            allWilayas: 'Akk tiwilayin'
+            allWilayas: 'Akk tiwilayin',
+            searchPlaceholderAll: 'Nadi Taɣiwanit, tanfult n tnefsiyn',
+            searchPlaceholderWilaya: 'Nadi Taɣiwanit, tanfult n tnefsiyn deg {{wilaya}}',
+            noResults: 'Ulac igmmaḍ.',
+            unspecified: 'xxxxx',
           },
           footer: {
             rates: 'Amsizwer',

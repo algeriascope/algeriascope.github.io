@@ -26,9 +26,30 @@ const PostcodesSearch = () => {
   const Tamazight = currentLanguage.startsWith('zgh');
 
   const [query, setQuery] = useState('');
-  const [selectedWilaya, setSelectedWilaya] = useState('ALL');
+  const [selectedWilayaCode, setSelectedWilayaCode] = useState('ALL');
   const [isOpen, setIsOpen] = useState(false);
   const formattedQuery = normalizeSearch(query);
+
+  const getWilayaName = (w) => {
+    if (!w) return '';
+    return isArabic ? w.wilaya_name_ar || w.wilaya_name : w.wilaya_name;
+  };
+
+  const selectedWilayaObj = data.find(
+    (w) => w.wilaya_code === selectedWilayaCode,
+  );
+
+  const selectedWilayaDisplayName =
+    selectedWilayaCode === 'ALL'
+      ? t('postcodesSearch.allWilayas')
+      : getWilayaName(selectedWilayaObj);
+
+  const placeholderText =
+    selectedWilayaCode === 'ALL'
+      ? t('postcodesSearch.searchPlaceholderAll')
+      : t('postcodesSearch.searchPlaceholderWilaya', {
+          wilaya: selectedWilayaDisplayName,
+        });
 
   const filteredData =
     !formattedQuery || formattedQuery.length < 2
@@ -36,21 +57,27 @@ const PostcodesSearch = () => {
       : data
           .filter(
             (wilaya) =>
-              selectedWilaya === 'All wilayas' ||
-              wilaya.wilaya_name === selectedWilaya,
+              selectedWilayaCode === 'ALL' ||
+              wilaya.wilaya_code === selectedWilayaCode,
           )
           .flatMap((wilaya) => {
             return wilaya.postcodes
               .filter((post) => {
                 const matchesCommune =
-                  normalizeSearch(post.commune_name || '').includes(formattedQuery) ||
+                  normalizeSearch(post.commune_name || '').includes(
+                    formattedQuery,
+                  ) ||
                   normalizeSearch(post.commune_name_ar || '').includes(
                     formattedQuery,
                   );
 
                 const matchesPostName =
-                  normalizeSearch(post.post_name || '').includes(formattedQuery) ||
-                  normalizeSearch(post.post_name_ar || '').includes(formattedQuery);
+                  normalizeSearch(post.post_name || '').includes(
+                    formattedQuery,
+                  ) ||
+                  normalizeSearch(post.post_name_ar || '').includes(
+                    formattedQuery,
+                  );
 
                 const matchesCode = (post.post_code || '').includes(
                   formattedQuery,
@@ -69,18 +96,16 @@ const PostcodesSearch = () => {
   return (
     <div className={styles.container} dir="ltr">
       <div className={styles.inputWrapper}>
+      
         <input
           type="text"
           className={styles.searchInput}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder={
-            selectedWilaya === 'All wilayas'
-              ? 'Search Commune, postcode'
-              : `Search Commune, postcode in ${selectedWilaya}`
-          }
+          placeholder={placeholderText}
           dir={isArabic ? 'rtl' : 'ltr'}
         />
+
         {formattedQuery.length >= 2 && (
           <div className={styles.searchResults} dir={isArabic ? 'rtl' : 'ltr'}>
             {filteredData.length > 0 ? (
@@ -98,20 +123,20 @@ const PostcodesSearch = () => {
                       </div>
                     </div>
                     <div className={styles.postcode}>
-                      {item.post_code ? item.post_code : 'xxxxx'}
+                      {item.post_code || t('postcodesSearch.unspecified')}
                     </div>
                   </div>
                 );
               })
             ) : (
-              <div className={styles.noResults}>No search results found.</div>
+              <div className={styles.noResults}>{t('postcodesSearch.noResults')}</div>
             )}
           </div>
         )}
       </div>
-      <div className={styles.selectWrapper} >
+      <div className={styles.selectWrapper}>
         <div className={styles.wilayaSelect} onClick={() => setIsOpen(!isOpen)}>
-          <span className={styles.wilayaSpan}>{selectedWilaya}</span>
+          <span className={styles.wilayaSpan}>{selectedWilayaDisplayName}</span>
           {isOpen ? <FaChevronUp /> : <FaChevronDown />}
         </div>
 
@@ -120,22 +145,22 @@ const PostcodesSearch = () => {
             <span
               className={styles.wilayaOption}
               onClick={() => {
-                setSelectedWilaya('All wilayas');
+                setSelectedWilayaCode('ALL');
                 setIsOpen(false);
               }}
             >
-              All wilayas
+             {t('postcodesSearch.allWilayas')}
             </span>
             {data.map((w) => (
               <span
                 className={styles.wilayaOption}
                 key={w.wilaya_code}
                 onClick={() => {
-                  setSelectedWilaya(w.wilaya_name);
+                  setSelectedWilayaCode(w.wilaya_code);
                   setIsOpen(false);
                 }}
               >
-                {`${w.wilaya_code} - ${isArabic ? w.wilaya_name_ar : w.wilaya_name}`}
+                {`${w.wilaya_code} - ${getWilayaName(w)}`}
               </span>
             ))}
           </div>
