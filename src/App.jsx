@@ -6,8 +6,9 @@ import Home from './pages/Home';
 import Rates from './pages/Rates';
 import Wilayas from './pages/Wilayas';
 import Postcodes from './pages/Postcodes';
-import Footer from './components/Footer';
+import History from './pages/History'
 import WilayaPostcodes from './pages/WilayaPostcodes';
+import Footer from './components/Footer';
 import ScrollToTop from './ScrollToTop';
 
 const app = () => {
@@ -29,6 +30,7 @@ const app = () => {
         <Route path="/rates" element={<Rates />}></Route>
         <Route path="/wilayas" element={<Wilayas />}></Route>
         <Route path="/postcodes" element={<Postcodes />}></Route>
+        <Route path="/history" element={<History />}></Route>
         <Route
           path="postcodes/:wilayaSlug"
           element={<WilayaPostcodes />}

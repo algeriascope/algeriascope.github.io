@@ -37,7 +37,7 @@ i18n
           },
           postcodesPage: {
             title: 'Find your Postcode',
-            subtitle: 'Verified and sourced directly from Algérie Poste',
+            subtitle: 'Official Algérie Poste postcodes',
             stats: {
               wilayas: 'Provinces',
               communes: 'Municipalities',
@@ -74,7 +74,7 @@ i18n
             },
             rates: {
               title: 'Taux de change',
-              desc: 'Taux de change quotidiens du dinar algérien, comparant le marché parallèle et les taux officiels de la banque.',
+              desc: 'Taux de change quotidiens du Dinar Algérien, comparant le marché parallèle et les taux officiels de la banque.',
             },
             postcodes: {
               title: 'Codes postaux',
@@ -88,7 +88,7 @@ i18n
           },
           postcodesPage: {
             title: 'Trouvez votre code postal',
-            subtitle: "Vérifié et issu directement d'Algérie Poste",
+            subtitle: "Codes postaux officiels d'Algérie Poste",
             stats: {
               wilayas: 'Wilayas',
               communes: 'Communes',
@@ -139,7 +139,7 @@ i18n
           },
           postcodesPage: {
             title: 'ابحث عن رمزك البريدي',
-            subtitle: 'موثوق ومأخوذ مباشرة من بريد الجزائر',
+            subtitle: 'الرموز البريدية الرسمية لبريد الجزائر',
             stats: {
               wilayas: 'ولاية',
               communes: 'بلدية',
@@ -191,7 +191,7 @@ i18n
           },
           postcodesPage: {
             title: 'Nadi ingilen-nnek n tnesa',
-            subtitle: 'Ityaqqen d unsi srid seg Algérie Poste',
+            subtitle: 'Tinfulin tisnagayin timaddudin n Algérie Poste',
             stats: {
               wilayas: 'Lwilayat',
               communes: 'Tigemmiyin',
