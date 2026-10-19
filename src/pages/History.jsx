@@ -3,8 +3,14 @@ import styles from './History.module.css';
 import { timelineData } from '../data/timelineData';
 
 const History = () => {
+  const allEvents = timelineData.flatMap((era) => {
+    return era.events.map((event) => ({
+      ...event,
+      eraName: era.eraName,
+      flag: era.flag,
+    }));
+  });
 
-  
   return (
     <div className={styles.historyContainer}>
       <div className={styles.eraBar}>Algeria</div>
@@ -14,12 +20,14 @@ const History = () => {
         </div>
 
         <div className={styles.eventsContainer}>
-          {timelineData.map(era =>{
-            return(
-
-            <div>{era.eraName}</div>
-            )
-          })}
+          {allEvents.map((event, index) => (
+            <div
+              key={event.id}
+              className={`${styles.eventCard} ${index % 2 === 0 ? styles.leftEvent : styles.rightEvent}`}
+            >
+              {event.id}
+            </div>
+          ))}
         </div>
       </div>
     </div>

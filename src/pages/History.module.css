@@ -1,9 +1,12 @@
-
-.historyContainer{
-  color: var(--text-primary)
+.historyContainer {
+  color: var(--text-primary);
 }
-.eraBar{
-  background: linear-gradient(to bottom, var(--bg-primary) 0%, var(--bg-primary) 80%);
+.eraBar {
+  background: linear-gradient(
+    to bottom,
+    var(--bg-primary) 0%,
+    var(--bg-primary) 80%
+  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,16 +21,15 @@
   z-index: 2;
 }
 
-.timelineContainer{
+.timelineContainer {
   position: relative;
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
   min-height: 100vh;
-
 }
 
-.spine{
+.spine {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -37,7 +39,7 @@
   background-color: var(--text-primary);
 }
 
-.spineProgress{
+.spineProgress {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -45,4 +47,55 @@
   transform: translateX(-50%);
   width: 2px;
   background-color: var(--accent-color);
+}
+
+.eventsContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.eventCard {
+  background-color: var(--bg-card);
+  border: 1px solid var(--card-border);
+  width: 42%;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.leftEvent {
+  align-self: flex-start;
+  right: 0;
+  padding: 50px;
+}
+
+.rightEvent {
+  align-self: flex-end;
+  left: 0;
+}
+
+
+.leftEvent::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -19%;
+  width: 19%;
+  height: 2px;
+  background-color: var(--accent-color);
+  z-index: 1;
+}
+
+.rightEvent::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  /* top: 1px; */
+  left: -19%;
+  width: 19%;
+  height: 2px;
+  background-color: var(--accent-color);
+  z-index: 1;
 }

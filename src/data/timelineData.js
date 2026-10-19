@@ -1,9 +1,27 @@
-export const timelineData = [
+export  const timelineData = [
   {
     eraName: "Kingdom of Numidia",
     flag: "/assets/flags/numidia.svg",
     events: [
       {
+        id: "event-1",
+        year: "202 BC",
+        title: "Event Title Placeholder",
+        text: "Brief descriptive text about the event goes here.",
+        image: "/assets/images/placeholder.webp"
+      },{
+        id: "event-1",
+        year: "202 BC",
+        title: "Event Title Placeholder",
+        text: "Brief descriptive text about the event goes here.",
+        image: "/assets/images/placeholder.webp"
+      },{
+        id: "event-1",
+        year: "202 BC",
+        title: "Event Title Placeholder",
+        text: "Brief descriptive text about the event goes here.",
+        image: "/assets/images/placeholder.webp"
+      },{
         id: "event-1",
         year: "202 BC",
         title: "Event Title Placeholder",
