@@ -1,0 +1,21 @@
+.ratesTable{
+  margin: 0 auto;
+  /* outline: 1px solid #f00; */
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 90vw;
+}
+
+.header{
+  font-weight: bold;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* align-items: center; */
+  padding: 12px;
+  background-color: var(--bg-card);
+  border-radius: 8px;
+}

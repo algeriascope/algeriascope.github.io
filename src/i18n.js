@@ -35,6 +35,14 @@ i18n
               desc: "Explore Algeria's timeline from 202 BC to 2026, and discover the defining events that forged the nation.",
             },
           },
+          ratesPage: {
+            title: 'Algerian Dinar Exchange Rates',
+            ratesTable: {
+              currency: 'Currency',
+              informalRate: 'Informal Rate',
+              officialRate: 'Official Rate',
+            },
+          },
           postcodesPage: {
             title: 'Find your Postcode',
             subtitle: 'Official Algérie Poste postcodes',
@@ -92,6 +100,14 @@ i18n
             history: {
               title: "Histoire d'Algérie",
               desc: "Explorez la chronologie de l'Algérie de 202 av. J.-C. à 2026, et découvrez les événements marquants qui ont forgé la nation.",
+            },
+          },
+          ratesPage: {
+            title: 'Taux de change du Dinar Algérien',
+            ratesTable: {
+              currency: 'Devise',
+              informalRate: 'Taux informel',
+              officialRate: 'Taux officiel',
             },
           },
           postcodesPage: {
@@ -152,6 +168,14 @@ i18n
               desc: 'استكشف التسلسل الزمني للجزائر من 202 ق.م إلى عام 2026، واكتشف أبرز المحطات التاريخية التي صاغت الأمة.',
             },
           },
+          ratesPage: {
+            title: 'أسعار صرف الدينار الجزائري',
+            ratesTable: {
+              currency: 'العملة',
+              informalRate: 'السعر الموازي',
+              officialRate: 'السعر الرسمي',
+            },
+          },
           postcodesPage: {
             title: 'ابحث عن رمزك البريدي',
             subtitle: 'الرموز البريدية الرسمية لبريد الجزائر',
@@ -208,6 +232,14 @@ i18n
             history: {
               title: 'Amezruy n Dzayer',
               desc: 'Nadi ɣef umezruy n Dzayer seg 202 send Ɛisa ar 2026, tfeḥṣeḍ isaggen imeqqranen i isbedden taɣerma-a.',
+            },
+          },
+          ratesPage: {
+            title: 'Atayen n usmeskel n adinar adzayri',
+            ratesTable: {
+              currency: 'Tadrimt',
+              informalRate: 'Atay ur amaddud',
+              officialRate: 'Atay amaddud',
             },
           },
           postcodesPage: {

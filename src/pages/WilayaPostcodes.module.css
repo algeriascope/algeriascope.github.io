@@ -47,14 +47,14 @@
 }
 .header {
   font-weight: bold;
-  background-color: transparent;
+  /* background-color: transparent; */
   /* text-align: center; */
 }
 .row {
   display: grid;
   grid-template-columns: 150px 1fr 1fr;
   /* grid-template-columns: repeat(4, 1fr);  */
-  align-items: center;
+  /* align-items: center; */
   padding: 12px;
   background-color: var(--bg-card);
   /* border: 1px solid var(--card-border); */
