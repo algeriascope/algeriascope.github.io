@@ -1,53 +1,57 @@
-export  const timelineData = [
+export const timelineData = [
   {
-    eraName: "Kingdom of Numidia",
-    flag: "/assets/flags/numidia.svg",
+    eraName: 'Kingdom of Numidia',
+    flag: '/assets/flags/numidia.svg',
     events: [
       {
-        id: "event-1",
-        year: "202 BC",
-        title: "Event Title Placeholder",
-        text: "Brief descriptive text about the event goes here.",
-        image: "/assets/images/placeholder.webp"
-      },{
-        id: "event-1",
-        year: "202 BC",
-        title: "Event Title Placeholder",
-        text: "Brief descriptive text about the event goes here.",
-        image: "/assets/images/placeholder.webp"
-      },{
-        id: "event-1",
-        year: "202 BC",
-        title: "Event Title Placeholder",
-        text: "Brief descriptive text about the event goes here.",
-        image: "/assets/images/placeholder.webp"
-      },{
-        id: "event-1",
-        year: "202 BC",
-        title: "Event Title Placeholder",
-        text: "Brief descriptive text about the event goes here.",
-        image: "/assets/images/placeholder.webp"
+        id: 'event-1',
+        year: '202 BC',
+        title: 'Event Title Placeholder',
+        text: 'BBrief descriptive text about the event goes here.Brief descriptive text about the event goes here.Brief descriptive text about the event goes here.rief descriptive text about the event goes here.Brief descriptive text about the event goes here.Brief descriptive text about the event goes here.Brief descriptive text about the event goes here.Brief descriptive text about the event goes here.Brief descriptive text about the event goes here.Brief descriptive text about the event goes here.',
+        image: '/assets/images/placeholder.webp',
       },
       {
-        id: "event-2",
-        year: "40 AD",
-        title: "Event Title Placeholder",
-        text: "Brief descriptive text about the event goes here.",
-        image: "/assets/images/placeholder.webp"
-      }
-    ]
+        id: 'event-2',
+        year: '202 BC',
+        title: 'Event Title Placeholder',
+        text: 'Brief descriptive text about the event goes here.',
+        image: '/assets/images/placeholder.webp',
+      },
+      {
+        id: 'event-3',
+        year: '202 BC',
+        title: 'Event Title Placeholder',
+        text: 'Brief descriptive text about the event goes here.',
+        image: '/assets/images/placeholder.webp',
+      },
+      {
+        id: 'event-4',
+        year: '202 BC',
+        title: 'Event Title Placeholder',
+        text: 'Brief descriptive text about the event goes here.',
+        image: '/assets/images/placeholder.webp',
+      },
+      {
+        id: 'event-5',
+        year: '40 AD',
+        title: 'Event Title Placeholder',
+        text: 'Brief descriptive text about the event goes here.',
+        image: '/assets/images/placeholder.webp',
+      },
+    ],
   },
   {
-    eraName: "Regency of Algiers",
-    flag: "/assets/flags/regency.svg",
+    eraName: 'Regency of Algiers',
+    flag: '/assets/flags/regency.svg',
     events: [
       {
-        id: "event-3",
-        year: "1516",
-        title: "Event Title Placeholder",
-        text: "Brief descriptive text about the event goes here.",
-        image: "/assets/images/placeholder.webp"
-      }
-    ]
-  }
+        id: 'event-6',
+        year: '1516',
+        title: 'Event Title Placeholder',
+        text: 'Brief descriptive text about the event goes here.',
+        image: '/assets/images/placeholder.webp',
+      },
+    ],
+  },
 ];
+

@@ -1,101 +1,157 @@
 .historyContainer {
-  color: var(--text-primary);
-}
-.eraBar {
-  background: linear-gradient(
-    to bottom,
-    var(--bg-primary) 0%,
-    var(--bg-primary) 80%
-  );
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 550;
-  font-size: 2rem;
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  pointer-events: none;
-  z-index: 2;
-}
-
-.timelineContainer {
   position: relative;
   width: 100%;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
-  min-height: 100vh;
+  padding: 40px 20px;
+  box-sizing: border-box;
 }
 
+.eraBar {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* Timeline Container */
+.timelineContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+/* Central vertical spine */
 .spine {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
   width: 2px;
-  background-color: var(--text-primary);
-}
-
-.spineProgress {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
+  background-color: #d1d5db;
   transform: translateX(-50%);
-  width: 2px;
-  background-color: var(--accent-color);
+  z-index: 1;
+  pointer-events: none;
 }
 
-.eventsContainer {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
-}
-
+/* Base Card Styling */
 .eventCard {
-  background-color: var(--bg-card);
-  border: 1px solid var(--card-border);
-  width: 42%;
-  padding: 20px;
-  border-radius: 20px;
   position: relative;
+  width: calc(50% - 24px);
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  z-index: 2;
+  transition: top 0.2s ease;
 }
 
 .leftEvent {
-  align-self: flex-start;
-  right: 0;
-  padding: 50px;
-}
-
-.rightEvent {
-  align-self: flex-end;
   left: 0;
 }
 
+.rightEvent {
+  right: 0;
+}
+
+.leftEvent::before {
+  content: '';
+  position: absolute;
+  top: 32px;
+  right: -25px;
+  width: 25px;
+  height: 2px;
+  background-color: #e11d48;
+}
 
 .leftEvent::after {
   content: '';
   position: absolute;
-  top: 50%;
-  right: -19%;
-  width: 19%;
+  top: 28px;
+  right: -29px;
+  width: 10px;
+  height: 10px;
+  background-color: #e11d48;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.rightEvent::before {
+  content: '';
+  position: absolute;
+  top: 32px;
+  left: -25px;
+  width: 25px;
   height: 2px;
-  background-color: var(--accent-color);
-  z-index: 1;
+  background-color: #e11d48;
 }
 
 .rightEvent::after {
   content: '';
   position: absolute;
-  top: 50%;
-  /* top: 1px; */
-  left: -19%;
-  width: 19%;
-  height: 2px;
-  background-color: var(--accent-color);
-  z-index: 1;
+  top: 28px;
+  left: -29px;
+  width: 10px;
+  height: 10px;
+  background-color: #e11d48;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.eventYear {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+.eventTitle {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.eventText {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #374151;
+}
+
+@media (max-width: 640px) {
+  .historyContainer {
+    padding: 24px 16px;
+  }
+
+  .eraBar {
+    font-size: 1.75rem;
+    margin-bottom: 32px;
+  }
+
+  .spine {
+    left: 5px;
+  }
+
+  .eventCard {
+    width: calc(100% - 28px);
+    left: 28px !important;
+    right: auto !important;
+  }
+
+  .leftEvent::before,
+  .rightEvent::before {
+    left: -23px;
+    right: auto;
+    width: 18px;
+  }
+
+  .leftEvent::after,
+  .rightEvent::after {
+    left: -28px;
+    right: auto;
+  }
 }

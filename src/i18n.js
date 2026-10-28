@@ -47,9 +47,17 @@ i18n
           postcodesSearch: {
             allWilayas: 'All Provinces',
             searchPlaceholderAll: 'Search Municipality, postcode',
-            searchPlaceholderWilaya: 'Search Municipality, postcode in {{wilaya}}',
+            searchPlaceholderWilaya:
+              'Search Municipality, postcode in {{wilaya}}',
             noResults: 'No search results found.',
             unspecified: 'xxxxx',
+          },
+          wilayaPostcodes: {
+            postcode: 'Postcode',
+            post: 'Post Office',
+            action: 'Action',
+            copyText: 'Copy Postcode',
+            details: 'Details',
           },
           footer: {
             rates: 'Rates',
@@ -103,6 +111,13 @@ i18n
             noResults: 'Aucun résultat trouvé.',
             unspecified: 'xxxxx',
           },
+          wilayaPostcodes: {
+            postcode: 'Code postal',
+            post: 'Bureau de poste',
+            action: 'Action',
+            copyText: 'Copier le code postal',
+            details: 'Détails',
+          },
           footer: {
             rates: 'Taux',
             about: 'À propos',
@@ -154,7 +169,13 @@ i18n
             noResults: 'لم يتم العثور على نتائج.',
             unspecified: 'xxxxx',
           },
-          wilayaPostcodes: {},
+          wilayaPostcodes: {
+            postcode: 'الرمز البريدي',
+            post: 'مركز البريد',
+            action: 'إجراء',
+            copyText: 'نسخ الرمز البريدي',
+            details: 'التفاصيل',
+          },
           footer: {
             rates: 'سعر الصرف',
             about: 'حول',
@@ -201,9 +222,17 @@ i18n
           postcodesSearch: {
             allWilayas: 'Akk tiwilayin',
             searchPlaceholderAll: 'Nadi Taɣiwanit, tanfult n tnefsiyn',
-            searchPlaceholderWilaya: 'Nadi Taɣiwanit, tanfult n tnefsiyn deg {{wilaya}}',
+            searchPlaceholderWilaya:
+              'Nadi Taɣiwanit, tanfult n tnefsiyn deg {{wilaya}}',
             noResults: 'Ulac igmmaḍ.',
             unspecified: 'xxxxx',
+          },
+          wilayaPostcodes: {
+            postcode: 'Tingal tamsawt',
+            post: 'Amasnas n tamsawt',
+            action: 'Tigawt',
+            copyText: 'Nɣel tingal tamsawt',
+            details: 'Aglef',
           },
           footer: {
             rates: 'Amsizwer',
