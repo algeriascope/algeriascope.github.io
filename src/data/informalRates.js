@@ -1,4 +1,4 @@
-export const parallelRates = [
+export const informalRates = [
   { code: "EUR", name: "Euro", rate: 275.00 },
   { code: "USD", name: "US Dollar", rate: 237.50 },
   { code: "CAD", name: "Canadian Dollar", rate: 168.00 },
