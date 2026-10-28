@@ -18,4 +18,13 @@
   padding: 12px;
   background-color: var(--bg-card);
   border-radius: 8px;
+  /* text-align: left; */
+}
+
+.currenciesText{
+  font-weight: bold;
+}
+
+.updateNotice{
+  color: var(--text-secondary)
 }

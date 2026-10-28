@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Home.module.css';
-import { PiMoney } from 'react-icons/pi';
-import { services } from '../data/services';
+import { services, totalPostcodes } from '../data/services';
 import { useTranslation } from 'react-i18next';
 
 const Home = () => {
@@ -10,7 +9,7 @@ const Home = () => {
   return (
     <div className={styles.homeContainer}>
       <h1 className={styles.title}>
-        {t('home.title')} {' '}
+        {t('home.title')}{' '}
         <span className={styles.titleItalic}>{t('home.titleItalic')}</span>
       </h1>
       <h3 className={styles.subtitle}>{t('home.subtitle')}</h3>
@@ -27,7 +26,9 @@ const Home = () => {
                 {t(`services.${service.id}.title`)}
               </h3>
               <p className={styles.serviceSubtitle}>
-                {t(`services.${service.id}.desc`)}
+                {service.id === 'postcodes'
+                  ? t(`services.${service.id}.desc`, { total: totalPostcodes })
+                  : t(`services.${service.id}.desc`)}
               </p>
             </Link>
           );

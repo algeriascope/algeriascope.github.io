@@ -8,6 +8,9 @@ i18n
   .init({
     fallbackLng: 'en',
     lng: 'fr',
+    interpolation: {
+    escapeValue: false // Disables escaping slashes to &#x2F;
+  },
     resources: {
       en: {
         translation: {
@@ -28,7 +31,7 @@ i18n
             },
             postcodes: {
               title: 'Postcodes',
-              desc: 'Search {{count}} official postcodes and filter locations across all 1,541 communes in Algeria.',
+              desc: 'Search {{total}} official postcodes and filter locations across all 1,541 communes in Algeria.',
             },
             history: {
               title: 'History of Algeria',
@@ -41,6 +44,24 @@ i18n
               currency: 'Currency',
               informalRate: 'Informal Rate',
               officialRate: 'Official Rate',
+            },
+            currencies: {
+              eur: 'Euro',
+              usd: 'US Dollar',
+              cad: 'Canadian Dollar',
+              gbp: 'British Pound',
+              chf: 'Swiss Franc',
+              try: 'Turkish Lira',
+              cny: 'Chinese Yuan',
+              sar: 'Saudi Riyal',
+              aed: 'UAE Dirham',
+              tnd: 'Tunisian Dinar',
+              mad: 'Moroccan Dirham',
+            },
+            updateNotices: {
+              official:
+                'Official rates are updated daily, last updated: {{date}}',
+              informal: 'Informal rates are updated periodically',
             },
           },
           postcodesPage: {
@@ -94,7 +115,7 @@ i18n
             },
             postcodes: {
               title: 'Codes postaux',
-              desc: "Recherchez {{count}} codes postaux officiels et filtrez les localités à travers les 1 541 communes d'Algérie.",
+              desc: "Recherchez {{total}} codes postaux officiels et filtrez les localités à travers les 1 541 communes d'Algérie.",
             },
 
             history: {
@@ -108,6 +129,24 @@ i18n
               currency: 'Devise',
               informalRate: 'Taux informel',
               officialRate: 'Taux officiel',
+            },
+            currencies: {
+              eur: 'Euro',
+              usd: 'Dollar Américain',
+              cad: 'Dollar Canadien',
+              gbp: 'Livre Sterling',
+              chf: 'Franc Suisse',
+              try: 'Livre Turque',
+              cny: 'Yuan Chinois',
+              sar: 'Riyal Saoudien',
+              aed: 'Dirham des EAU',
+              tnd: 'Dinar Tunisien',
+              mad: 'Dirham Marocain',
+            },
+            updateNotices: {
+              official:
+                'Les taux officiels sont mis à jour chaque jour, dernière mise à jour le {{date}}',
+              informal: 'Les taux du Square sont mis à jour périodiquement',
             },
           },
           postcodesPage: {
@@ -161,7 +200,7 @@ i18n
             },
             postcodes: {
               title: 'الرموز البريدية',
-              desc: 'ابحث في {{count}} رمزًا بريديًا رسميًا وقم بتصفية المواقع عبر جميع البلديات الـ 1,541 في الجزائر.',
+              desc: 'ابحث في {{total}} رمزًا بريديًا رسميًا وقم بتصفية المواقع عبر جميع البلديات الـ 1,541 في الجزائر.',
             },
             history: {
               title: 'تاريخ الجزائر',
@@ -174,6 +213,23 @@ i18n
               currency: 'العملة',
               informalRate: 'السعر الموازي',
               officialRate: 'السعر الرسمي',
+            },
+            currencies: {
+              eur: 'أورو',
+              usd: 'دولار أمريكي',
+              cad: 'دولار كندي',
+              gbp: 'جنيه إسترليني',
+              chf: 'فرنك سويسري',
+              try: 'ليرة تركية',
+              cny: 'يوان صيني',
+              sar: 'ريال سعودي',
+              aed: 'درهم إماراتي',
+              tnd: 'دينار تونسي',
+              mad: 'درهم مغربي',
+            },
+            updateNotices: {
+              official: 'يتم تحديث الأسعار الرسمية يومياً، آخر تحديث {{date}}',
+              informal: 'يتم تحديث أسعار السكوار بشكل دوري',
             },
           },
           postcodesPage: {
@@ -227,7 +283,7 @@ i18n
             },
             postcodes: {
               title: 'Ingilen n tnesa',
-              desc: 'Nadi {{count}} n yingilen n tnesa unsiyen deg 1,541 n tgemmiyin n Dzayer.',
+              desc: 'Nadi {{total}} n yingilen n tnesa unsiyen deg 1,541 n tgemmiyin n Dzayer.',
             },
             history: {
               title: 'Amezruy n Dzayer',
@@ -240,6 +296,24 @@ i18n
               currency: 'Tadrimt',
               informalRate: 'Atay ur amaddud',
               officialRate: 'Atay amaddud',
+            },
+            currencies: {
+              eur: 'Uru',
+              usd: 'Aḍular amriki',
+              cad: 'Aḍular n Kanada',
+              gbp: 'Ajnih astirlini',
+              chf: 'Aferank aswis',
+              try: 'A lira aturkit',
+              cny: 'Ayuwan acinwat',
+              sar: 'Ariyal asaɛudi',
+              aed: 'Adirham n Imarat',
+              tnd: 'Adinar atunsi',
+              mad: 'Adirham ameɣrebi',
+            },
+            updateNotices: {
+              official:
+                'Atug n lbanka ițbeddil yal ass, abeddel aneggaru {{date}}',
+              informal: 'Atug n usqwar ițbeddil tikwal',
             },
           },
           postcodesPage: {
